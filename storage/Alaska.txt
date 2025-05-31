@@ -1,0 +1,75 @@
+# Here are the history of your trials
+SUCCESS TRIAL #1: Task: You need to book a return flight. The departure city is San Francisco, and the destination city is Austin. The departure date is the 1st of March (day=1, month=3). The return date is the 16th of March (day=16, month=3).
+STEP #1: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input-pad', 'id': 'geo-from', 'name': 'SearchFields.DepartureCity', 'type': 'text', 'value': ''}, 'text': 'From'}, 'content': 'San Francisco'}
+STEP #2: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input-pad', 'id': 'geo-to', 'name': 'SearchFields.ArrivalCity', 'type': 'text', 'value': ''}, 'text': 'To'}, 'content': 'Austin'}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input calbg', 'id': 'departure-date', 'iseventadded': 'true', 'maxlength': '10', 'name': 'SearchFields.DepartureDate', 'type': 'text', 'value': ''}, 'text': 'Depart'}}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day', 'href': '#'}, 'text': '1'}}
+STEP #5: {'operation': 'click', 'target object': {'attributes': {'class': 'button-link', 'id': 'btnDone', 'onclick': 'Alaska.datepickrDone();'}, 'text': 'DONE'}}
+STEP #6: {'operation': 'click', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input calbg', 'id': 'return-date', 'iseventadded': 'true', 'maxlength': '10', 'name': 'SearchFields.ReturnDate', 'type': 'text', 'value': ''}, 'text': 'Return'}}
+STEP #7: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day', 'href': '#'}, 'text': '16'}}
+STEP #8: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day selecteddark', 'href': '#'}, 'text': '16'}}
+STEP #9: {'operation': 'click', 'target object': {'attributes': {'class': 'button-link', 'id': 'btnDone', 'onclick': 'Alaska.datepickrDone();'}, 'text': 'DONE'}}
+STEP #10: {'operation': 'click', 'target object': {'attributes': {'class': 'button', 'type': 'submit', 'value': 'Find Flights'}, 'tagName': 'input'}}
+
+SUCCESS TRIAL #2: Task: The task is to book a return flight. The departure city is Denver, and the destination city is Austin. The departure date is the 30th of March (day=30, month=3). The return date is also the 30th of March (day=30, month=3).
+STEP #1: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input-pad', 'id': 'geo-from', 'name': 'SearchFields.DepartureCity', 'type': 'text', 'value': ''}, 'text': 'From'}, 'content': 'Denver'}
+STEP #2: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input-pad', 'id': 'geo-to', 'name': 'SearchFields.ArrivalCity', 'type': 'text', 'value': ''}, 'text': 'To'}, 'content': 'Austin'}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input calbg', 'id': 'departure-date', 'iseventadded': 'true', 'maxlength': '10', 'name': 'SearchFields.DepartureDate', 'type': 'text', 'value': ''}, 'text': 'Depart'}}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day', 'href': '#'}, 'text': '30'}}
+STEP #5: {'operation': 'click', 'target object': {'attributes': {'class': 'button-link', 'id': 'btnDone', 'onclick': 'Alaska.datepickrDone();'}, 'text': 'DONE'}}
+STEP #6: {'operation': 'click', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input calbg', 'id': 'return-date', 'iseventadded': 'true', 'maxlength': '10', 'name': 'SearchFields.ReturnDate', 'type': 'text', 'value': ''}, 'text': 'Return'}}
+STEP #7: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day selectedlight', 'href': '#'}, 'text': '30'}}
+STEP #8: {'operation': 'click', 'target object': {'attributes': {'class': 'button-link', 'id': 'btnDone', 'onclick': 'Alaska.datepickrDone();'}, 'text': 'DONE'}}
+STEP #9: {'operation': 'click', 'target object': {'attributes': {'class': 'button', 'type': 'submit', 'value': 'Find Flights'}, 'tagName': 'input'}}
+
+SUCCESS TRIAL #3: Task: You need to book a return flight with the following details: Departure City: Washington DC, Departure Date: the date (day=9, month=3), Destination City: New York, Returning Date: the date (day=17, month=3).
+STEP #1: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input-pad', 'id': 'geo-from', 'name': 'SearchFields.DepartureCity', 'type': 'text', 'value': ''}, 'text': 'From'}, 'content': 'Washington DC'}
+STEP #2: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input-pad', 'id': 'geo-to', 'name': 'SearchFields.ArrivalCity', 'type': 'text', 'value': ''}, 'text': 'To'}, 'content': 'New York'}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input calbg', 'id': 'departure-date', 'iseventadded': 'true', 'maxlength': '10', 'name': 'SearchFields.DepartureDate', 'type': 'text', 'value': ''}, 'text': 'Depart'}}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day', 'href': '#'}, 'text': '9'}}
+STEP #5: {'operation': 'click', 'target object': {'attributes': {'class': 'button-link', 'id': 'btnDone', 'onclick': 'Alaska.datepickrDone();'}, 'text': 'DONE'}}
+STEP #6: {'operation': 'click', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input calbg', 'id': 'return-date', 'iseventadded': 'true', 'maxlength': '10', 'name': 'SearchFields.ReturnDate', 'type': 'text', 'value': ''}, 'text': 'Return'}}
+STEP #7: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day', 'href': '#'}, 'text': '17'}}
+STEP #8: {'operation': 'click', 'target object': {'attributes': {'class': 'button-link', 'id': 'btnDone', 'onclick': 'Alaska.datepickrDone();'}, 'text': 'DONE'}}
+STEP #9: {'operation': 'click', 'target object': {'attributes': {'class': 'button', 'type': 'submit', 'value': 'Find Flights'}, 'tagName': 'input'}}
+
+SUCCESS TRIAL #4: Task: You need to book a return flight. The departure city is San Diego, and the destination city is Portland. The departure date is the 27th of March. The return date is the 30th of March.
+STEP #1: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input-pad', 'id': 'geo-from', 'name': 'SearchFields.DepartureCity', 'type': 'text', 'value': ''}, 'text': 'From'}, 'content': 'San Diego'}
+STEP #2: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input-pad', 'id': 'geo-to', 'name': 'SearchFields.ArrivalCity', 'type': 'text', 'value': ''}, 'text': 'To'}, 'content': 'Portland'}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input calbg', 'id': 'departure-date', 'iseventadded': 'true', 'maxlength': '10', 'name': 'SearchFields.DepartureDate', 'type': 'text', 'value': ''}, 'text': 'Depart'}}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day', 'href': '#'}, 'text': '27'}}
+STEP #5: {'operation': 'click', 'target object': {'attributes': {'class': 'button-link', 'id': 'btnDone', 'onclick': 'Alaska.datepickrDone();'}, 'text': 'DONE'}}
+STEP #6: {'operation': 'click', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input calbg', 'id': 'return-date', 'iseventadded': 'true', 'maxlength': '10', 'name': 'SearchFields.ReturnDate', 'type': 'text', 'value': ''}, 'text': 'Return'}}
+STEP #7: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day', 'href': '#'}, 'text': '30'}}
+STEP #8: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day selecteddark', 'href': '#'}, 'text': '30'}}
+STEP #9: {'operation': 'click', 'target object': {'attributes': {'class': 'button-link', 'id': 'btnDone', 'onclick': 'Alaska.datepickrDone();'}, 'text': 'DONE'}}
+STEP #10: {'operation': 'click', 'target object': {'attributes': {'class': 'button', 'type': 'submit', 'value': 'Find Flights'}, 'tagName': 'input'}}
+
+SUCCESS TRIAL #5: Task: You need to book a return flight. The departure city is Las Vegas, and the destination city is Los Angeles. The departure date is the 18th of March (day=18, month=3). The return date is the 22nd of March (day=22, month=3).
+STEP #1: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input-pad', 'id': 'geo-from', 'name': 'SearchFields.DepartureCity', 'type': 'text', 'value': ''}, 'text': 'From'}, 'content': 'Las Vegas'}
+STEP #2: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input-pad', 'id': 'geo-to', 'name': 'SearchFields.ArrivalCity', 'type': 'text', 'value': ''}, 'text': 'To'}, 'content': 'Los Angeles'}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input calbg', 'id': 'departure-date', 'iseventadded': 'true', 'maxlength': '10', 'name': 'SearchFields.DepartureDate', 'type': 'text', 'value': ''}, 'text': 'Depart'}}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day', 'href': '#'}, 'text': '18'}}
+STEP #5: {'operation': 'click', 'target object': {'attributes': {'class': 'button-link', 'id': 'btnDone', 'onclick': 'Alaska.datepickrDone();'}, 'text': 'DONE'}}
+STEP #6: {'operation': 'click', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input calbg', 'id': 'return-date', 'iseventadded': 'true', 'maxlength': '10', 'name': 'SearchFields.ReturnDate', 'type': 'text', 'value': ''}, 'text': 'Return'}}
+STEP #7: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day', 'href': '#'}, 'text': '22'}}
+STEP #8: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day selecteddark', 'href': '#'}, 'text': '22'}}
+STEP #9: {'operation': 'click', 'target object': {'attributes': {'class': 'button-link', 'id': 'btnDone', 'onclick': 'Alaska.datepickrDone();'}, 'text': 'DONE'}}
+STEP #10: {'operation': 'click', 'target object': {'attributes': {'class': 'button', 'type': 'submit', 'value': 'Find Flights'}, 'tagName': 'input'}}
+
+SUCCESS TRIAL #6: Task: You need to book a return flight from New York to San Francisco. The departure date is the 31st of March, and the return date is also the 31st of March.
+STEP #1: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input-pad', 'id': 'geo-from', 'name': 'SearchFields.DepartureCity', 'type': 'text', 'value': ''}, 'text': 'From'}, 'content': 'New York'}
+STEP #2: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input-pad', 'id': 'geo-to', 'name': 'SearchFields.ArrivalCity', 'type': 'text', 'value': ''}, 'text': 'To'}, 'content': 'San Francisco'}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input calbg', 'id': 'departure-date', 'iseventadded': 'true', 'maxlength': '10', 'name': 'SearchFields.DepartureDate', 'type': 'text', 'value': ''}, 'text': 'Depart'}}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day', 'href': '#'}, 'text': '31'}}
+STEP #5: {'operation': 'click', 'target object': {'attributes': {'class': 'button-link', 'id': 'btnDone', 'onclick': 'Alaska.datepickrDone();'}, 'text': 'DONE'}}
+STEP #6: {'operation': 'click', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input calbg', 'id': 'return-date', 'iseventadded': 'true', 'maxlength': '10', 'name': 'SearchFields.ReturnDate', 'type': 'text', 'value': ''}, 'text': 'Return'}}
+STEP #7: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day selectedlight', 'href': '#'}, 'text': '31'}}
+STEP #8: {'operation': 'click', 'target object': {'attributes': {'class': 'button-link', 'id': 'btnDone', 'onclick': 'Alaska.datepickrDone();'}, 'text': 'DONE'}}
+STEP #9: {'operation': 'click', 'target object': {'attributes': {'class': 'button', 'type': 'submit', 'value': 'Find Flights'}, 'tagName': 'input'}}
+
+
+
+RULE #1: Always click 'DONE' after selecting each date to confirm the selection.
+RULE #2: Ensure that the departure date is selected first before selecting the return date.
+RULE #3: Avoid clicking on irrelevant links or buttons that do not contribute to the task.

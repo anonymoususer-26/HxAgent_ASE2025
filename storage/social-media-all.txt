@@ -1,0 +1,45 @@
+# Here are the history of your trials
+SUCCESS TRIAL #1: Task: Click the "Like" button on all posts by @annis and then click Submit.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'like'}, 'belongTo': {'body': 'Dolor ac enim. Amet.', 'name': 'Geralda', 'username': '@annis'}}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'like'}, 'belongTo': {'body': 'Sollicitudin. Urna faucibus.', 'name': 'Geralda', 'username': '@annis'}}}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+
+SUCCESS TRIAL #2: Task: Click the "Share" button on all posts by @kenda and then click Submit.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Elementum accumsan tellus faucibus.', 'name': 'Darla', 'username': '@kenda'}}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Lorem fringilla. Nisl.', 'name': 'Darla', 'username': '@kenda'}}}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+
+SUCCESS TRIAL #3: Task: Click the "Share" button on all posts by @olin and then click Submit.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Id nibh montes,. Erat.', 'name': 'Grant', 'username': '@olin'}}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Tortor. Risus ac etiam.', 'name': 'Grant', 'username': '@olin'}}}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+
+SUCCESS TRIAL #4: Task: Click the "Like" button on all posts by @teodoro and then click Submit.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'like'}, 'belongTo': {'body': 'Sit pretium, purus amet sagittis.', 'name': 'Vita', 'username': '@teodoro'}}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'like active', 'data-tampered': 'e0'}}}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'like', 'data-tampered': 'e0'}, 'belongTo': {'body': 'Sit pretium, purus amet sagittis.', 'name': 'Vita', 'username': '@teodoro'}}}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+
+SUCCESS TRIAL #5: Task: Click the "Share" button on all posts by @enola and then click Submit.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Facilisi. Sed pretium.', 'name': 'Idette', 'username': '@enola'}}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'A ac. Nulla.', 'name': 'Idette', 'username': '@enola'}}}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Quis egestas.', 'name': 'Idette', 'username': '@enola'}}}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+
+SUCCESS TRIAL #6: Task: Click the "Like" button on all posts by @elementum and then click Submit.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'like'}, 'belongTo': {'body': 'In tristique pharetra cursus elit.', 'name': 'Morse', 'username': '@elementum'}}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'like'}, 'belongTo': {'body': 'Pretium elit. Eros, semper.', 'name': 'Morse', 'username': '@elementum'}}}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'like'}, 'belongTo': {'body': 'Massa quis.', 'name': 'Morse', 'username': '@elementum'}}}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'like'}, 'belongTo': {'body': 'Lectus sed.', 'name': 'Morse', 'username': '@elementum'}}}
+STEP #5: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+
+SUCCESS TRIAL #7: Task: Click the "Share" button on all posts by @cristin and then click Submit.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Id. Etiam. Arcu.', 'name': 'Peck', 'username': '@cristin'}}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Etiam velit quam.', 'name': 'Peck', 'username': '@cristin'}}}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+
+
+
+RULE #1: When clicking a button, ensure that the button belongs to the correct user's post.
+RULE #2: When clicking a button, ensure that the button belongs to the correct user's post and the post has the expected attribute.
+RULE #3: When clicking a button, ensure that the button belongs to the correct user's post, the post has the expected attribute, and the button is visible.

@@ -1,0 +1,38 @@
+# Here are the history of your trials
+SUCCESS TRIAL #1: Task: Click the "Retweet" button on 1 post by @rex and then click Submit.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'retweet'}, 'belongTo': {'body': 'Non. Mattis enim, pellentesque. Ac.', 'name': 'Nielsen', 'username': '@rex'}}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+
+SUCCESS TRIAL #2: Task: Click the "Share" button on 1 post by @proin and then click Submit.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Pellentesque pulvinar fermentum.', 'name': 'Beach', 'username': '@proin'}}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+
+SUCCESS TRIAL #3: Task: Click the "Reply" button on 2 posts by @leo and then click Submit.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'reply'}, 'belongTo': {'body': 'Congue. Quis sit sit.', 'name': 'Waller', 'username': '@leo'}}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'reply'}, 'belongTo': {'body': 'Mattis a. Ut volutpat.', 'name': 'Waller', 'username': '@leo'}}}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+
+SUCCESS TRIAL #4: Task: Click the "Like" button on 2 posts by @pellentesque and then click Submit.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'like'}, 'belongTo': {'body': 'Magna molestie eu.', 'name': 'Patrica', 'username': '@pellentesque'}}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'like'}, 'belongTo': {'body': 'Malesuada a. Eget. Non.', 'name': 'Patrica', 'username': '@pellentesque'}}}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+
+SUCCESS TRIAL #5: Task: Click the "Share" button on 2 posts by @truman and then click Submit.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Morbi risus nunc. Placerat nulla.', 'name': 'Leach', 'username': '@truman'}}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Erat. Tincidunt sit sit.', 'name': 'Leach', 'username': '@truman'}}}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+
+SUCCESS TRIAL #6: Task: Click the "Reply" button on 2 posts by @dannie and then click Submit.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'reply'}, 'belongTo': {'body': 'Odio lectus.', 'name': 'Judie', 'username': '@dannie'}}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'reply'}, 'belongTo': {'body': 'Ut nunc.', 'name': 'Judie', 'username': '@dannie'}}}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+
+SUCCESS TRIAL #7: Task: Click the "Reply" button on 1 post by @kenda and then click Submit.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'reply'}, 'belongTo': {'body': 'Velit at etiam sed.', 'name': 'Anthe', 'username': '@kenda'}}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+
+SUCCESS TRIAL #8: Task: Click the "Retweet" button on 3 posts by @bernardine and then click Submit.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'retweet'}, 'belongTo': {'body': 'Nibh orci amet.', 'name': 'Emeline', 'username': '@bernardine'}}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'retweet'}, 'belongTo': {'body': 'Sit tellus.', 'name': 'Emeline', 'username': '@bernardine'}}}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'retweet'}, 'belongTo': {'body': 'Auctor amet.', 'name': 'Emeline', 'username': '@bernardine'}}}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}

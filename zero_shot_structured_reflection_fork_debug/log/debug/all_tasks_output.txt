@@ -1,0 +1,1195 @@
+click-checkboxes-soft
+1 1
+total_plan_cnt 1 total_action_cnt 3
+success_plan_cnt_trial1 1 success_action_cnt_trial1 3
+2 2
+total_plan_cnt 2 total_action_cnt 8
+success_plan_cnt_trial1 2 success_action_cnt_trial1 8
+3 3
+total_plan_cnt 3 total_action_cnt 13
+success_plan_cnt_trial1 3 success_action_cnt_trial1 13
+4 4
+total_plan_cnt 4 total_action_cnt 19
+success_plan_cnt_trial1 4 success_action_cnt_trial1 19
+5 5
+total_plan_cnt 5 total_action_cnt 22
+success_plan_cnt_trial1 5 success_action_cnt_trial1 22
+6 6
+total_plan_cnt 12 total_action_cnt 37
+success_plan_cnt_trial1 6 success_action_cnt_trial1 27
+7 7
+total_plan_cnt 13 total_action_cnt 41
+success_plan_cnt_trial1 7 success_action_cnt_trial1 31
+8 8
+total_plan_cnt 14 total_action_cnt 45
+success_plan_cnt_trial1 8 success_action_cnt_trial1 35
+9 9
+total_plan_cnt 15 total_action_cnt 48
+success_plan_cnt_trial1 9 success_action_cnt_trial1 38
+9 10
+total_plan_cnt 20 total_action_cnt 53
+success_plan_cnt_trial1 9 success_action_cnt_trial1 38
+10 11
+total_plan_cnt 21 total_action_cnt 57
+success_plan_cnt_trial1 10 success_action_cnt_trial1 42
+11 12
+total_plan_cnt 35 total_action_cnt 81
+success_plan_cnt_trial1 11 success_action_cnt_trial1 46
+12 13
+total_plan_cnt 36 total_action_cnt 86
+success_plan_cnt_trial1 12 success_action_cnt_trial1 51
+13 14
+total_plan_cnt 37 total_action_cnt 91
+success_plan_cnt_trial1 13 success_action_cnt_trial1 56
+14 15
+total_plan_cnt 38 total_action_cnt 94
+success_plan_cnt_trial1 14 success_action_cnt_trial1 59
+14 16
+total_plan_cnt 47 total_action_cnt 107
+success_plan_cnt_trial1 14 success_action_cnt_trial1 59
+14 17
+total_plan_cnt 67 total_action_cnt 133
+success_plan_cnt_trial1 14 success_action_cnt_trial1 59
+15 18
+total_plan_cnt 68 total_action_cnt 137
+success_plan_cnt_trial1 15 success_action_cnt_trial1 63
+16 19
+total_plan_cnt 69 total_action_cnt 142
+success_plan_cnt_trial1 16 success_action_cnt_trial1 68
+17 20
+total_plan_cnt 70 total_action_cnt 144
+success_plan_cnt_trial1 17 success_action_cnt_trial1 70
+18 21
+total_plan_cnt 73 total_action_cnt 150
+success_plan_cnt_trial1 18 success_action_cnt_trial1 71
+19 22
+total_plan_cnt 76 total_action_cnt 155
+success_plan_cnt_trial1 19 success_action_cnt_trial1 72
+19 23
+total_plan_cnt 85 total_action_cnt 169
+success_plan_cnt_trial1 19 success_action_cnt_trial1 72
+20 24
+total_plan_cnt 91 total_action_cnt 181
+success_plan_cnt_trial1 20 success_action_cnt_trial1 73
+21 25
+total_plan_cnt 92 total_action_cnt 183
+success_plan_cnt_trial1 21 success_action_cnt_trial1 75
+-------------------
+social-media-all
+1 1
+total_plan_cnt 1 total_action_cnt 4
+success_plan_cnt_trial1 1 success_action_cnt_trial1 4
+2 2
+total_plan_cnt 2 total_action_cnt 10
+success_plan_cnt_trial1 2 success_action_cnt_trial1 10
+3 3
+total_plan_cnt 3 total_action_cnt 12
+success_plan_cnt_trial1 3 success_action_cnt_trial1 12
+4 4
+total_plan_cnt 4 total_action_cnt 14
+success_plan_cnt_trial1 4 success_action_cnt_trial1 14
+5 5
+total_plan_cnt 7 total_action_cnt 17
+success_plan_cnt_trial1 5 success_action_cnt_trial1 15
+6 6
+total_plan_cnt 8 total_action_cnt 21
+success_plan_cnt_trial1 6 success_action_cnt_trial1 19
+7 7
+total_plan_cnt 9 total_action_cnt 26
+success_plan_cnt_trial1 7 success_action_cnt_trial1 24
+8 8
+total_plan_cnt 10 total_action_cnt 32
+success_plan_cnt_trial1 8 success_action_cnt_trial1 30
+9 9
+total_plan_cnt 11 total_action_cnt 37
+success_plan_cnt_trial1 9 success_action_cnt_trial1 35
+10 10
+total_plan_cnt 12 total_action_cnt 41
+success_plan_cnt_trial1 10 success_action_cnt_trial1 39
+11 11
+total_plan_cnt 13 total_action_cnt 45
+success_plan_cnt_trial1 11 success_action_cnt_trial1 43
+12 12
+total_plan_cnt 14 total_action_cnt 50
+success_plan_cnt_trial1 12 success_action_cnt_trial1 48
+13 13
+total_plan_cnt 15 total_action_cnt 55
+success_plan_cnt_trial1 13 success_action_cnt_trial1 53
+14 14
+total_plan_cnt 16 total_action_cnt 60
+success_plan_cnt_trial1 14 success_action_cnt_trial1 58
+15 15
+total_plan_cnt 17 total_action_cnt 64
+success_plan_cnt_trial1 15 success_action_cnt_trial1 62
+16 16
+total_plan_cnt 18 total_action_cnt 67
+success_plan_cnt_trial1 16 success_action_cnt_trial1 65
+17 17
+total_plan_cnt 19 total_action_cnt 71
+success_plan_cnt_trial1 17 success_action_cnt_trial1 69
+18 18
+total_plan_cnt 20 total_action_cnt 75
+success_plan_cnt_trial1 18 success_action_cnt_trial1 73
+19 19
+total_plan_cnt 21 total_action_cnt 80
+success_plan_cnt_trial1 19 success_action_cnt_trial1 78
+20 20
+total_plan_cnt 22 total_action_cnt 82
+success_plan_cnt_trial1 20 success_action_cnt_trial1 80
+21 21
+total_plan_cnt 23 total_action_cnt 87
+success_plan_cnt_trial1 21 success_action_cnt_trial1 85
+22 22
+total_plan_cnt 24 total_action_cnt 93
+success_plan_cnt_trial1 22 success_action_cnt_trial1 91
+23 23
+total_plan_cnt 25 total_action_cnt 97
+success_plan_cnt_trial1 23 success_action_cnt_trial1 95
+24 24
+total_plan_cnt 26 total_action_cnt 101
+success_plan_cnt_trial1 24 success_action_cnt_trial1 99
+25 25
+total_plan_cnt 27 total_action_cnt 105
+success_plan_cnt_trial1 25 success_action_cnt_trial1 103
+------------------------
+social-media-some
+1 1
+total_plan_cnt 1 total_action_cnt 3
+success_plan_cnt_trial1 1 success_action_cnt_trial1 3
+2 2
+total_plan_cnt 11 total_action_cnt 14
+success_plan_cnt_trial1 2 success_action_cnt_trial1 4
+3 3
+total_plan_cnt 16 total_action_cnt 20
+success_plan_cnt_trial1 3 success_action_cnt_trial1 5
+4 4
+total_plan_cnt 17 total_action_cnt 22
+success_plan_cnt_trial1 4 success_action_cnt_trial1 7
+5 5
+total_plan_cnt 20 total_action_cnt 25
+success_plan_cnt_trial1 5 success_action_cnt_trial1 8
+6 6
+total_plan_cnt 21 total_action_cnt 29
+success_plan_cnt_trial1 6 success_action_cnt_trial1 12
+7 7
+total_plan_cnt 22 total_action_cnt 32
+success_plan_cnt_trial1 7 success_action_cnt_trial1 15
+8 8
+total_plan_cnt 23 total_action_cnt 37
+success_plan_cnt_trial1 8 success_action_cnt_trial1 20
+9 9
+total_plan_cnt 26 total_action_cnt 42
+success_plan_cnt_trial1 9 success_action_cnt_trial1 21
+10 10
+total_plan_cnt 27 total_action_cnt 45
+success_plan_cnt_trial1 10 success_action_cnt_trial1 24
+11 11
+total_plan_cnt 28 total_action_cnt 49
+success_plan_cnt_trial1 11 success_action_cnt_trial1 28
+12 12
+total_plan_cnt 29 total_action_cnt 51
+success_plan_cnt_trial1 12 success_action_cnt_trial1 30
+13 13
+total_plan_cnt 30 total_action_cnt 55
+success_plan_cnt_trial1 13 success_action_cnt_trial1 34
+14 14
+total_plan_cnt 31 total_action_cnt 58
+success_plan_cnt_trial1 14 success_action_cnt_trial1 37
+15 15
+total_plan_cnt 32 total_action_cnt 61
+success_plan_cnt_trial1 15 success_action_cnt_trial1 40
+16 16
+total_plan_cnt 35 total_action_cnt 64
+success_plan_cnt_trial1 16 success_action_cnt_trial1 41
+17 17
+total_plan_cnt 36 total_action_cnt 68
+success_plan_cnt_trial1 17 success_action_cnt_trial1 45
+18 18
+total_plan_cnt 37 total_action_cnt 70
+success_plan_cnt_trial1 18 success_action_cnt_trial1 47
+19 19
+total_plan_cnt 38 total_action_cnt 75
+success_plan_cnt_trial1 19 success_action_cnt_trial1 52
+20 20
+total_plan_cnt 41 total_action_cnt 78
+success_plan_cnt_trial1 20 success_action_cnt_trial1 53
+21 21
+total_plan_cnt 42 total_action_cnt 81
+success_plan_cnt_trial1 21 success_action_cnt_trial1 56
+22 22
+total_plan_cnt 43 total_action_cnt 86
+success_plan_cnt_trial1 22 success_action_cnt_trial1 61
+23 23
+total_plan_cnt 44 total_action_cnt 90
+success_plan_cnt_trial1 23 success_action_cnt_trial1 65
+24 24
+total_plan_cnt 45 total_action_cnt 92
+success_plan_cnt_trial1 24 success_action_cnt_trial1 67
+25 25
+total_plan_cnt 46 total_action_cnt 94
+success_plan_cnt_trial1 25 success_action_cnt_trial1 69
+--------------
+click-collapsible-2
+0 1
+total_plan_cnt 17 total_action_cnt 34
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+0 2
+total_plan_cnt 28 total_action_cnt 57
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+1 3
+total_plan_cnt 32 total_action_cnt 67
+success_plan_cnt_trial1 2 success_action_cnt_trial1 6
+2 4
+total_plan_cnt 34 total_action_cnt 71
+success_plan_cnt_trial1 4 success_action_cnt_trial1 10
+3 5
+total_plan_cnt 48 total_action_cnt 101
+success_plan_cnt_trial1 6 success_action_cnt_trial1 16
+3 6
+total_plan_cnt 67 total_action_cnt 136
+success_plan_cnt_trial1 6 success_action_cnt_trial1 16
+3 7
+total_plan_cnt 83 total_action_cnt 165
+success_plan_cnt_trial1 6 success_action_cnt_trial1 16
+3 8
+total_plan_cnt 94 total_action_cnt 188
+success_plan_cnt_trial1 6 success_action_cnt_trial1 16
+3 9
+total_plan_cnt 115 total_action_cnt 227
+success_plan_cnt_trial1 6 success_action_cnt_trial1 16
+3 10
+total_plan_cnt 129 total_action_cnt 255
+success_plan_cnt_trial1 6 success_action_cnt_trial1 16
+4 11
+total_plan_cnt 135 total_action_cnt 270
+success_plan_cnt_trial1 8 success_action_cnt_trial1 22
+4 12
+total_plan_cnt 154 total_action_cnt 304
+success_plan_cnt_trial1 8 success_action_cnt_trial1 22
+4 13
+total_plan_cnt 171 total_action_cnt 338
+success_plan_cnt_trial1 8 success_action_cnt_trial1 22
+4 14
+total_plan_cnt 190 total_action_cnt 368
+success_plan_cnt_trial1 8 success_action_cnt_trial1 22
+4 15
+total_plan_cnt 206 total_action_cnt 396
+success_plan_cnt_trial1 8 success_action_cnt_trial1 22
+4 16
+total_plan_cnt 225 total_action_cnt 430
+success_plan_cnt_trial1 8 success_action_cnt_trial1 22
+4 17
+total_plan_cnt 241 total_action_cnt 464
+success_plan_cnt_trial1 8 success_action_cnt_trial1 22
+4 18
+total_plan_cnt 253 total_action_cnt 484
+success_plan_cnt_trial1 8 success_action_cnt_trial1 22
+4 19
+total_plan_cnt 265 total_action_cnt 508
+success_plan_cnt_trial1 8 success_action_cnt_trial1 22
+5 20
+total_plan_cnt 267 total_action_cnt 512
+success_plan_cnt_trial1 10 success_action_cnt_trial1 26
+5 21
+total_plan_cnt 286 total_action_cnt 548
+success_plan_cnt_trial1 10 success_action_cnt_trial1 26
+
+-----------------
+email-inbox
+1 1
+total_plan_cnt 4 total_action_cnt 6
+success_plan_cnt_trial1 1 success_action_cnt_trial1 2
+
+2 2
+total_plan_cnt 10 total_action_cnt 14
+success_plan_cnt_trial1 2 success_action_cnt_trial1 4
+
+2 3
+total_plan_cnt 19 total_action_cnt 24
+success_plan_cnt_trial1 2 success_action_cnt_trial1 4
+
+3 4
+total_plan_cnt 26 total_action_cnt 33
+success_plan_cnt_trial1 3 success_action_cnt_trial1 6
+
+3 5
+total_plan_cnt 35 total_action_cnt 43
+success_plan_cnt_trial1 3 success_action_cnt_trial1 6
+
+4 6
+total_plan_cnt 43 total_action_cnt 54
+success_plan_cnt_trial1 5 success_action_cnt_trial1 9
+
+5 7
+total_plan_cnt 51 total_action_cnt 64
+success_plan_cnt_trial1 6 success_action_cnt_trial1 11
+
+5 8
+total_plan_cnt 63 total_action_cnt 77
+success_plan_cnt_trial1 6 success_action_cnt_trial1 11
+
+5 9
+total_plan_cnt 72 total_action_cnt 87
+success_plan_cnt_trial1 6 success_action_cnt_trial1 11
+
+6 10
+total_plan_cnt 77 total_action_cnt 94
+success_plan_cnt_trial1 8 success_action_cnt_trial1 14
+
+7 11
+total_plan_cnt 81 total_action_cnt 100
+success_plan_cnt_trial1 9 success_action_cnt_trial1 16
+
+7 12
+total_plan_cnt 90 total_action_cnt 110
+success_plan_cnt_trial1 9 success_action_cnt_trial1 16
+
+7 13
+total_plan_cnt 102 total_action_cnt 123
+success_plan_cnt_trial1 9 success_action_cnt_trial1 16
+
+7 14
+total_plan_cnt 111 total_action_cnt 133
+success_plan_cnt_trial1 9 success_action_cnt_trial1 16
+
+8 15
+total_plan_cnt 115 total_action_cnt 139
+success_plan_cnt_trial1 10 success_action_cnt_trial1 18
+
+8 16
+total_plan_cnt 127 total_action_cnt 152
+success_plan_cnt_trial1 10 success_action_cnt_trial1 18
+
+8 17
+total_plan_cnt 136 total_action_cnt 162
+success_plan_cnt_trial1 10 success_action_cnt_trial1 18
+
+9 18
+total_plan_cnt 144 total_action_cnt 172
+success_plan_cnt_trial1 12 success_action_cnt_trial1 21
+
+10 19
+total_plan_cnt 149 total_action_cnt 179
+success_plan_cnt_trial1 14 success_action_cnt_trial1 24
+
+11 20
+total_plan_cnt 155 total_action_cnt 187
+success_plan_cnt_trial1 15 success_action_cnt_trial1 26
+
+11 21
+total_plan_cnt 164 total_action_cnt 197
+success_plan_cnt_trial1 15 success_action_cnt_trial1 26
+
+12 22
+total_plan_cnt 168 total_action_cnt 202
+success_plan_cnt_trial1 16 success_action_cnt_trial1 28
+
+12 23
+total_plan_cnt 177 total_action_cnt 212
+success_plan_cnt_trial1 16 success_action_cnt_trial1 28
+
+13 24
+total_plan_cnt 183 total_action_cnt 220
+success_plan_cnt_trial1 17 success_action_cnt_trial1 30
+
+13 25
+total_plan_cnt 192 total_action_cnt 230
+success_plan_cnt_trial1 17 success_action_cnt_trial1 30
+----------------
+email-inbox-forward-nl
+0 1
+total_plan_cnt 13 total_action_cnt 14
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+1 2
+total_plan_cnt 23 total_action_cnt 26
+success_plan_cnt_trial1 1 success_action_cnt_trial1 2
+
+2 3
+total_plan_cnt 33 total_action_cnt 38
+success_plan_cnt_trial1 2 success_action_cnt_trial1 4
+
+2 4
+total_plan_cnt 43 total_action_cnt 49
+success_plan_cnt_trial1 2 success_action_cnt_trial1 4
+
+3 5
+total_plan_cnt 49 total_action_cnt 57
+success_plan_cnt_trial1 3 success_action_cnt_trial1 6
+
+3 6
+total_plan_cnt 59 total_action_cnt 68
+success_plan_cnt_trial1 3 success_action_cnt_trial1 6
+
+4 7
+total_plan_cnt 66 total_action_cnt 77
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 8
+total_plan_cnt 78 total_action_cnt 90
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 9
+total_plan_cnt 90 total_action_cnt 103
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 10
+total_plan_cnt 100 total_action_cnt 114
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 11
+total_plan_cnt 113 total_action_cnt 128
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 12
+total_plan_cnt 126 total_action_cnt 142
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 13
+total_plan_cnt 139 total_action_cnt 156
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 14
+total_plan_cnt 148 total_action_cnt 166
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 15
+total_plan_cnt 161 total_action_cnt 180
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 16
+total_plan_cnt 174 total_action_cnt 194
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 17
+total_plan_cnt 187 total_action_cnt 208
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 18
+total_plan_cnt 196 total_action_cnt 218
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 19
+total_plan_cnt 205 total_action_cnt 228
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+5 20
+total_plan_cnt 215 total_action_cnt 240
+success_plan_cnt_trial1 5 success_action_cnt_trial1 10
+
+5 21
+total_plan_cnt 228 total_action_cnt 254
+success_plan_cnt_trial1 5 success_action_cnt_trial1 10
+
+5 22
+total_plan_cnt 238 total_action_cnt 265
+success_plan_cnt_trial1 5 success_action_cnt_trial1 10
+
+5 23
+total_plan_cnt 250 total_action_cnt 278
+success_plan_cnt_trial1 5 success_action_cnt_trial1 10
+
+5 24
+total_plan_cnt 259 total_action_cnt 288
+success_plan_cnt_trial1 5 success_action_cnt_trial1 10
+
+5 25
+total_plan_cnt 272 total_action_cnt 302
+success_plan_cnt_trial1 5 success_action_cnt_trial1 10
+----------
+email-inbox-forward-nl
+0 1
+total_plan_cnt 13 total_action_cnt 14
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+1 2
+total_plan_cnt 23 total_action_cnt 26
+success_plan_cnt_trial1 1 success_action_cnt_trial1 2
+
+2 3
+total_plan_cnt 33 total_action_cnt 38
+success_plan_cnt_trial1 2 success_action_cnt_trial1 4
+
+2 4
+total_plan_cnt 43 total_action_cnt 49
+success_plan_cnt_trial1 2 success_action_cnt_trial1 4
+
+3 5
+total_plan_cnt 49 total_action_cnt 57
+success_plan_cnt_trial1 3 success_action_cnt_trial1 6
+
+3 6
+total_plan_cnt 59 total_action_cnt 68
+success_plan_cnt_trial1 3 success_action_cnt_trial1 6
+
+4 7
+total_plan_cnt 66 total_action_cnt 77
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 8
+total_plan_cnt 78 total_action_cnt 90
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 9
+total_plan_cnt 90 total_action_cnt 103
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 10
+total_plan_cnt 100 total_action_cnt 114
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 11
+total_plan_cnt 113 total_action_cnt 128
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 12
+total_plan_cnt 126 total_action_cnt 142
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 13
+total_plan_cnt 139 total_action_cnt 156
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 14
+total_plan_cnt 148 total_action_cnt 166
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 15
+total_plan_cnt 161 total_action_cnt 180
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 16
+total_plan_cnt 174 total_action_cnt 194
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 17
+total_plan_cnt 187 total_action_cnt 208
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 18
+total_plan_cnt 196 total_action_cnt 218
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+4 19
+total_plan_cnt 205 total_action_cnt 228
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+5 20
+total_plan_cnt 215 total_action_cnt 240
+success_plan_cnt_trial1 5 success_action_cnt_trial1 10
+
+5 21
+total_plan_cnt 228 total_action_cnt 254
+success_plan_cnt_trial1 5 success_action_cnt_trial1 10
+
+5 22
+total_plan_cnt 238 total_action_cnt 265
+success_plan_cnt_trial1 5 success_action_cnt_trial1 10
+
+5 23
+total_plan_cnt 250 total_action_cnt 278
+success_plan_cnt_trial1 5 success_action_cnt_trial1 10
+
+5 24
+total_plan_cnt 259 total_action_cnt 288
+success_plan_cnt_trial1 5 success_action_cnt_trial1 10
+
+5 25
+total_plan_cnt 272 total_action_cnt 302
+success_plan_cnt_trial1 5 success_action_cnt_trial1 10
+----------
+click-menu-2
+1 1
+total_plan_cnt 2 total_action_cnt 2
+success_plan_cnt_trial1 2 success_action_cnt_trial1 2
+1 2
+total_plan_cnt 12 total_action_cnt 12
+success_plan_cnt_trial1 2 success_action_cnt_trial1 2
+1 3
+total_plan_cnt 22 total_action_cnt 22
+success_plan_cnt_trial1 2 success_action_cnt_trial1 2
+2 4
+total_plan_cnt 24 total_action_cnt 24
+success_plan_cnt_trial1 4 success_action_cnt_trial1 4
+2 5
+total_plan_cnt 34 total_action_cnt 34
+success_plan_cnt_trial1 4 success_action_cnt_trial1 4
+3 6
+total_plan_cnt 36 total_action_cnt 36
+success_plan_cnt_trial1 6 success_action_cnt_trial1 6
+3 7
+total_plan_cnt 46 total_action_cnt 46
+success_plan_cnt_trial1 6 success_action_cnt_trial1 6
+3 8
+total_plan_cnt 56 total_action_cnt 56
+success_plan_cnt_trial1 6 success_action_cnt_trial1 6
+3 9
+total_plan_cnt 66 total_action_cnt 66
+success_plan_cnt_trial1 6 success_action_cnt_trial1 6
+4 10
+total_plan_cnt 68 total_action_cnt 68
+success_plan_cnt_trial1 8 success_action_cnt_trial1 8
+4 11
+total_plan_cnt 105 total_action_cnt 105
+success_plan_cnt_trial1 8 success_action_cnt_trial1 8
+5 12
+total_plan_cnt 108 total_action_cnt 108
+success_plan_cnt_trial1 11 success_action_cnt_trial1 11
+5 13
+total_plan_cnt 118 total_action_cnt 118
+success_plan_cnt_trial1 11 success_action_cnt_trial1 11
+5 14
+total_plan_cnt 128 total_action_cnt 128
+success_plan_cnt_trial1 11 success_action_cnt_trial1 11
+5 15
+total_plan_cnt 138 total_action_cnt 138
+success_plan_cnt_trial1 11 success_action_cnt_trial1 11
+5 16
+total_plan_cnt 148 total_action_cnt 148
+success_plan_cnt_trial1 11 success_action_cnt_trial1 11
+5 17
+total_plan_cnt 177 total_action_cnt 177
+success_plan_cnt_trial1 11 success_action_cnt_trial1 11
+5 18
+total_plan_cnt 187 total_action_cnt 187
+success_plan_cnt_trial1 11 success_action_cnt_trial1 11
+6 19
+total_plan_cnt 190 total_action_cnt 190
+success_plan_cnt_trial1 14 success_action_cnt_trial1 14
+7 20
+total_plan_cnt 192 total_action_cnt 192
+success_plan_cnt_trial1 16 success_action_cnt_trial1 16
+8 21
+total_plan_cnt 195 total_action_cnt 195
+success_plan_cnt_trial1 19 success_action_cnt_trial1 19
+8 22
+total_plan_cnt 205 total_action_cnt 205
+success_plan_cnt_trial1 19 success_action_cnt_trial1 19
+9 23
+total_plan_cnt 207 total_action_cnt 207
+success_plan_cnt_trial1 21 success_action_cnt_trial1 21
+9 24
+total_plan_cnt 228 total_action_cnt 228
+success_plan_cnt_trial1 21 success_action_cnt_trial1 21
+9 25
+total_plan_cnt 238 total_action_cnt 238
+success_plan_cnt_trial1 21 success_action_cnt_trial1 21
+---------------
+click-pie
+1 1
+total_plan_cnt 2 total_action_cnt 2
+success_plan_cnt_trial1 2 success_action_cnt_trial1 2
+2 2
+total_plan_cnt 4 total_action_cnt 4
+success_plan_cnt_trial1 4 success_action_cnt_trial1 4
+3 3
+total_plan_cnt 6 total_action_cnt 6
+success_plan_cnt_trial1 6 success_action_cnt_trial1 6
+3 4
+total_plan_cnt 15 total_action_cnt 16
+success_plan_cnt_trial1 6 success_action_cnt_trial1 6
+4 5
+total_plan_cnt 17 total_action_cnt 18
+success_plan_cnt_trial1 8 success_action_cnt_trial1 8
+5 6
+total_plan_cnt 19 total_action_cnt 20
+success_plan_cnt_trial1 10 success_action_cnt_trial1 10
+6 7
+total_plan_cnt 21 total_action_cnt 22
+success_plan_cnt_trial1 12 success_action_cnt_trial1 12
+6 8
+total_plan_cnt 31 total_action_cnt 32
+success_plan_cnt_trial1 12 success_action_cnt_trial1 12
+7 9
+total_plan_cnt 33 total_action_cnt 34
+success_plan_cnt_trial1 14 success_action_cnt_trial1 14
+8 10
+total_plan_cnt 37 total_action_cnt 38
+success_plan_cnt_trial1 16 success_action_cnt_trial1 16
+9 11
+total_plan_cnt 39 total_action_cnt 40
+success_plan_cnt_trial1 18 success_action_cnt_trial1 18
+10 12
+total_plan_cnt 41 total_action_cnt 42
+success_plan_cnt_trial1 20 success_action_cnt_trial1 20
+11 13
+total_plan_cnt 43 total_action_cnt 44
+success_plan_cnt_trial1 22 success_action_cnt_trial1 22
+12 14
+total_plan_cnt 45 total_action_cnt 46
+success_plan_cnt_trial1 24 success_action_cnt_trial1 24
+13 15
+total_plan_cnt 47 total_action_cnt 48
+success_plan_cnt_trial1 26 success_action_cnt_trial1 26
+14 16
+total_plan_cnt 49 total_action_cnt 50
+success_plan_cnt_trial1 28 success_action_cnt_trial1 28
+15 17
+total_plan_cnt 51 total_action_cnt 52
+success_plan_cnt_trial1 30 success_action_cnt_trial1 30
+16 18
+total_plan_cnt 53 total_action_cnt 54
+success_plan_cnt_trial1 32 success_action_cnt_trial1 32
+17 19
+total_plan_cnt 55 total_action_cnt 56
+success_plan_cnt_trial1 34 success_action_cnt_trial1 34
+18 20
+total_plan_cnt 57 total_action_cnt 58
+success_plan_cnt_trial1 36 success_action_cnt_trial1 36
+19 21
+total_plan_cnt 59 total_action_cnt 60
+success_plan_cnt_trial1 38 success_action_cnt_trial1 38
+20 22
+total_plan_cnt 61 total_action_cnt 62
+success_plan_cnt_trial1 40 success_action_cnt_trial1 40
+21 23
+total_plan_cnt 63 total_action_cnt 64
+success_plan_cnt_trial1 42 success_action_cnt_trial1 42
+22 24
+total_plan_cnt 65 total_action_cnt 66
+success_plan_cnt_trial1 44 success_action_cnt_trial1 44
+23 25
+total_plan_cnt 67 total_action_cnt 68
+success_plan_cnt_trial1 46 success_action_cnt_trial1 46
+-------------
+click-tab-2
+1 1
+total_plan_cnt 2 total_action_cnt 2
+success_plan_cnt_trial1 2 success_action_cnt_trial1 2
+1 2
+total_plan_cnt 11 total_action_cnt 12
+success_plan_cnt_trial1 2 success_action_cnt_trial1 2
+1 3
+total_plan_cnt 23 total_action_cnt 25
+success_plan_cnt_trial1 2 success_action_cnt_trial1 2
+1 4
+total_plan_cnt 33 total_action_cnt 35
+success_plan_cnt_trial1 2 success_action_cnt_trial1 2
+1 5
+total_plan_cnt 52 total_action_cnt 60
+success_plan_cnt_trial1 2 success_action_cnt_trial1 2
+2 6
+total_plan_cnt 54 total_action_cnt 62
+success_plan_cnt_trial1 4 success_action_cnt_trial1 4
+2 7
+total_plan_cnt 67 total_action_cnt 76
+success_plan_cnt_trial1 4 success_action_cnt_trial1 4
+3 8
+total_plan_cnt 69 total_action_cnt 78
+success_plan_cnt_trial1 6 success_action_cnt_trial1 6
+3 9
+total_plan_cnt 78 total_action_cnt 88
+success_plan_cnt_trial1 6 success_action_cnt_trial1 6
+3 10
+total_plan_cnt 97 total_action_cnt 113
+success_plan_cnt_trial1 6 success_action_cnt_trial1 6
+
+----
+click-tab-2 (cont after error)
+0 1
+total_plan_cnt 6 total_action_cnt 6
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+0 2
+total_plan_cnt 22 total_action_cnt 25
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+0 3
+total_plan_cnt 35 total_action_cnt 39
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+1 4
+total_plan_cnt 37 total_action_cnt 41
+success_plan_cnt_trial1 2 success_action_cnt_trial1 2
+1 5
+total_plan_cnt 51 total_action_cnt 57
+success_plan_cnt_trial1 2 success_action_cnt_trial1 2
+2 6
+total_plan_cnt 53 total_action_cnt 59
+success_plan_cnt_trial1 4 success_action_cnt_trial1 4
+3 7
+total_plan_cnt 60 total_action_cnt 66
+success_plan_cnt_trial1 6 success_action_cnt_trial1 6
+3 8
+total_plan_cnt 72 total_action_cnt 79
+success_plan_cnt_trial1 6 success_action_cnt_trial1 6
+3 9
+total_plan_cnt 85 total_action_cnt 101
+success_plan_cnt_trial1 6 success_action_cnt_trial1 6
+3 10
+total_plan_cnt 104 total_action_cnt 121
+success_plan_cnt_trial1 6 success_action_cnt_trial1 6
+3 11
+total_plan_cnt 121 total_action_cnt 139
+success_plan_cnt_trial1 6 success_action_cnt_trial1 6
+4 12
+total_plan_cnt 129 total_action_cnt 147
+success_plan_cnt_trial1 7 success_action_cnt_trial1 7
+5 13
+total_plan_cnt 134 total_action_cnt 154
+success_plan_cnt_trial1 11 success_action_cnt_trial1 13
+6 14
+total_plan_cnt 141 total_action_cnt 164
+success_plan_cnt_trial1 17 success_action_cnt_trial1 22
+6 15
+total_plan_cnt 154 total_action_cnt 182
+success_plan_cnt_trial1 17 success_action_cnt_trial1 22
+6 16
+total_plan_cnt 168 total_action_cnt 198
+success_plan_cnt_trial1 17 success_action_cnt_trial1 22
+7 17
+total_plan_cnt 175 total_action_cnt 207
+success_plan_cnt_trial1 21 success_action_cnt_trial1 27
+8 18
+total_plan_cnt 180 total_action_cnt 214
+success_plan_cnt_trial1 25 success_action_cnt_trial1 33
+9 19
+total_plan_cnt 182 total_action_cnt 216
+success_plan_cnt_trial1 27 success_action_cnt_trial1 35
+9 20
+total_plan_cnt 198 total_action_cnt 235
+success_plan_cnt_trial1 27 success_action_cnt_trial1 35
+10 21
+total_plan_cnt 200 total_action_cnt 237
+success_plan_cnt_trial1 29 success_action_cnt_trial1 37
+10 22
+total_plan_cnt 216 total_action_cnt 256
+success_plan_cnt_trial1 29 success_action_cnt_trial1 37
+------------
+click-tab-2-hard
+1 1
+total_plan_cnt 2 total_action_cnt 2
+success_plan_cnt_trial1 2 success_action_cnt_trial1 2
+1 2
+total_plan_cnt 17 total_action_cnt 28
+success_plan_cnt_trial1 2 success_action_cnt_trial1 2
+1 3
+total_plan_cnt 26 total_action_cnt 38
+success_plan_cnt_trial1 2 success_action_cnt_trial1 2
+1 4
+total_plan_cnt 35 total_action_cnt 48
+success_plan_cnt_trial1 2 success_action_cnt_trial1 2
+2 5
+total_plan_cnt 45 total_action_cnt 59
+success_plan_cnt_trial1 5 success_action_cnt_trial1 6
+2 6
+total_plan_cnt 62 total_action_cnt 87
+success_plan_cnt_trial1 5 success_action_cnt_trial1 6
+2 7
+total_plan_cnt 71 total_action_cnt 97
+success_plan_cnt_trial1 5 success_action_cnt_trial1 6
+3 8
+total_plan_cnt 74 total_action_cnt 100
+success_plan_cnt_trial1 6 success_action_cnt_trial1 7
+3 9
+total_plan_cnt 85 total_action_cnt 116
+success_plan_cnt_trial1 6 success_action_cnt_trial1 7
+4 10
+total_plan_cnt 93 total_action_cnt 127
+success_plan_cnt_trial1 9 success_action_cnt_trial1 11
+4 11
+total_plan_cnt 102 total_action_cnt 137
+success_plan_cnt_trial1 9 success_action_cnt_trial1 11
+4 12
+total_plan_cnt 116 total_action_cnt 153
+success_plan_cnt_trial1 9 success_action_cnt_trial1 11
+------------
+email-inbox-nl-turk
+1 1
+total_plan_cnt 1 total_action_cnt 1
+success_plan_cnt_trial1 1 success_action_cnt_trial1 1
+1 2
+total_plan_cnt 10 total_action_cnt 11
+success_plan_cnt_trial1 1 success_action_cnt_trial1 1
+Error here with obj_ids:  ['N/A']
+Error here with obj_ids:  ['N/A']
+2 3
+total_plan_cnt 17 total_action_cnt 19
+success_plan_cnt_trial1 2 success_action_cnt_trial1 3
+3 4
+total_plan_cnt 18 total_action_cnt 20
+success_plan_cnt_trial1 3 success_action_cnt_trial1 4
+4 5
+total_plan_cnt 19 total_action_cnt 21
+success_plan_cnt_trial1 4 success_action_cnt_trial1 5
+4 6
+total_plan_cnt 28 total_action_cnt 31
+success_plan_cnt_trial1 4 success_action_cnt_trial1 5
+5 7
+total_plan_cnt 29 total_action_cnt 32
+success_plan_cnt_trial1 5 success_action_cnt_trial1 6
+6 8
+total_plan_cnt 37 total_action_cnt 42
+success_plan_cnt_trial1 6 success_action_cnt_trial1 8
+7 9
+total_plan_cnt 38 total_action_cnt 43
+success_plan_cnt_trial1 7 success_action_cnt_trial1 9
+7 10
+total_plan_cnt 47 total_action_cnt 53
+success_plan_cnt_trial1 7 success_action_cnt_trial1 9
+7 11
+total_plan_cnt 56 total_action_cnt 63
+success_plan_cnt_trial1 7 success_action_cnt_trial1 9
+7 12
+total_plan_cnt 69 total_action_cnt 77
+success_plan_cnt_trial1 7 success_action_cnt_trial1 9
+8 13
+total_plan_cnt 70 total_action_cnt 78
+success_plan_cnt_trial1 8 success_action_cnt_trial1 10
+9 14
+total_plan_cnt 71 total_action_cnt 79
+success_plan_cnt_trial1 9 success_action_cnt_trial1 11
+9 15
+total_plan_cnt 80 total_action_cnt 89
+success_plan_cnt_trial1 9 success_action_cnt_trial1 11
+Error here with obj_ids:  ['N/A']
+--------------
+email-inbox-nl-turk (cont after error)
+0 1
+total_plan_cnt 9 total_action_cnt 10
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+1 2
+total_plan_cnt 22 total_action_cnt 25
+success_plan_cnt_trial1 1 success_action_cnt_trial1 2
+
+2 3
+total_plan_cnt 32 total_action_cnt 37
+success_plan_cnt_trial1 2 success_action_cnt_trial1 4
+
+3 4
+total_plan_cnt 38 total_action_cnt 45
+success_plan_cnt_trial1 3 success_action_cnt_trial1 6
+
+4 5
+total_plan_cnt 42 total_action_cnt 51
+success_plan_cnt_trial1 4 success_action_cnt_trial1 8
+
+5 6
+total_plan_cnt 50 total_action_cnt 61
+success_plan_cnt_trial1 5 success_action_cnt_trial1 10
+
+6 7
+total_plan_cnt 52 total_action_cnt 64
+success_plan_cnt_trial1 6 success_action_cnt_trial1 12
+
+7 8
+total_plan_cnt 58 total_action_cnt 72
+success_plan_cnt_trial1 7 success_action_cnt_trial1 14
+
+8 9
+total_plan_cnt 68 total_action_cnt 84
+success_plan_cnt_trial1 8 success_action_cnt_trial1 16
+
+9 10
+total_plan_cnt 69 total_action_cnt 85
+success_plan_cnt_trial1 9 success_action_cnt_trial1 17
+
+9 11
+total_plan_cnt 81 total_action_cnt 98
+success_plan_cnt_trial1 9 success_action_cnt_trial1 17
+
+9 12
+total_plan_cnt 94 total_action_cnt 112
+success_plan_cnt_trial1 9 success_action_cnt_trial1 17
+---------------
+choose-date
+0 1
+total_plan_cnt 5 total_action_cnt 5
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 2
+total_plan_cnt 10 total_action_cnt 10
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 3
+total_plan_cnt 16 total_action_cnt 16
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 4
+total_plan_cnt 21 total_action_cnt 21
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 5
+total_plan_cnt 27 total_action_cnt 27
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 6
+total_plan_cnt 32 total_action_cnt 33
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 7
+total_plan_cnt 39 total_action_cnt 41
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 8
+total_plan_cnt 46 total_action_cnt 48
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 9
+total_plan_cnt 51 total_action_cnt 53
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 10
+total_plan_cnt 56 total_action_cnt 58
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 11
+total_plan_cnt 61 total_action_cnt 63
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 12
+total_plan_cnt 68 total_action_cnt 70
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 13
+total_plan_cnt 75 total_action_cnt 78
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 14
+total_plan_cnt 82 total_action_cnt 86
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 15
+total_plan_cnt 87 total_action_cnt 92
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 16
+total_plan_cnt 93 total_action_cnt 99
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 17
+total_plan_cnt 101 total_action_cnt 108
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 18
+total_plan_cnt 108 total_action_cnt 116
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 19
+total_plan_cnt 115 total_action_cnt 123
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 20
+total_plan_cnt 120 total_action_cnt 129
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 21
+total_plan_cnt 125 total_action_cnt 134
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 22
+total_plan_cnt 130 total_action_cnt 139
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 23
+total_plan_cnt 136 total_action_cnt 145
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 24
+total_plan_cnt 141 total_action_cnt 150
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+1 25
+total_plan_cnt 147 total_action_cnt 157
+success_plan_cnt_trial1 1 success_action_cnt_trial1 1
+--------------
+book-flight-nodelay
+0 1
+total_plan_cnt 5 total_action_cnt 5
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+length
+
+0 2
+total_plan_cnt 10 total_action_cnt 10
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 3
+total_plan_cnt 17 total_action_cnt 17
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 4
+total_plan_cnt 23 total_action_cnt 23
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 5
+total_plan_cnt 28 total_action_cnt 28
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 6
+total_plan_cnt 33 total_action_cnt 33
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 7
+total_plan_cnt 38 total_action_cnt 38
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 8
+total_plan_cnt 43 total_action_cnt 43
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 9
+total_plan_cnt 48 total_action_cnt 48
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 10
+total_plan_cnt 57 total_action_cnt 57
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 11
+total_plan_cnt 62 total_action_cnt 62
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 12
+total_plan_cnt 67 total_action_cnt 67
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 13
+total_plan_cnt 72 total_action_cnt 72
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 14
+total_plan_cnt 77 total_action_cnt 77
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 15
+total_plan_cnt 82 total_action_cnt 82
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 16
+total_plan_cnt 87 total_action_cnt 87
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 17
+total_plan_cnt 95 total_action_cnt 96
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 18
+total_plan_cnt 100 total_action_cnt 101
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 19
+total_plan_cnt 105 total_action_cnt 106
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 20
+total_plan_cnt 110 total_action_cnt 111
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 21
+total_plan_cnt 115 total_action_cnt 116
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 22
+total_plan_cnt 120 total_action_cnt 121
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 23
+total_plan_cnt 125 total_action_cnt 126
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 24
+total_plan_cnt 130 total_action_cnt 131
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+
+0 25
+total_plan_cnt 135 total_action_cnt 136
+success_plan_cnt_trial1 0 success_action_cnt_trial1 0
+

@@ -1,0 +1,68 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Send to Neille the email you got from Helena. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Helena\nTurpis gravida...\nVelit. Tristiqu..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #2: Task: Go to the email by Bonny. Send it to Frankie. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '1'}, 'text': 'Bonny\nCursus nunc.\nFaucibus lorem ..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #3: Task: The mail by Barby should be forwarded to Rozina. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '2'}, 'text': 'Barby\nMi.\nTortor. Leo sem..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #4: Task: Forward the email from Darsey to Nani. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '2'}, 'text': 'Darsey\nAmet.\nIn dignissim im..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #5: Task: Give Felicle the message you received from Millisent, 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Millisent\nLibero quam.\nAc sapien posue..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #6: Task: Look for the email from Catie and forward to Dina. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Catie\nId ultrices.\nMorbi sed praes..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #7: Task: Navigate to the message from Allyson and send it to Agnola. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Allyson\nIn. Enim.\nIn. Diam. Monte..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #8: Task: Kristin wants the email Korrie sent to you. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Korrie\nSed. Dui.\nEgestas justo, ..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #9: Task: Indira wants his or her message to be sent to Eugenia. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Indira\nMi integer.\nTincidunt volut..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #10: Task: Go to the email by Clementine. Send it to Elisabeth. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '2'}, 'text': 'Clementine\nTortor quam.\nPosuere. In int..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #11: Task: Send to Neille the email you got from Helena. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Helena\nTurpis gravida...\nVelit. Tristiqu..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}

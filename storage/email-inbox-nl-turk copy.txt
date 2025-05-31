@@ -1,0 +1,75 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Forward Neille all of Helena's emails. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Helena\nTurpis gravida...\nVelit. Tristiqu..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #5: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #2: Task: Find the first email from Bonny and forward it to Frankie. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '1'}, 'text': 'Bonny\nCursus nunc.\nFaucibus lorem ..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #3: Task: Mark email from Barby as important. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'star'}, 'belongTo': {'email body': 'Tortor. Leo sem..', 'email sender': 'Barby', 'email subject': 'Mi.'}}}
+SUCCESSFUL TRIAL #4: Task: Find Darsey's email to delete it. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'trash'}, 'belongTo': {'email body': 'In dignissim im..', 'email sender': 'Darsey', 'email subject': 'Amet.'}}}
+SUCCESSFUL TRIAL #5: Task: Mark the unread email from Millisent as important. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'star'}, 'belongTo': {'email body': 'Ac sapien posue..', 'email sender': 'Millisent', 'email subject': 'Libero quam.'}}}
+SUCCESSFUL TRIAL #6: Task: Please open my inbox and search for the email that Catie sent me. Please write her back, "Massa.". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Catie\nId ultrices.\nMorbi sed praes..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-reply'}, 'text': 'Reply'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'id': 'reply-text'}}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-reply'}}}
+SUCCESSFUL TRIAL #7: Task: find Allysons email and mark it as important 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'star'}, 'belongTo': {'email body': 'In. Diam. Monte..', 'email sender': 'Allyson', 'email subject': 'In. Enim.'}}}
+SUCCESSFUL TRIAL #8: Task: I need to reply to Korrie's email with the message "Odio ultrices." 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Korrie\nSed. Dui.\nEgestas justo, ..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-reply'}, 'text': 'Reply'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'id': 'reply-text'}}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-reply'}}}
+SUCCESSFUL TRIAL #9: Task: Please mark the email from Indira as important. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'star'}, 'belongTo': {'email body': 'Tincidunt volut..', 'email sender': 'Indira', 'email subject': 'Mi integer.'}}}
+SUCCESSFUL TRIAL #10: Task: Find the email from Clementine and give it to Elisabeth. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '2'}, 'text': 'Clementine\nTortor quam.\nPosuere. In int..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #11: Task: Forward Neille all of Helena's emails. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Helena\nTurpis gravida...\nVelit. Tristiqu..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #5: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #12: Task: Delete all messages from Jennine. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'trash'}, 'belongTo': {'email body': 'Eu malesuada fu..', 'email sender': 'Jennine', 'email subject': 'Eu et.'}}}
+SUCCESSFUL TRIAL #13: Task: Will you find the email from Benedetta and forward it to Bria? 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Benedetta\nMalesuada lectu..\nA ultrices habi..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #14: Task: Locate Frannie's email from today and delete it. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'trash'}, 'belongTo': {'email body': 'Sed ultricies d..', 'email sender': 'Frannie', 'email subject': 'Sapien.'}}}
+SUCCESSFUL TRIAL #15: Task: Find Ursuline's email and forward it to Mallissa, please. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Ursuline\nAmet ultricies...\nAt viverra vita..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}

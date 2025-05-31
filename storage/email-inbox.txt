@@ -1,0 +1,28 @@
+# Here are the history of your trials
+SUCCESS TRIAL #1: Task: Find the email by Belva and click the trash icon to delete it.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'trash'}, 'belongTo': {'email body': 'Quisque sem tel..', 'email sender': 'Belva', 'email subject': 'Faucibus.'}}}
+
+SUCCESS TRIAL #2: Task: Find the email by Edwina and click the trash icon to delete it.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'trash'}, 'belongTo': {'email body': 'Vel tellus. Ame..', 'email sender': 'Edwina', 'email subject': 'Sed eu.'}}}
+
+SUCCESS TRIAL #3: Task: Find the email by Darline and click the star icon to mark it as important.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '3'}, 'text': 'Darline\nVitae.\nEnim proin vest..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'star'}}}
+
+SUCCESS TRIAL #4: Task: Find the email by Annnora and click the trash icon to delete it.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'trash'}, 'belongTo': {'email body': 'Bibendum. Eget ..', 'email sender': 'Annnora', 'email subject': 'Enim augue.'}}}
+
+SUCCESS TRIAL #5: Task: Find the email by Ottilie and click the star icon to mark it as important.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'star'}, 'belongTo': {'email body': 'Lacus nunc. Dia..', 'email sender': 'Ottilie', 'email subject': 'Ac nunc.'}}}
+
+SUCCESS TRIAL #6: Task: Find the email by Myrilla and click the star icon to mark it as important.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'star'}, 'belongTo': {'email body': 'Iaculis bibendu..', 'email sender': 'Myrilla', 'email subject': 'In eget.'}}}
+
+SUCCESS TRIAL #7: Task: Find the email by Josey and click the trash icon to delete it.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'trash'}, 'belongTo': {'email body': 'Aenean. Non, or..', 'email sender': 'Josey', 'email subject': 'Mus.'}}}
+
+SUCCESS TRIAL #8: Task: Find the email by Jacklyn and reply to them with the text "Erat mattis nibh augue.".
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '3'}, 'text': 'Jacklyn\nEt neque.\nId ultrices bib..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-reply'}, 'text': 'Reply'}}
+STEP #3: {'operation': 'input', 'target object': {'attributes': {'id': 'reply-text'}}, 'content': 'Erat mattis nibh augue.'}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-reply'}}}

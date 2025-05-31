@@ -1,0 +1,21 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Select words similar to unhappy, happy and click Submit. 
+
+> STATE #1: No steps taken, starting screen.The webpage instructs to select words similar to 'unhappy' and 'happy' and click 'Submit'. The options available are 'flame', 'miserable', 'joyful', and 'response'.
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch1', 'type': 'checkbox'}, 'text': 'miserable'}}
+> STATE #2: Selected 'miserable' as a word similar to 'unhappy'.The webpage displays a task to select words similar to 'unhappy' and 'happy'. The options are 'flame', 'miserable', 'joyful', and 'response'. 'Miserable' is already selected. There is a 'Submit' button available.
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch2', 'type': 'checkbox'}, 'text': 'joyful'}}
+> STATE #3: Selected 'miserable' and 'joyful' as words similar to 'unhappy' and 'happy'.The webpage shows checkboxes for words: 'flame', 'miserable', 'joyful', and 'response'. 'Miserable' and 'joyful' are selected. There is a 'Submit' button available. The right side displays a timer with 981 seconds left out of 1000.
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #2: Task: Select words similar to gigantic, chop, cars and click Submit. 
+
+> STATE #1: No steps taken, you are at the starting screen.The task is to select words similar to 'gigantic', 'chop', and 'cars'. The available options are 'keep', 'response', 'huge', 'cut', 'cars', and 'TV'. The page also displays information about rewards, average, time left, and episodes done. The 'Submit' button is present for submitting the selected options.
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch2', 'type': 'checkbox'}, 'text': 'huge'}}
+> STATE #2: Selected the word 'huge' as similar to 'gigantic'.The page displays checkboxes with the words 'keep', 'response', 'huge' (selected), 'cut', 'cars', and 'TV'. The task is to select words similar to 'gigantic', 'chop', and 'cars'. The 'Submit' button is available for submission. The right side shows time left as 991/1000 seconds, with no rewards or episodes done yet.
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch3', 'type': 'checkbox'}, 'text': 'cut'}}
+> STATE #3: Selected 'huge' and 'cut' as similar to 'gigantic' and 'chop'.The page shows checkboxes with 'huge' and 'cut' selected. The remaining options are 'keep', 'response', 'cars', and 'TV'. The task is to select words similar to 'gigantic', 'chop', and 'cars'. The 'Submit' button is available. Time left is 981/1000 seconds, with no rewards or episodes done yet.
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'ch4', 'type': 'checkbox'}, 'text': 'cars'}}
+> STATE #4: Selected 'huge', 'cut', and 'cars' as similar to 'gigantic', 'chop', and 'cars'.The page shows checkboxes with 'huge', 'cut', and 'cars' selected. The remaining options are 'keep', 'response', and 'TV'. The task is to select words similar to 'gigantic', 'chop', and 'cars'. The 'Submit' button is available. Time left is 971/1000 seconds, with no rewards or episodes done yet.
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+
+RULE #1: Ensure all required words are selected before submitting; verify each word matches the task criteria. For example, if tasked to select words similar to 'actual', 'favor', 'vermillion', 'aged', and 'comical', ensure each selected word aligns with these criteria before clicking 'Submit'.

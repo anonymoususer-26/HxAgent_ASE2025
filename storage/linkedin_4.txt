@@ -1,0 +1,6 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Write a post with caption "Thank you for sharing!" 
+
+> STEP #1: {'operation': 'click', 'target object': {'text': 'Start a post, try writing with AI'}}
+> STEP #2: {'operation': 'input', 'target object': {'attributes': {'aria-describedby': 'ember262-text-editor-placeholder', 'aria-label': 'Text editor for creating content', 'aria-multiline': 'true', 'aria-placeholder': 'What do you want to talk about?', 'class': 'ql-editor ql-blank', 'contenteditable': 'true', 'data-artdeco-is-focused': 'true', 'data-gramm': 'false', 'data-placeholder': 'What do you want to talk about?', 'data-test-ql-editor-contenteditable': 'true', 'id': '9njQDlHauKftJh1v39nz', 'role': 'textbox'}}, 'content': 'Thank you for sharing!'}
+> STEP #3: {'operation': 'click', 'target object': {'icon': 'artdeco-button__text', 'text': 'Post'}}

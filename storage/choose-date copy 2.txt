@@ -1,0 +1,35 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Select 08/04/2016 as the date and hit submit. 
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'hasDatepicker', 'id': 'datepicker', 'readonly': '', 'type': 'text'}, 'text': 'Date:'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'ui-datepicker-prev ui-corner-all', 'title': 'Prev'}, 'icon': 'ui-icon ui-icon-circle-triangle-w', 'text': 'Prev'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'ui-datepicker-prev ui-corner-all ui-state-hover ui-datepicker-prev-hover', 'title': 'Prev'}, 'icon': 'ui-icon ui-icon-circle-triangle-w', 'text': 'Prev'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'ui-datepicker-prev ui-corner-all ui-state-hover ui-datepicker-prev-hover', 'title': 'Prev'}, 'icon': 'ui-icon ui-icon-circle-triangle-w', 'text': 'Prev'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'class': 'ui-datepicker-prev ui-corner-all ui-state-hover ui-datepicker-prev-hover', 'title': 'Prev'}, 'icon': 'ui-icon ui-icon-circle-triangle-w', 'text': 'Prev'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'class': ' ', 'data-month': '7', 'data-year': '2016'}, 'text': '4'}}
+> STEP #7: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+
+SUCCESSFUL TRIAL #2: Task: Select 10/05/2016 as the date and hit submit. 
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'hasDatepicker', 'id': 'datepicker', 'readonly': '', 'type': 'text'}, 'text': 'Date:'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'ui-datepicker-prev ui-corner-all', 'title': 'Prev'}, 'icon': 'ui-icon ui-icon-circle-triangle-w', 'text': 'Prev'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'ui-datepicker-prev ui-corner-all ui-state-hover ui-datepicker-prev-hover', 'title': 'Prev'}, 'icon': 'ui-icon ui-icon-circle-triangle-w', 'text': 'Prev'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': ' ', 'data-month': '9', 'data-year': '2016'}, 'text': '5'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+
+SUCCESSFUL TRIAL #3: Task: Select 09/09/2016 as the date and hit submit. 
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'hasDatepicker', 'id': 'datepicker', 'readonly': '', 'type': 'text'}, 'text': 'Date:'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'ui-datepicker-prev ui-corner-all', 'title': 'Prev'}, 'icon': 'ui-icon ui-icon-circle-triangle-w', 'text': 'Prev'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'ui-datepicker-prev ui-corner-all ui-state-hover ui-datepicker-prev-hover', 'title': 'Prev'}, 'icon': 'ui-icon ui-icon-circle-triangle-w', 'text': 'Prev'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'ui-datepicker-prev ui-corner-all ui-state-hover ui-datepicker-prev-hover', 'title': 'Prev'}, 'icon': 'ui-icon ui-icon-circle-triangle-w', 'text': 'Prev'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'class': ' ', 'data-month': '8', 'data-year': '2016'}, 'text': '9'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+
+SUCCESSFUL TRIAL #4: Task: Select 11/04/2016 as the date and hit submit. 
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'hasDatepicker', 'id': 'datepicker', 'readonly': '', 'type': 'text'}, 'text': 'Date:'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'ui-datepicker-prev ui-corner-all', 'title': 'Prev'}, 'icon': 'ui-icon ui-icon-circle-triangle-w', 'text': 'Prev'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': ' ', 'data-month': '10', 'data-year': '2016'}, 'text': '4'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+
+RULE #1: Ensure the correct month is selected before choosing the day by verifying the 'data-month' attribute matches the desired month.
+RULE #2: Always navigate through the calendar to ensure the correct year is selected by verifying the 'data-year' attribute matches the desired year.
+RULE #3: Avoid unnecessary navigation steps that do not contribute to reaching the target date, as excessive steps can lead to errors or step overflow.
+RULE #4: Ensure the selected day is not marked with a special class like 'ui-datepicker-week-end' unless specifically required, as it may indicate a non-standard selection.

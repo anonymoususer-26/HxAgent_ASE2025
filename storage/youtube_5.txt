@@ -1,0 +1,8 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Navigate to Home tab 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-label': 'Guide'}}}
+> STEP #2: {'operation': 'click', 'target object': {'icon': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape', 'text': 'Home'}}
+SUCCESSFUL TRIAL #2: Task: Navigate to Shorts tab 
+
+> STEP #1: {'operation': 'click', 'target object': {'text': 'Shorts'}}

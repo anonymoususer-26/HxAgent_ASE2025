@@ -1,0 +1,4 @@
+# Here are the history of your trials
+No successful trial found.
+RULE #1: When submitting a question, ensure all required fields (title and body) are filled out before clicking the 'Review' or 'Submit' button. Definition: A complete question submission requires clicking a final submission button after filling out the content. Example: After inputting title and body text, locate and click 'Review' or 'Submit' button to complete the question submission process.
+RULE #2: The content of the question body should be relevant and consistent with the question title. Definition: The body text must address the specific problem mentioned in the title. Example: A title about Fibonacci sequences should have a body discussing Fibonacci implementation, not graph algorithms.

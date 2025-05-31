@@ -1,0 +1,7 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Search for Software Engineer jobs and click on first result 
+
+> STEP #1: {'operation': 'click', 'target object': {'icon': 't-12 break-words block t-black--light t-normal\n          global-nav__primary-link-text', 'text': 'Jobs'}}
+> STEP #2: {'operation': 'input', 'target object': {'attributes': {'aria-activedescendant': '', 'aria-autocomplete': 'list', 'aria-expanded': 'false', 'aria-label': 'Search by title, skill, or company', 'autocomplete': 'organization-title', 'class': 'jobs-search-box__text-input jobs-search-box__keyboard-text-input jobs-search-global-typeahead__input', 'dir': 'auto', 'id': 'jobs-search-box-keyword-id-ember249', 'role': 'combobox', 'spellcheck': 'false', 'type': 'text'}}, 'content': 'Software Engineer'}
+> STEP #3: {'operation': 'click', 'target object': {'text': 'software engineer'}}
+> STEP #4: {'operation': 'click', 'target object': {'text': 'Software Development Intern'}}

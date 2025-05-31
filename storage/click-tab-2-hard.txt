@@ -1,0 +1,54 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Switch between the tabs to find and click on the link "non.". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-2', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-2', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '2'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-3', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-3', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '3'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'non.'}}
+SUCCESSFUL TRIAL #2: Task: Switch between the tabs to find and click on the link "pellentesque". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-2', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-2', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '2'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-3', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-3', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '3'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'pellentesque'}}
+SUCCESSFUL TRIAL #3: Task: Switch between the tabs to find and click on the link "maecenas". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-2', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-2', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '2'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-3', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-3', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '3'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'maecenas'}}
+SUCCESSFUL TRIAL #4: Task: Switch between the tabs to find and click on the link "fames". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'fames'}}
+SUCCESSFUL TRIAL #5: Task: Switch between the tabs to find and click on the link "morbi". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'morbi'}}
+SUCCESSFUL TRIAL #6: Task: Switch between the tabs to find and click on the link "gravida". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-2', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-2', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '2'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'gravida'}}
+SUCCESSFUL TRIAL #7: Task: Switch between the tabs to find and click on the link "aenean". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-2', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-2', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '2'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'aenean'}}
+SUCCESSFUL TRIAL #8: Task: Switch between the tabs to find and click on the link "viverra.". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-2', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-2', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '2'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-3', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-3', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '3'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-4', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-4', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '4'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-3', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-3', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '3'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-5', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-5', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '5'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'viverra.'}}
+SUCCESSFUL TRIAL #9: Task: Switch between the tabs to find and click on the link "non.". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-2', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-2', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '2'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-3', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-3', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '3'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'non.'}}
+SUCCESSFUL TRIAL #10: Task: Switch between the tabs to find and click on the link "ultrices". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-2', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-2', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '2'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-3', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-3', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '3'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'ultrices'}}
+SUCCESSFUL TRIAL #11: Task: Switch between the tabs to find and click on the link "commodo,". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'tabs-2', 'aria-expanded': 'false', 'aria-labelledby': 'ui-id-2', 'aria-selected': 'false', 'class': 'ui-tabs-tab ui-corner-top ui-state-default ui-tab', 'role': 'tab', 'tabindex': '-1'}, 'text': '2'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'commodo,'}}
+
+RULE #1: When searching for a link text in tabs, the search should be case-insensitive and ignore punctuation. For example, 'eget' should match both 'Eget' and 'Eget.' to ensure successful link identification.

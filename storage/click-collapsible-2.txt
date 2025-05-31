@@ -1,0 +1,76 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Expand the sections below, to find and click on the link "porttitor". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-2', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-1', 'role': 'tab', 'tabindex': '0'}, 'text': 'Section #1'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-4', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-3', 'role': 'tab', 'tabindex': '-1'}, 'text': 'Section #2'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-6', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-5', 'role': 'tab', 'tabindex': '-1'}, 'text': 'Section #3'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'porttitor'}}
+SUCCESSFUL TRIAL #2: Task: Expand the sections below, to find and click on the link "quisque.". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-2', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-1', 'role': 'tab', 'tabindex': '0'}, 'text': 'Section #1'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-4', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-3', 'role': 'tab', 'tabindex': '-1'}, 'text': 'Section #2'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-6', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-5', 'role': 'tab', 'tabindex': '-1'}, 'text': 'Section #3'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'quisque.'}}
+SUCCESSFUL TRIAL #3: Task: Expand the sections below, to find and click on the link "augue". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-2', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-1', 'role': 'tab', 'tabindex': '0'}, 'text': 'Section #1'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-4', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-3', 'role': 'tab', 'tabindex': '-1'}, 'text': 'Section #2'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'augue'}}
+SUCCESSFUL TRIAL #4: Task: Expand the sections below, to find and click on the link "Cursus". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-2', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-1', 'role': 'tab', 'tabindex': '0'}, 'text': 'Section #1'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'Cursus'}}
+SUCCESSFUL TRIAL #5: Task: Expand the sections below, to find and click on the link "volutpat.". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-2', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-1', 'role': 'tab', 'tabindex': '0'}, 'text': 'Section #1'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'volutpat.'}}
+SUCCESSFUL TRIAL #6: Task: Expand the sections below, to find and click on the link "cursus". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-2', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-1', 'role': 'tab', 'tabindex': '0'}, 'text': 'Section #1'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'cursus'}}
+SUCCESSFUL TRIAL #7: Task: Expand the sections below, to find and click on the link "in.". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-2', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-1', 'role': 'tab', 'tabindex': '0'}, 'text': 'Section #1'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'in.'}}
+SUCCESSFUL TRIAL #8: Task: Expand the sections below, to find and click on the link "Massa". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-2', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-1', 'role': 'tab', 'tabindex': '0'}, 'text': 'Section #1'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-4', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-3', 'role': 'tab', 'tabindex': '-1'}, 'text': 'Section #2'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-6', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-5', 'role': 'tab', 'tabindex': '-1'}, 'text': 'Section #3'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'Massa'}}
+SUCCESSFUL TRIAL #9: Task: Expand the sections below, to find and click on the link "ornare". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-2', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-1', 'role': 'tab', 'tabindex': '0'}, 'text': 'Section #1'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'ornare'}}
+SUCCESSFUL TRIAL #10: Task: Expand the sections below, to find and click on the link "quam.". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-2', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-1', 'role': 'tab', 'tabindex': '0'}, 'text': 'Section #1'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'quam.'}}
+SUCCESSFUL TRIAL #11: Task: Expand the sections below, to find and click on the link "porttitor". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-2', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-1', 'role': 'tab', 'tabindex': '0'}, 'text': 'Section #1'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-4', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-3', 'role': 'tab', 'tabindex': '-1'}, 'text': 'Section #2'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-6', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-5', 'role': 'tab', 'tabindex': '-1'}, 'text': 'Section #3'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'porttitor'}}
+SUCCESSFUL TRIAL #12: Task: Expand the sections below, to find and click on the link "mattis". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-2', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-1', 'role': 'tab', 'tabindex': '0'}, 'text': 'Section #1'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-4', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-3', 'role': 'tab', 'tabindex': '-1'}, 'text': 'Section #2'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'mattis'}}
+SUCCESSFUL TRIAL #13: Task: Expand the sections below, to find and click on the link "nunc,". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-2', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-1', 'role': 'tab', 'tabindex': '0'}, 'text': 'Section #1'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-4', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-3', 'role': 'tab', 'tabindex': '-1'}, 'text': 'Section #2'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'nunc,'}}
+SUCCESSFUL TRIAL #14: Task: Expand the sections below, to find and click on the link "semper". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-2', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-1', 'role': 'tab', 'tabindex': '0'}, 'text': 'Section #1'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-4', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-3', 'role': 'tab', 'tabindex': '-1'}, 'text': 'Section #2'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-6', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-5', 'role': 'tab', 'tabindex': '-1'}, 'text': 'Section #3'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'semper'}}
+SUCCESSFUL TRIAL #15: Task: Expand the sections below, to find and click on the link "nisl,". 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-2', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-1', 'role': 'tab', 'tabindex': '0'}, 'text': 'Section #1'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-4', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-3', 'role': 'tab', 'tabindex': '-1'}, 'text': 'Section #2'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-6', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-5', 'role': 'tab', 'tabindex': '-1'}, 'text': 'Section #3'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'alink'}, 'text': 'nisl,'}}

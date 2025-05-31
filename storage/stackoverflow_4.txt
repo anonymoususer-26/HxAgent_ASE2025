@@ -1,0 +1,13 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Navigate to "Companies", search "Amazon" and click follow the first company 
+
+> STATE #1: None
+> STEP #1: {'operation': 'click', 'target object': {'icon': '-link--channel-name pl6', 'text': 'Companies'}}
+> STATE #2: None
+> STEP #2: {'operation': 'input + enter', 'target object': {'attributes': {'autocomplete': 'off', 'class': 's-input s-input__md s-input__search truncate h100 fs-body2', 'id': 'q', 'maxlength': '120', 'name': 'q', 'placeholder': 'Search all companies', 'type': 'text', 'value': ''}}, 'content': 'Amazon'}
+> STATE #3: None
+> STEP #3: {'operation': 'click', 'target object': {'text': 'Search'}}
+> STATE #4: None
+> STEP #4: {'operation': 'click', 'target object': {'text': 'Audible'}}
+> STATE #5: None
+> STEP #5: {'operation': 'click', 'target object': {'text': 'Follow'}}

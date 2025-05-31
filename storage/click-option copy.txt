@@ -1,0 +1,7 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Select S4 and click Submit. 
+
+> STATE #1: No steps have been taken yet; you are at the starting screen.The webpage displays a section titled 'Select S4 and click Submit.' There are three radio button options: '3hlU,' 'fQqj7v,' and 'S4.' A 'Submit' button is present below these options. The right side of the page shows statistics such as 'Last reward,' 'Last 10 average,' 'Time left: 1000 / 1000Sec,' and 'Episodes done: 0.'
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch2', 'name': 'radio', 'type': 'radio'}, 'text': 'S4'}}
+> STATE #2: Selected the radio button labeled 'S4'.The webpage shows the 'S4' radio button selected. The 'Submit' button is visible below the options. On the right, statistics are displayed, including 'Last reward,' 'Last 10 average,' 'Time left: 983 / 1000Sec,' and 'Episodes done: 0.'
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}

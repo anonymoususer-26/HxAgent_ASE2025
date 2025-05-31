@@ -1,0 +1,40 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Click the "Like" button on all posts by @lacus and then click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'like'}, 'belongTo': {'body': 'Consectetur. Vitae.', 'name': 'Lucas', 'username': '@lacus'}}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #2: Task: Click the "Retweet" button on all posts by @lorem and then click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'retweet'}, 'belongTo': {'body': 'Dui. Sem vulputate.', 'name': 'Tyson', 'username': '@lorem'}}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'retweet'}, 'belongTo': {'body': 'Neque ut.', 'name': 'Tyson', 'username': '@lorem'}}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'retweet'}, 'belongTo': {'body': 'Vestibulum, pharetra, felis.', 'name': 'Tyson', 'username': '@lorem'}}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'retweet'}}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #3: Task: Click the "Share" button on all posts by @fusce and then click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Et sed.', 'name': 'Laura', 'username': '@fusce'}}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Integer fames donec. Erat.', 'name': 'Laura', 'username': '@fusce'}}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #4: Task: Click the "Like" button on all posts by @dictum and then click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'like'}, 'belongTo': {'body': 'Mattis vel. Eu.', 'name': 'Huber', 'username': '@dictum'}}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #5: Task: Click the "Share" button on all posts by @mauris and then click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Morbi lacinia.', 'name': 'Francoise', 'username': '@mauris'}}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Pulvinar ultrices pellentesque.', 'name': 'Francoise', 'username': '@mauris'}}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #6: Task: Click the "Share" button on all posts by @ashlea and then click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Nam in ac.', 'name': 'Carpenter', 'username': '@ashlea'}}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #7: Task: Click the "Share" button on all posts by @livia and then click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Imperdiet. Augue.', 'name': 'Monroe', 'username': '@livia'}}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}, 'belongTo': {'body': 'Amet non placerat faucibus nunc.', 'name': 'Monroe', 'username': '@livia'}}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'share'}}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'type': 'button'}, 'text': 'Submit'}}
+
+RULE #1: When interacting with posts by a specific user, verify that all posts from that user have been processed before clicking Submit by checking if the number of interactions matches the total number of posts by the target user.

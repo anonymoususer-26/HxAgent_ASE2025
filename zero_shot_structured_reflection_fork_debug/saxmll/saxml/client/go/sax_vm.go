@@ -1,0 +1,408 @@
+// Copyright 2022 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+package sax
+
+import (
+	"context"
+
+	"google.golang.org/grpc"
+
+	pb "saxml/protobuf/vision_go_proto_grpc"
+	pbgrpc "saxml/protobuf/vision_go_proto_grpc"
+)
+
+// VisionModel represents a vision model in sax.
+// Public methods are thread safe.
+type VisionModel struct {
+	model *Model
+}
+
+// ClassifyResult is a tuple of text and score as the result for classification operation.
+type ClassifyResult struct {
+	Text  string
+	Score float64
+}
+
+func extractClassfyResponse(res *pb.ClassifyResponse) []ClassifyResult {
+	var result []ClassifyResult
+	for _, one := range res.GetTexts() {
+		candidate := ClassifyResult{Text: one.GetText(), Score: one.GetScore()}
+		result = append(result, candidate)
+	}
+	return result
+}
+
+// Classify performs classificiation for a serialized image (`imageBytes`) against a vision model.
+func (v *VisionModel) Classify(ctx context.Context, imageBytes []byte, options ...ModelOptionSetter) ([]ClassifyResult, error) {
+	opts := NewModelOptions(options...)
+	req := &pb.ClassifyRequest{
+		ModelKey:    v.model.modelID,
+		ImageBytes:  imageBytes,
+		ExtraInputs: opts.ExtraInputs(),
+	}
+
+	var resp *pb.ClassifyResponse
+	err := v.model.run(ctx, "Classify", func(conn *grpc.ClientConn) error {
+		var classifyErr error
+		resp, classifyErr = pbgrpc.NewVisionServiceClient(conn).Classify(ctx, req)
+		return classifyErr
+	})
+	if err != nil {
+		return nil, err
+	}
+	res := extractClassfyResponse(resp)
+	return res, nil
+}
+
+// GeneratedImage is a tuple of image (in bytes array) and its log probability.
+type GeneratedImage struct {
+	Image []byte
+	Logp  float64
+}
+
+func extractGeneratedImageResponse(res *pb.TextToImageResponse) []GeneratedImage {
+	var result []GeneratedImage
+	for _, one := range res.GetImages() {
+		candidate := GeneratedImage{Image: one.GetImage(), Logp: one.GetScore()}
+		result = append(result, candidate)
+	}
+	return result
+}
+
+// TextToImage generates a list of image (`imageBytes`) and log probability for a given text.
+func (v *VisionModel) TextToImage(ctx context.Context, text string, options ...ModelOptionSetter) ([]GeneratedImage, error) {
+	opts := NewModelOptions(options...)
+	req := &pb.TextToImageRequest{
+		ModelKey:    v.model.modelID,
+		Text:        text,
+		ExtraInputs: opts.ExtraInputs(),
+	}
+
+	var resp *pb.TextToImageResponse
+	err := v.model.run(ctx, "TextToImage", func(conn *grpc.ClientConn) error {
+		var textToImageErr error
+		resp, textToImageErr = pbgrpc.NewVisionServiceClient(conn).TextToImage(ctx, req)
+		return textToImageErr
+	})
+	if err != nil {
+		return nil, err
+	}
+	res := extractGeneratedImageResponse(resp)
+	return res, nil
+}
+
+func extractTextAndImageToImageResponse(res *pb.TextAndImageToImageResponse) []GeneratedImage {
+	var result []GeneratedImage
+	for _, one := range res.GetImages() {
+		candidate := GeneratedImage{Image: one.GetImage(), Logp: one.GetScore()}
+		result = append(result, candidate)
+	}
+	return result
+}
+
+// TextAndImageToImage generates a list of image (`imageBytes`) and log probability for a given
+// text and image.
+func (v *VisionModel) TextAndImageToImage(ctx context.Context, text string, imageBytes []byte, options ...ModelOptionSetter) ([]GeneratedImage, error) {
+	opts := NewModelOptions(options...)
+	req := &pb.TextAndImageToImageRequest{
+		ModelKey:    v.model.modelID,
+		Text:        text,
+		ImageBytes:  imageBytes,
+		ExtraInputs: opts.ExtraInputs(),
+	}
+
+	var resp *pb.TextAndImageToImageResponse
+	err := v.model.run(ctx, "TextAndImageToImage", func(conn *grpc.ClientConn) error {
+		var textAndImageToImageErr error
+		resp, textAndImageToImageErr = pbgrpc.NewVisionServiceClient(conn).TextAndImageToImage(ctx, req)
+		return textAndImageToImageErr
+	})
+	if err != nil {
+		return nil, err
+	}
+	res := extractTextAndImageToImageResponse(resp)
+	return res, nil
+}
+
+// Embed performs embedding for an image as byte array.
+func (v *VisionModel) Embed(ctx context.Context, imageBytes []byte, options ...ModelOptionSetter) ([]float64, error) {
+	opts := NewModelOptions(options...)
+	req := &pb.EmbedRequest{
+		ModelKey:    v.model.modelID,
+		ImageBytes:  imageBytes,
+		ExtraInputs: opts.ExtraInputs(),
+	}
+
+	var resp *pb.EmbedResponse
+	err := v.model.run(ctx, "Embed", func(conn *grpc.ClientConn) error {
+		var sampleErr error
+		resp, sampleErr = pbgrpc.NewVisionServiceClient(conn).Embed(ctx, req)
+		return sampleErr
+	})
+	if err != nil {
+		return nil, err
+	}
+	return resp.GetEmbedding(), nil
+}
+
+// BoundingBox represents a single bounding box.
+type BoundingBox struct {
+	CenterX float64 // Center of the box in x-axis.
+	CenterY float64 // Center of the box in y-axis.
+	Width   float64 // Width of the box.
+	Height  float64 // Height of the box.
+}
+
+// DetectionMask contains a representation for a single mask.
+type DetectionMask struct {
+	Height     int32
+	Width      int32
+	MaskValues []byte
+}
+
+// DetectResult contains a representation for a single bounding box.
+// All fields should be set except for Mask which is optional.
+// When the mask is empty, the following holds: Height == 0, Width == 0, len(MaskValues) == 0.
+type DetectResult struct {
+	CenterX float64
+	CenterY float64
+	Width   float64
+	Height  float64
+	Text    string
+	Score   float64
+	Mask    DetectionMask
+}
+
+func insertBoundingBoxes(boxes []BoundingBox, req *pb.DetectRequest) {
+	var boxesOfInterest []*pb.BoundingBox
+	for _, box := range boxes {
+		boxesOfInterest = append(boxesOfInterest, &pb.BoundingBox{
+			Cx: box.CenterX,
+			Cy: box.CenterY,
+			W:  box.Width,
+			H:  box.Height,
+		})
+	}
+	req.BoxesOfInterest = boxesOfInterest
+}
+
+func extractBoundingBoxes(res *pb.DetectResponse) []DetectResult {
+	var result []DetectResult
+	for _, one := range res.GetBoundingBoxes() {
+		mask := DetectionMask{
+			Height:     one.GetMask().GetMaskHeight(),
+			Width:      one.GetMask().GetMaskWidth(),
+			MaskValues: one.GetMask().GetMaskValues(),
+		}
+		candidate := DetectResult{
+			CenterX: one.GetCx(),
+			CenterY: one.GetCy(),
+			Width:   one.GetW(),
+			Height:  one.GetH(),
+			Text:    one.GetText(),
+			Score:   one.GetScore(),
+			Mask:    mask}
+		result = append(result, candidate)
+	}
+	return result
+}
+
+// Detect performs detection for a serialized image (`imageBytes`) against a vision model.
+func (v *VisionModel) Detect(ctx context.Context, imageBytes []byte, text []string, boxes []BoundingBox, options ...ModelOptionSetter) ([]DetectResult, error) {
+	opts := NewModelOptions(options...)
+	req := &pb.DetectRequest{
+		ModelKey:    v.model.modelID,
+		ImageBytes:  imageBytes,
+		Text:        text,
+		ExtraInputs: opts.ExtraInputs(),
+	}
+	insertBoundingBoxes(boxes, req)
+
+	var resp *pb.DetectResponse
+	err := v.model.run(ctx, "Detect", func(conn *grpc.ClientConn) error {
+		var detectErr error
+		resp, detectErr = pbgrpc.NewVisionServiceClient(conn).Detect(ctx, req)
+		return detectErr
+	})
+	if err != nil {
+		return nil, err
+	}
+	res := extractBoundingBoxes(resp)
+	return res, nil
+}
+
+// ImageToTextResult is a tuple of text and score as the result for image-to-text operation.
+type ImageToTextResult struct {
+	Text  string
+	Score float64
+}
+
+func extractImageToTextResponse(res *pb.ImageToTextResponse) []ImageToTextResult {
+	var result []ImageToTextResult
+	for _, one := range res.GetTexts() {
+		candidate := ImageToTextResult{Text: one.GetText(), Score: one.GetScore()}
+		result = append(result, candidate)
+	}
+	return result
+}
+
+// ImageToText performs captioning for a serialized image (`imageBytes`) against a vision model.
+func (v *VisionModel) ImageToText(ctx context.Context, imageBytes []byte, text string, options ...ModelOptionSetter) ([]ImageToTextResult, error) {
+	opts := NewModelOptions(options...)
+	req := &pb.ImageToTextRequest{
+		ModelKey:    v.model.modelID,
+		ImageBytes:  imageBytes,
+		Text:        text,
+		ExtraInputs: opts.ExtraInputs(),
+	}
+
+	var resp *pb.ImageToTextResponse
+	err := v.model.run(ctx, "ImageToText", func(conn *grpc.ClientConn) error {
+		var imageToTextErr error
+		resp, imageToTextErr = pbgrpc.NewVisionServiceClient(conn).ImageToText(ctx, req)
+		return imageToTextErr
+	})
+	if err != nil {
+		return nil, err
+	}
+	res := extractImageToTextResponse(resp)
+	return res, nil
+}
+
+// ImageToImageResult is a tuple of image and score as the result for image-to-image operation.
+type ImageToImageResult struct {
+	Image []byte
+	Score float64
+}
+
+func extractImageToImageResponse(res *pb.ImageToImageResponse) []ImageToImageResult {
+	var result []ImageToImageResult
+	for _, one := range res.GetImages() {
+		candidate := ImageToImageResult{Image: one.GetImage(), Score: one.GetScore()}
+		result = append(result, candidate)
+	}
+	return result
+}
+
+// ImageToImage returns images for a serialized image (`imageBytes`) against a vision model.
+func (v *VisionModel) ImageToImage(ctx context.Context, imageBytes []byte, options ...ModelOptionSetter) ([]ImageToImageResult, error) {
+	opts := NewModelOptions(options...)
+	req := &pb.ImageToImageRequest{
+		ModelKey:    v.model.modelID,
+		ImageBytes:  imageBytes,
+		ExtraInputs: opts.ExtraInputs(),
+	}
+
+	var resp *pb.ImageToImageResponse
+	err := v.model.run(ctx, "ImageToImage", func(conn *grpc.ClientConn) error {
+		var ImageToImageErr error
+		resp, ImageToImageErr = pbgrpc.NewVisionServiceClient(conn).ImageToImage(ctx, req)
+		return ImageToImageErr
+	})
+	if err != nil {
+		return nil, err
+	}
+	res := extractImageToImageResponse(resp)
+	return res, nil
+}
+
+// VideoToTextResult is a tuple of text and score as the result for video-to-text operation.
+type VideoToTextResult struct {
+	Text  string
+	Score float64
+}
+
+func extractVideoToTextResponse(res *pb.VideoToTextResponse) []VideoToTextResult {
+	var result []VideoToTextResult
+	for _, one := range res.GetTexts() {
+		candidate := VideoToTextResult{Text: one.GetText(), Score: one.GetScore()}
+		result = append(result, candidate)
+	}
+	return result
+}
+
+// VideoToText performs captioning for multiple image frames against a vision model.
+// Specifically:
+// - 'imageFrames' is a list of bytes where each element is a serialized image frame.
+// - 'text' is the (optional) prefix text for prefix decoding.
+func (v *VisionModel) VideoToText(ctx context.Context, imageFrames [][]byte, text string, options ...ModelOptionSetter) ([]VideoToTextResult, error) {
+	opts := NewModelOptions(options...)
+	req := &pb.VideoToTextRequest{
+		ModelKey:    v.model.modelID,
+		ImageFrames: imageFrames,
+		Text:        text,
+		ExtraInputs: opts.ExtraInputs(),
+	}
+
+	var resp *pb.VideoToTextResponse
+	err := v.model.run(ctx, "VideoToText", func(conn *grpc.ClientConn) error {
+		var videoToTextErr error
+		resp, videoToTextErr = pbgrpc.NewVisionServiceClient(conn).VideoToText(ctx, req)
+		return videoToTextErr
+	})
+	if err != nil {
+		return nil, err
+	}
+	res := extractVideoToTextResponse(resp)
+	return res, nil
+}
+
+// VideoToToken performs tokenization for multiple image frames against a vision model.
+// Specifically:
+// - 'tokens' is a list of token with type float64.
+func (v *VisionModel) VideoToToken(ctx context.Context, imageFrames [][]byte, options ...ModelOptionSetter) ([]float64, error) {
+	opts := NewModelOptions(options...)
+	req := &pb.VideoToTokenRequest{
+		ModelKey:    v.model.modelID,
+		ImageFrames: imageFrames,
+		ExtraInputs: opts.ExtraInputs(),
+	}
+
+	var resp *pb.VideoToTokenResponse
+	err := v.model.run(ctx, "VideoToToken", func(conn *grpc.ClientConn) error {
+		var videoToTokenErr error
+		resp, videoToTokenErr = pbgrpc.NewVisionServiceClient(conn).VideoToToken(ctx, req)
+		return videoToTokenErr
+	})
+	if err != nil {
+		return nil, err
+	}
+	return resp.GetTokens(), nil
+}
+
+// TokenToVideo performs de-tokenization for a list of tokens against a vision model.
+// Specifically:
+// - 'tokens' is a list of token with type float64.
+// Return:
+// - 'imageFrames' is a list of bytes where each element is a serialized image frame.
+func (v *VisionModel) TokenToVideo(ctx context.Context, tokens []float64, options ...ModelOptionSetter) ([][]byte, error) {
+	opts := NewModelOptions(options...)
+	req := &pb.TokenToVideoRequest{
+		ModelKey:    v.model.modelID,
+		Tokens:      tokens,
+		ExtraInputs: opts.ExtraInputs(),
+	}
+
+	var resp *pb.TokenToVideoResponse
+	err := v.model.run(ctx, "TokenToVideo", func(conn *grpc.ClientConn) error {
+		var tokenToVideoErr error
+		resp, tokenToVideoErr = pbgrpc.NewVisionServiceClient(conn).TokenToVideo(ctx, req)
+		return tokenToVideoErr
+	})
+	if err != nil {
+		return nil, err
+	}
+	return resp.GetImageFrames(), nil
+}

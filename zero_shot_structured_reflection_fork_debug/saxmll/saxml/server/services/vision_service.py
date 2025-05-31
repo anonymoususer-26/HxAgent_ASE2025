@@ -1,0 +1,309 @@
+# Copyright 2022 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+"""RPC service vision model inference."""
+
+from typing import Any
+
+import numpy as np
+from saxml.protobuf import vision_pb2
+from saxml.protobuf import vision_pb2_grpc
+from saxml.server import model_service_base
+
+SERVICE_ID = 'vm'
+
+
+class VisionMethodName:
+  CLASSIFY = 'vm.classify'
+  TEXT_TO_IMAGE = 'vm.generate'
+  TEXT_AND_IMAGE_TO_IMAGE = 'vm.text_and_image_to_image'
+  EMBED = 'vm.embed'
+  DETECT = 'vm.detect'
+  IMAGE_TO_TEXT = 'vm.image_to_text'
+  IMAGE_TO_IMAGE = 'vm.image_to_image'
+  VIDEO_TO_TEXT = 'vm.video_to_text'
+  VIDEO_TO_TOKEN = 'vm.video_to_token'
+  TOKEN_TO_VIDEO = 'vm.token_to_video'
+
+
+class VisionService(model_service_base.ModelService):
+  """Shared VisionService implementation for differen RPC backends."""
+
+  def ParseMethodRPCRequest(self, method_name: str, request: Any) -> Any:
+    match method_name:
+      case VisionMethodName.CLASSIFY:
+        return {
+            'image_bytes': np.array(request.image_bytes, dtype=object)
+        }  # dtype=object for zero-copy
+      case VisionMethodName.TEXT_TO_IMAGE:
+        return request.text
+      case VisionMethodName.TEXT_AND_IMAGE_TO_IMAGE:
+        return {
+            'image_bytes': np.array(
+                request.image_bytes, dtype=object
+            ),  # dtype=object for zero-copy
+            'text': np.array(request.text),
+        }
+      case VisionMethodName.EMBED:
+        return {
+            'image_bytes': np.array(request.image_bytes, dtype=object)
+        }  # dtype=object for zero-copy
+      case VisionMethodName.DETECT:
+        boxes = [
+            (box.cx, box.cy, box.w, box.h) for box in request.boxes_of_interest
+        ]
+        return {
+            'image_bytes': np.array(
+                request.image_bytes, dtype=object
+            ),  # dtype=object for zero-copy
+            'text': np.array(request.text),
+            'boxes': np.array(boxes),
+        }
+      case VisionMethodName.IMAGE_TO_TEXT:
+        return {
+            'image_bytes': np.array(
+                request.image_bytes, dtype=object
+            ),  # dtype=object for zero-copy
+            'text': np.array(request.text),
+        }
+      case VisionMethodName.IMAGE_TO_IMAGE:
+        return {
+            'image_bytes': request.image_bytes,
+        }
+      case VisionMethodName.VIDEO_TO_TEXT:
+        return {
+            'image_frames': list(request.image_frames),
+            'text': np.array(request.text),
+        }
+      case VisionMethodName.VIDEO_TO_TOKEN:
+        return {
+            'image_frames': list(request.image_frames),
+        }
+      case VisionMethodName.TOKEN_TO_VIDEO:
+        return {
+            'tokens': list(request.tokens),
+        }
+      case _:
+        raise NotImplementedError(f'Method {method_name} unimplemented.')
+
+  def FillRPCResponse(
+      self, method_name: str, method_outputs: Any, response: Any
+  ) -> None:
+    match method_name:
+      case VisionMethodName.CLASSIFY:
+        # Convert tuple of labels / scores to output format.
+        texts, scores = method_outputs
+        for text, score in zip(texts, scores):
+          response.texts.append(vision_pb2.DecodedText(text=text, score=score))
+        return
+      case (
+          VisionMethodName.TEXT_TO_IMAGE
+          | VisionMethodName.TEXT_AND_IMAGE_TO_IMAGE
+      ):
+        images, scores = method_outputs
+        for image, score in zip(images, scores):
+          response.images.append(
+              vision_pb2.ImageGenerations(image=image, score=score)
+          )
+        return
+      case VisionMethodName.EMBED:
+        embeddings = method_outputs
+        embeddings = embeddings.reshape(-1)
+        if embeddings.dtype in [np.float32, np.double]:
+          response.embedding.extend(list(embeddings))
+        else:
+          raise NotImplementedError(
+              'EMBED does not support returned '
+              f'embeddings of type {embeddings.dtype}.'
+          )
+        return
+      case VisionMethodName.DETECT:
+        if len(method_outputs) == 3:
+          boxes, scores, texts = method_outputs
+          for box, score, text in zip(boxes, scores, texts):
+            response.bounding_boxes.append(
+                vision_pb2.BoundingBox(
+                    cx=box[0],
+                    cy=box[1],
+                    w=box[2],
+                    h=box[3],
+                    text=text,
+                    score=score,
+                )
+            )
+        elif len(method_outputs) == 4:
+          boxes, scores, texts, masks = method_outputs
+          for box, score, text, mask in zip(boxes, scores, texts, masks):
+            response.bounding_boxes.append(
+                vision_pb2.BoundingBox(
+                    cx=box[0],
+                    cy=box[1],
+                    w=box[2],
+                    h=box[3],
+                    text=text,
+                    score=score,
+                    mask=vision_pb2.DetectionMask(
+                        mask_height=mask[0],
+                        mask_width=mask[1],
+                        mask_values=mask[2],
+                    ),
+                )
+            )
+        return
+      case VisionMethodName.IMAGE_TO_TEXT:
+        texts, scores = method_outputs
+        for text, score in zip(texts, scores):
+          response.texts.append(vision_pb2.DecodedText(text=text, score=score))
+        return
+      case VisionMethodName.IMAGE_TO_IMAGE:
+        images, scores = method_outputs
+        for image, score in zip(images, scores):
+          response.images.append(
+              vision_pb2.ImageGenerations(image=image, score=score)
+          )
+        return
+      case VisionMethodName.VIDEO_TO_TEXT:
+        texts, scores = method_outputs
+        for text, score in zip(texts, scores):
+          response.texts.append(vision_pb2.DecodedText(text=text, score=score))
+        return
+      case VisionMethodName.VIDEO_TO_TOKEN:
+        # Reshape tokens from [T, H, W] -> [-1]
+        tokens = method_outputs.reshape(-1)
+        if tokens.dtype in [np.float32, np.float64]:
+          response.tokens.extend(list(tokens))
+        else:
+          raise NotImplementedError(
+              'VIDEO_TO_TOKEN does not support returned '
+              f'tokens of type {tokens.dtype}.'
+          )
+        return
+      case VisionMethodName.TOKEN_TO_VIDEO:
+        for image_frame in method_outputs:
+          response.image_frames.append(image_frame)
+        return
+      case _:
+        raise NotImplementedError(f'Method {method_name} unimplemented.')
+
+
+@model_service_base.register_service(SERVICE_ID)
+class VisionServiceGRPC(
+    model_service_base.ModelServiceGRPC,
+    VisionService,
+    vision_pb2_grpc.VisionServiceServicer,
+):
+  """gRPC VisionService."""
+
+  def ServiceName(self) -> str:
+    return vision_pb2.DESCRIPTOR.services_by_name['VisionService'].full_name
+
+  def AddToServer(self, server: Any) -> None:
+    vision_pb2_grpc.add_VisionServiceServicer_to_server(self, server)
+
+  async def Classify(self, request, context):
+    resp = vision_pb2.ClassifyResponse()
+    await self.EnqueueRequest(
+        VisionMethodName.CLASSIFY, request.model_key, context, request, resp
+    )
+    return resp
+
+  async def TextToImage(self, request, context):
+    resp = vision_pb2.TextToImageResponse()
+    await self.EnqueueRequest(
+        VisionMethodName.TEXT_TO_IMAGE,
+        request.model_key,
+        context,
+        request,
+        resp,
+    )
+    return resp
+
+  async def TextAndImageToImage(self, request, context):
+    resp = vision_pb2.TextAndImageToImageResponse()
+    await self.EnqueueRequest(
+        VisionMethodName.TEXT_AND_IMAGE_TO_IMAGE,
+        request.model_key,
+        context,
+        request,
+        resp,
+    )
+    return resp
+
+  async def Embed(self, request, context):
+    resp = vision_pb2.EmbedResponse()
+    await self.EnqueueRequest(
+        VisionMethodName.EMBED, request.model_key, context, request, resp
+    )
+    return resp
+
+  async def Detect(self, request, context):
+    resp = vision_pb2.DetectResponse()
+    await self.EnqueueRequest(
+        VisionMethodName.DETECT, request.model_key, context, request, resp
+    )
+    return resp
+
+  async def ImageToText(self, request, context):
+    resp = vision_pb2.ImageToTextResponse()
+    await self.EnqueueRequest(
+        VisionMethodName.IMAGE_TO_TEXT,
+        request.model_key,
+        context,
+        request,
+        resp,
+    )
+    return resp
+
+  async def ImageToImage(self, request, context):
+    resp = vision_pb2.ImageToImageResponse()
+    await self.EnqueueRequest(
+        VisionMethodName.IMAGE_TO_IMAGE,
+        request.model_key,
+        context,
+        request,
+        resp,
+    )
+    return resp
+
+  async def VideoToText(self, request, context):
+    resp = vision_pb2.VideoToTextResponse()
+    await self.EnqueueRequest(
+        VisionMethodName.VIDEO_TO_TEXT,
+        request.model_key,
+        context,
+        request,
+        resp,
+    )
+    return resp
+
+  async def VideoToToken(self, request, context):
+    resp = vision_pb2.VideoToTokenResponse()
+    await self.EnqueueRequest(
+        VisionMethodName.VIDEO_TO_TOKEN,
+        request.model_key,
+        context,
+        request,
+        resp,
+    )
+    return resp
+
+  async def TokenToVideo(self, request, context):
+    resp = vision_pb2.TokenToVideoResponse()
+    await self.EnqueueRequest(
+        VisionMethodName.TOKEN_TO_VIDEO,
+        request.model_key,
+        context,
+        request,
+        resp,
+    )
+    return resp

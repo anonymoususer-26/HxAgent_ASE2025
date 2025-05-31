@@ -1,0 +1,32 @@
+# Here are the history of your trials
+SUCCESS TRIAL #1: Task: Expand the section below and click submit.
+STEP #1: Click Section #3 tab
+STEP #2: Click Submit tab
+
+SUCCESS TRIAL #2: Task: Expand the section below and click submit.
+STEP #1: Click Section #26
+STEP #2: Click Submit tab
+
+SUCCESS TRIAL #3: Task: Expand the section below and click submit.
+STEP #1: Click Section #49 tab
+STEP #2: Click Submit tab
+
+SUCCESS TRIAL #4: Task: Expand the section below and click submit.
+STEP #1: Click Section #12 tab
+STEP #2: Click Submit
+
+SUCCESS TRIAL #5: Task: Expand the section below and click submit.
+STEP #1: Click Section #47
+STEP #2: Click Submit tab
+
+SUCCESS TRIAL #6: Task: Expand the section below and click submit.
+STEP #1: Click Section #17 tab
+STEP #2: Click Submit
+
+SUCCESS TRIAL #7: Task: Expand the section below and click submit.
+STEP #1: Click Section #32 tab
+STEP #2: Click Submit tab
+
+SUCCESS TRIAL #8: Task: Expand the section below and click submit.
+STEP #1: Click Section #40
+STEP #2: Click Submit tab

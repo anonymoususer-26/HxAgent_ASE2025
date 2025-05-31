@@ -1,0 +1,1493 @@
+=====================================
+Running task social-media-all
+=====================================
+############################ trial %s 1
+goal %s Click the "Retweet" button on all posts by @non and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Beverley</span>
+<span id=7 class="username" pos="top">@non</span>
+<div id=8 class="body" pos="center">Lobortis metus,. Faucibus libero massa.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Beverley</span>
+<span id=17 class="username" pos="center">@non</span>
+<div id=18 class="body" pos="center">Sed rhoncus, neque.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Beverley</span>
+<span id=27 class="username" pos="bottom">@non</span>
+<div id=28 class="body" pos="bottom">Velit cras odio.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<button id=35 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Retweet" button on all posts by @non and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=11  
+click id=21  
+click id=31  
+click id=35
+next action %s click id=11  
+action to execute %s click id=11  
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=31  
+action to execute %s click id=31  
+next action %s click id=35
+action to execute %s click id=35
+1 1
+total_plan_cnt 1 total_action_cnt 4
+success_plan_cnt_trial1 1 success_action_cnt_trial1 4
+############################ trial %s 1
+goal %s Click the "Share" button on all posts by @dolores and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Durham</span>
+<span id=7 class="username" pos="top">@dolores</span>
+<div id=8 class="body" pos="center">Ut. Dignissim.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Durham</span>
+<span id=17 class="username" pos="center">@dolores</span>
+<div id=18 class="body" pos="center">Posuere quis. Ullamcorper.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Durham</span>
+<span id=27 class="username" pos="bottom">@dolores</span>
+<div id=28 class="body" pos="bottom">Id ligula.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Durham</span>
+<span id=37 class="username" pos="bottom">@dolores</span>
+<div id=38 class="body" pos="bottom">Sit faucibus cras euismod. Eget.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<span id=46 class="name" pos="bottom left">Durham</span>
+<span id=47 class="username" pos="bottom">@dolores</span>
+<div id=48 class="body" pos="bottom">Ornare lectus facilisis.</div>
+<span id=50 class="reply" pos="bottom left"></span>
+<span id=51 class="retweet" pos="bottom"></span>
+<span id=52 class="like" pos="bottom"></span>
+<span id=53 class="share" pos="bottom right"></span>
+<button id=55 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Share" button on all posts by @dolores and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=13  
+click id=23  
+click id=33  
+click id=43  
+click id=53  
+click id=55
+next action %s click id=13  
+action to execute %s click id=13  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=33  
+action to execute %s click id=33  
+next action %s click id=43  
+action to execute %s click id=43  
+next action %s click id=53  
+action to execute %s click id=53  
+next action %s click id=55
+action to execute %s click id=55
+2 2
+total_plan_cnt 2 total_action_cnt 10
+success_plan_cnt_trial1 2 success_action_cnt_trial1 10
+############################ trial %s 1
+goal %s Click the "Retweet" button on all posts by @augus and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Boyle</span>
+<span id=7 class="username" pos="top left">@odio</span>
+<div id=8 class="body" pos="center">Suspendisse lectus at. Neque in.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Pittman</span>
+<span id=17 class="username" pos="center">@ut</span>
+<div id=18 class="body" pos="bottom">Ultricies. Massa massa. Pretium.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Lindsey</span>
+<span id=27 class="username" pos="bottom">@augus</span>
+<div id=28 class="body" pos="bottom">Rhoncus integer.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Boyle</span>
+<span id=37 class="username" pos="bottom left">@odio</span>
+<div id=38 class="body" pos="bottom">Eget vitae tellus interdum. Volutpat.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<span id=46 class="name" pos="bottom left">Craft</span>
+<span id=47 class="username" pos="bottom left">@nunc</span>
+<div id=48 class="body" pos="bottom">A tellus.</div>
+<span id=50 class="reply" pos="bottom left"></span>
+<span id=51 class="retweet" pos="bottom"></span>
+<span id=52 class="like" pos="bottom"></span>
+<span id=53 class="share" pos="bottom right"></span>
+<button id=55 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Retweet" button on all posts by @augus and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=31
+click id=55
+next action %s click id=31
+action to execute %s click id=31
+next action %s click id=55
+action to execute %s click id=55
+3 3
+total_plan_cnt 3 total_action_cnt 12
+success_plan_cnt_trial1 3 success_action_cnt_trial1 12
+############################ trial %s 1
+goal %s Click the "Like" button on all posts by @truman and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Sidoney</span>
+<span id=7 class="username" pos="top">@truman</span>
+<div id=8 class="body" pos="center">Consequat, amet venenatis, massa. Leo.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Moreno</span>
+<span id=17 class="username" pos="center">@ultricies</span>
+<div id=18 class="body" pos="center">A sagittis turpis tristique.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Faunie</span>
+<span id=27 class="username" pos="bottom">@urna</span>
+<div id=28 class="body" pos="bottom">Netus. Leo tempor.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<button id=35 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Like" button on all posts by @truman and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=12
+click id=35
+next action %s click id=12
+action to execute %s click id=12
+next action %s click id=35
+action to execute %s click id=35
+4 4
+total_plan_cnt 4 total_action_cnt 14
+success_plan_cnt_trial1 4 success_action_cnt_trial1 14
+############################ trial %s 1
+goal %s Click the "Reply" button on all posts by @tincidunt and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Chelsie</span>
+<span id=7 class="username" pos="top">@cierra</span>
+<div id=8 class="body" pos="center">Suspendisse senectus aliquam, dui aliquam.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Emelia</span>
+<span id=17 class="username" pos="center">@jerald</span>
+<div id=18 class="body" pos="bottom">Vestibulum, venenatis, dictum. Tristique.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Kiersten</span>
+<span id=27 class="username" pos="bottom">@enim</span>
+<div id=28 class="body" pos="bottom">In sagittis vitae.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Robbie</span>
+<span id=37 class="username" pos="bottom">@elementum</span>
+<div id=38 class="body" pos="bottom">Viverra morbi consequat quis a.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<span id=46 class="name" pos="bottom left">Lorilee</span>
+<span id=47 class="username" pos="bottom">@tincidunt</span>
+<div id=48 class="body" pos="bottom">Tortor tincidunt. Vitae.</div>
+<span id=50 class="reply" pos="bottom left"></span>
+<span id=51 class="retweet" pos="bottom"></span>
+<span id=52 class="like" pos="bottom"></span>
+<span id=53 class="share" pos="bottom right"></span>
+<button id=55 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Reply" button on all posts by @tincidunt and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=50
+click id=55
+next action %s click id=50
+action to execute %s click id=50
+next action %s click id=55
+action to execute %s click id=55
+5 5
+total_plan_cnt 5 total_action_cnt 16
+success_plan_cnt_trial1 5 success_action_cnt_trial1 16
+############################ trial %s 1
+goal %s Click the "Share" button on all posts by @quam and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Pruitt</span>
+<span id=7 class="username" pos="top left">@quam</span>
+<div id=8 class="body" pos="center">Quisque. Volutpat donec viverra fermentum.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Stanton</span>
+<span id=17 class="username" pos="center">@chas</span>
+<div id=18 class="body" pos="bottom">Tellus nullam. Scelerisque. Consectetur.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Pruitt</span>
+<span id=27 class="username" pos="bottom left">@quam</span>
+<div id=28 class="body" pos="bottom">Purus convallis.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Stanton</span>
+<span id=37 class="username" pos="bottom">@chas</span>
+<div id=38 class="body" pos="bottom">Integer egestas.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<span id=46 class="name" pos="bottom left">Pruitt</span>
+<span id=47 class="username" pos="bottom left">@quam</span>
+<div id=48 class="body" pos="bottom">Dictum id adipiscing velit. Convallis.</div>
+<span id=50 class="reply" pos="bottom left"></span>
+<span id=51 class="retweet" pos="bottom"></span>
+<span id=52 class="like" pos="bottom"></span>
+<span id=53 class="share" pos="bottom right"></span>
+<button id=55 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Share" button on all posts by @quam and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=13  
+click id=33  
+click id=53  
+click id=55
+next action %s click id=13  
+action to execute %s click id=13  
+next action %s click id=33  
+action to execute %s click id=33  
+next action %s click id=53  
+action to execute %s click id=53  
+next action %s click id=55
+action to execute %s click id=55
+6 6
+total_plan_cnt 6 total_action_cnt 20
+success_plan_cnt_trial1 6 success_action_cnt_trial1 20
+############################ trial %s 1
+goal %s Click the "Like" button on all posts by @velit and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Mercer</span>
+<span id=7 class="username" pos="top">@velit</span>
+<div id=8 class="body" pos="center">Platea consectetur. Dolor. Nunc aliquet.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Mercer</span>
+<span id=17 class="username" pos="center">@velit</span>
+<div id=18 class="body" pos="bottom">Tellus. Enim posuere faucibus.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Mercer</span>
+<span id=27 class="username" pos="bottom">@velit</span>
+<div id=28 class="body" pos="bottom">Varius. Semper aenean vivamus.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Mercer</span>
+<span id=37 class="username" pos="bottom">@velit</span>
+<div id=38 class="body" pos="bottom">Sed vitae.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<button id=45 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Like" button on all posts by @velit and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=12  
+click id=22  
+click id=32  
+click id=42  
+click id=45
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=22  
+action to execute %s click id=22  
+next action %s click id=32  
+action to execute %s click id=32  
+next action %s click id=42  
+action to execute %s click id=42  
+next action %s click id=45
+action to execute %s click id=45
+7 7
+total_plan_cnt 7 total_action_cnt 25
+success_plan_cnt_trial1 7 success_action_cnt_trial1 25
+############################ trial %s 1
+goal %s Click the "Share" button on all posts by @teodoro and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Maddox</span>
+<span id=7 class="username" pos="top">@teodoro</span>
+<div id=8 class="body" pos="center">Porttitor enim.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Maddox</span>
+<span id=17 class="username" pos="center">@teodoro</span>
+<div id=18 class="body" pos="center">Sit vitae. Pellentesque. Duis.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Maddox</span>
+<span id=27 class="username" pos="bottom">@teodoro</span>
+<div id=28 class="body" pos="bottom">Eu nullam suspendisse proin id.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Maddox</span>
+<span id=37 class="username" pos="bottom">@teodoro</span>
+<div id=38 class="body" pos="bottom">Lacus,. Dui ac.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<span id=46 class="name" pos="bottom left">Maddox</span>
+<span id=47 class="username" pos="bottom">@teodoro</span>
+<div id=48 class="body" pos="bottom">Ipsum augue morbi facilisi vulputate.</div>
+<span id=50 class="reply" pos="bottom left"></span>
+<span id=51 class="retweet" pos="bottom"></span>
+<span id=52 class="like" pos="bottom"></span>
+<span id=53 class="share" pos="bottom right"></span>
+<button id=55 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Share" button on all posts by @teodoro and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=13  
+click id=23  
+click id=33  
+click id=43  
+click id=53  
+click id=55
+next action %s click id=13  
+action to execute %s click id=13  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=33  
+action to execute %s click id=33  
+next action %s click id=43  
+action to execute %s click id=43  
+next action %s click id=53  
+action to execute %s click id=53  
+next action %s click id=55
+action to execute %s click id=55
+8 8
+total_plan_cnt 8 total_action_cnt 31
+success_plan_cnt_trial1 8 success_action_cnt_trial1 31
+############################ trial %s 1
+goal %s Click the "Retweet" button on all posts by @macie and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Maurita</span>
+<span id=7 class="username" pos="top">@neque</span>
+<div id=8 class="body" pos="center">Vulputate congue. Eu senectus.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Gaby</span>
+<span id=17 class="username" pos="left">@macie</span>
+<div id=18 class="body" pos="center">Hac volutpat.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Gaby</span>
+<span id=27 class="username" pos="bottom left">@macie</span>
+<div id=28 class="body" pos="bottom">Lacus justo.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Gaby</span>
+<span id=37 class="username" pos="bottom left">@macie</span>
+<div id=38 class="body" pos="bottom">Arcu, risus tortor, pellentesque.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<span id=46 class="name" pos="bottom left">Gaby</span>
+<span id=47 class="username" pos="bottom left">@macie</span>
+<div id=48 class="body" pos="bottom">Dis vel, donec.</div>
+<span id=50 class="reply" pos="bottom left"></span>
+<span id=51 class="retweet" pos="bottom"></span>
+<span id=52 class="like" pos="bottom"></span>
+<span id=53 class="share" pos="bottom right"></span>
+<button id=55 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Retweet" button on all posts by @macie and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=21  
+click id=31  
+click id=41  
+click id=51  
+click id=55
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=31  
+action to execute %s click id=31  
+next action %s click id=41  
+action to execute %s click id=41  
+next action %s click id=51  
+action to execute %s click id=51  
+next action %s click id=55
+action to execute %s click id=55
+9 9
+total_plan_cnt 9 total_action_cnt 36
+success_plan_cnt_trial1 9 success_action_cnt_trial1 36
+############################ trial %s 1
+goal %s Click the "Like" button on all posts by @pretium and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Carrillo</span>
+<span id=7 class="username" pos="top">@purus</span>
+<div id=8 class="body" pos="center">Vulputate duis.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Shaw</span>
+<span id=17 class="username" pos="center">@pretium</span>
+<div id=18 class="body" pos="center">Duis urna nunc, urna.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Carrillo</span>
+<span id=27 class="username" pos="bottom">@purus</span>
+<div id=28 class="body" pos="bottom">Et ut.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Shaw</span>
+<span id=37 class="username" pos="bottom">@pretium</span>
+<div id=38 class="body" pos="bottom">Risus sit. Pharetra.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<span id=46 class="name" pos="bottom left">Shaw</span>
+<span id=47 class="username" pos="bottom">@pretium</span>
+<div id=48 class="body" pos="bottom">Egestas nibh quam risus mauris.</div>
+<span id=50 class="reply" pos="bottom left"></span>
+<span id=51 class="retweet" pos="bottom"></span>
+<span id=52 class="like" pos="bottom"></span>
+<span id=53 class="share" pos="bottom right"></span>
+<button id=55 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Like" button on all posts by @pretium and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=22  
+click id=42  
+click id=52  
+click id=55
+next action %s click id=22  
+action to execute %s click id=22  
+next action %s click id=42  
+action to execute %s click id=42  
+next action %s click id=52  
+action to execute %s click id=52  
+next action %s click id=55
+action to execute %s click id=55
+10 10
+total_plan_cnt 10 total_action_cnt 40
+success_plan_cnt_trial1 10 success_action_cnt_trial1 40
+############################ trial %s 1
+goal %s Click the "Like" button on all posts by @beaulah and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Franklin</span>
+<span id=7 class="username" pos="top">@beaulah</span>
+<div id=8 class="body" pos="center">Dis sed viverra magna.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Franklin</span>
+<span id=17 class="username" pos="center">@beaulah</span>
+<div id=18 class="body" pos="center">Nulla velit.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Franklin</span>
+<span id=27 class="username" pos="bottom">@beaulah</span>
+<div id=28 class="body" pos="bottom">Facilisis vulputate facilisi.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<button id=35 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Like" button on all posts by @beaulah and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=12  
+click id=22  
+click id=32  
+click id=35
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=22  
+action to execute %s click id=22  
+next action %s click id=32  
+action to execute %s click id=32  
+next action %s click id=35
+action to execute %s click id=35
+11 11
+total_plan_cnt 11 total_action_cnt 44
+success_plan_cnt_trial1 11 success_action_cnt_trial1 44
+############################ trial %s 1
+goal %s Click the "Share" button on all posts by @leo and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Bowman</span>
+<span id=7 class="username" pos="top">@leo</span>
+<div id=8 class="body" pos="center">Eget. Sem.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Bowman</span>
+<span id=17 class="username" pos="center">@leo</span>
+<div id=18 class="body" pos="bottom">Sit volutpat aliquam consequat.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Bowman</span>
+<span id=27 class="username" pos="bottom">@leo</span>
+<div id=28 class="body" pos="bottom">Placerat pharetra neque.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Bowman</span>
+<span id=37 class="username" pos="bottom">@leo</span>
+<div id=38 class="body" pos="bottom">Purus pellentesque ac.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<button id=45 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Share" button on all posts by @leo and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=13  
+click id=23  
+click id=33  
+click id=43  
+click id=45
+next action %s click id=13  
+action to execute %s click id=13  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=33  
+action to execute %s click id=33  
+next action %s click id=43  
+action to execute %s click id=43  
+next action %s click id=45
+action to execute %s click id=45
+12 12
+total_plan_cnt 12 total_action_cnt 49
+success_plan_cnt_trial1 12 success_action_cnt_trial1 49
+############################ trial %s 1
+goal %s Click the "Share" button on all posts by @donec and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Delaney</span>
+<span id=7 class="username" pos="top">@donec</span>
+<div id=8 class="body" pos="center">Lectus pellentesque tempor elementum.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Delaney</span>
+<span id=17 class="username" pos="center">@donec</span>
+<div id=18 class="body" pos="center">Adipiscing sodales enim.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Delaney</span>
+<span id=27 class="username" pos="bottom">@donec</span>
+<div id=28 class="body" pos="bottom">Phasellus pretium nulla vulputate. Porttitor.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Delaney</span>
+<span id=37 class="username" pos="bottom">@donec</span>
+<div id=38 class="body" pos="bottom">Porttitor enim tincidunt mattis tellus.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<button id=45 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Share" button on all posts by @donec and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=13  
+click id=23  
+click id=33  
+click id=43  
+click id=45
+next action %s click id=13  
+action to execute %s click id=13  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=33  
+action to execute %s click id=33  
+next action %s click id=43  
+action to execute %s click id=43  
+next action %s click id=45
+action to execute %s click id=45
+13 13
+total_plan_cnt 13 total_action_cnt 54
+success_plan_cnt_trial1 13 success_action_cnt_trial1 54
+############################ trial %s 1
+goal %s Click the "Like" button on all posts by @nam and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Doris</span>
+<span id=7 class="username" pos="top left">@nam</span>
+<div id=8 class="body" pos="center">Ultrices sit. Massa massa. Risus.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Doris</span>
+<span id=17 class="username" pos="left">@nam</span>
+<div id=18 class="body" pos="center">Dolor ac.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Doris</span>
+<span id=27 class="username" pos="bottom left">@nam</span>
+<div id=28 class="body" pos="bottom">Tristique vulputate. Elit. Porta. Quis.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Doris</span>
+<span id=37 class="username" pos="bottom left">@nam</span>
+<div id=38 class="body" pos="bottom">Eu lorem purus ut.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<button id=45 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Like" button on all posts by @nam and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=12  
+click id=22  
+click id=32  
+click id=42  
+click id=45
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=22  
+action to execute %s click id=22  
+next action %s click id=32  
+action to execute %s click id=32  
+next action %s click id=42  
+action to execute %s click id=42  
+next action %s click id=45
+action to execute %s click id=45
+14 14
+total_plan_cnt 14 total_action_cnt 59
+success_plan_cnt_trial1 14 success_action_cnt_trial1 59
+############################ trial %s 1
+goal %s Click the "Retweet" button on all posts by @in and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Evelina</span>
+<span id=7 class="username" pos="top left">@in</span>
+<div id=8 class="body" pos="center">Sapien at proin proin.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Evelina</span>
+<span id=17 class="username" pos="left">@in</span>
+<div id=18 class="body" pos="center">Ac porta cras purus.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Evelina</span>
+<span id=27 class="username" pos="bottom left">@in</span>
+<div id=28 class="body" pos="bottom">Ultrices sed molestie.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<button id=35 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Retweet" button on all posts by @in and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=11  
+click id=21  
+click id=31  
+click id=35
+next action %s click id=11  
+action to execute %s click id=11  
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=31  
+action to execute %s click id=31  
+next action %s click id=35
+action to execute %s click id=35
+15 15
+total_plan_cnt 15 total_action_cnt 63
+success_plan_cnt_trial1 15 success_action_cnt_trial1 63
+############################ trial %s 1
+goal %s Click the "Like" button on all posts by @olin and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Angie</span>
+<span id=7 class="username" pos="top left">@olin</span>
+<div id=8 class="body" pos="center">Lorem nibh.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">House</span>
+<span id=17 class="username" pos="center">@adipiscing</span>
+<div id=18 class="body" pos="bottom">Platea adipiscing eget viverra diam.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">House</span>
+<span id=27 class="username" pos="bottom">@adipiscing</span>
+<div id=28 class="body" pos="bottom">Etiam quis tempor.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Angie</span>
+<span id=37 class="username" pos="bottom left">@olin</span>
+<div id=38 class="body" pos="bottom">Ac varius mauris nunc,. Nunc.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<button id=45 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Like" button on all posts by @olin and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=12  
+click id=42  
+click id=45
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=42  
+action to execute %s click id=42  
+next action %s click id=45
+action to execute %s click id=45
+16 16
+total_plan_cnt 16 total_action_cnt 66
+success_plan_cnt_trial1 16 success_action_cnt_trial1 66
+############################ trial %s 1
+goal %s Click the "Retweet" button on all posts by @maecenas and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Crista</span>
+<span id=7 class="username" pos="top">@maecenas</span>
+<div id=8 class="body" pos="center">Nunc. Ultricies lacinia.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Crista</span>
+<span id=17 class="username" pos="center">@maecenas</span>
+<div id=18 class="body" pos="bottom">Scelerisque enim, elementum morbi.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Crista</span>
+<span id=27 class="username" pos="bottom">@maecenas</span>
+<div id=28 class="body" pos="bottom">Blandit. In vulputate elementum nunc.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<button id=35 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Retweet" button on all posts by @maecenas and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=11  
+click id=21  
+click id=31  
+click id=35
+next action %s click id=11  
+action to execute %s click id=11  
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=31  
+action to execute %s click id=31  
+next action %s click id=35
+action to execute %s click id=35
+17 17
+total_plan_cnt 17 total_action_cnt 70
+success_plan_cnt_trial1 17 success_action_cnt_trial1 70
+############################ trial %s 1
+goal %s Click the "Reply" button on all posts by @annis and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Emerson</span>
+<span id=7 class="username" pos="top">@annis</span>
+<div id=8 class="body" pos="center">Ac, pharetra.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Emerson</span>
+<span id=17 class="username" pos="center">@annis</span>
+<div id=18 class="body" pos="center">Eget quis. At at.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Potter</span>
+<span id=27 class="username" pos="bottom left">@hac</span>
+<div id=28 class="body" pos="bottom">Tellus arcu, lacus.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Emerson</span>
+<span id=37 class="username" pos="bottom">@annis</span>
+<div id=38 class="body" pos="bottom">Phasellus commodo faucibus sem et.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<button id=45 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Reply" button on all posts by @annis and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=10  
+click id=20  
+click id=40  
+click id=45
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=20  
+action to execute %s click id=20  
+next action %s click id=40  
+action to execute %s click id=40  
+next action %s click id=45
+action to execute %s click id=45
+18 18
+total_plan_cnt 18 total_action_cnt 74
+success_plan_cnt_trial1 18 success_action_cnt_trial1 74
+############################ trial %s 1
+goal %s Click the "Like" button on all posts by @pretium and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Anny</span>
+<span id=7 class="username" pos="top">@pretium</span>
+<div id=8 class="body" pos="center">Etiam blandit dui urna.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Anny</span>
+<span id=17 class="username" pos="center">@pretium</span>
+<div id=18 class="body" pos="center">Bibendum. Pulvinar elit.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Anny</span>
+<span id=27 class="username" pos="bottom">@pretium</span>
+<div id=28 class="body" pos="bottom">Purus integer purus. Aliquam lorem.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Anny</span>
+<span id=37 class="username" pos="bottom">@pretium</span>
+<div id=38 class="body" pos="bottom">Nulla nam.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<button id=45 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Like" button on all posts by @pretium and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=12  
+click id=22  
+click id=32  
+click id=42  
+click id=45
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=22  
+action to execute %s click id=22  
+next action %s click id=32  
+action to execute %s click id=32  
+next action %s click id=42  
+action to execute %s click id=42  
+next action %s click id=45
+action to execute %s click id=45
+19 19
+total_plan_cnt 19 total_action_cnt 79
+success_plan_cnt_trial1 19 success_action_cnt_trial1 79
+############################ trial %s 1
+goal %s Click the "Like" button on all posts by @odio and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Nanny</span>
+<span id=7 class="username" pos="top left">@odio</span>
+<div id=8 class="body" pos="center">Nisl in placerat interdum.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Carrillo</span>
+<span id=17 class="username" pos="left">@ut</span>
+<div id=18 class="body" pos="center">Dui. Tellus metus viverra.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Frazier</span>
+<span id=27 class="username" pos="bottom">@donovan</span>
+<div id=28 class="body" pos="bottom">Fermentum lectus.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Carrillo</span>
+<span id=37 class="username" pos="bottom left">@ut</span>
+<div id=38 class="body" pos="bottom">Fringilla eleifend. Ultrices nisl.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<span id=46 class="name" pos="bottom left">Sexton</span>
+<span id=47 class="username" pos="bottom">@donec</span>
+<div id=48 class="body" pos="bottom">Cras feugiat. Ut.</div>
+<span id=50 class="reply" pos="bottom left"></span>
+<span id=51 class="retweet" pos="bottom"></span>
+<span id=52 class="like" pos="bottom"></span>
+<span id=53 class="share" pos="bottom right"></span>
+<button id=55 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Like" button on all posts by @odio and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=12
+click id=55
+next action %s click id=12
+action to execute %s click id=12
+next action %s click id=55
+action to execute %s click id=55
+20 20
+total_plan_cnt 20 total_action_cnt 81
+success_plan_cnt_trial1 20 success_action_cnt_trial1 81
+############################ trial %s 1
+goal %s Click the "Share" button on all posts by @livia and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Kinney</span>
+<span id=7 class="username" pos="top">@livia</span>
+<div id=8 class="body" pos="center">Nulla nibh non. Turpis.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Kinney</span>
+<span id=17 class="username" pos="center">@livia</span>
+<div id=18 class="body" pos="bottom">Arcu. Arcu. Pulvinar etiam tristique.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Kinney</span>
+<span id=27 class="username" pos="bottom">@livia</span>
+<div id=28 class="body" pos="bottom">Blandit dui, quam. Erat.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Kinney</span>
+<span id=37 class="username" pos="bottom">@livia</span>
+<div id=38 class="body" pos="bottom">Ac ut ullamcorper at. Purus.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<button id=45 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Share" button on all posts by @livia and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=13  
+click id=23  
+click id=33  
+click id=43  
+click id=45
+next action %s click id=13  
+action to execute %s click id=13  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=33  
+action to execute %s click id=33  
+next action %s click id=43  
+action to execute %s click id=43  
+next action %s click id=45
+action to execute %s click id=45
+21 21
+total_plan_cnt 21 total_action_cnt 86
+success_plan_cnt_trial1 21 success_action_cnt_trial1 86
+############################ trial %s 1
+goal %s Click the "Like" button on all posts by @feugiat and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Watson</span>
+<span id=7 class="username" pos="top">@feugiat</span>
+<div id=8 class="body" pos="center">Dolor leo orci massa.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Watson</span>
+<span id=17 class="username" pos="center">@feugiat</span>
+<div id=18 class="body" pos="bottom">Quisque. Malesuada dictumst sed imperdiet.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Watson</span>
+<span id=27 class="username" pos="bottom">@feugiat</span>
+<div id=28 class="body" pos="bottom">Massa imperdiet.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Watson</span>
+<span id=37 class="username" pos="bottom">@feugiat</span>
+<div id=38 class="body" pos="bottom">At nec. Odio.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<span id=46 class="name" pos="bottom left">Watson</span>
+<span id=47 class="username" pos="bottom">@feugiat</span>
+<div id=48 class="body" pos="bottom">Volutpat dui, nisl id. Porttitor.</div>
+<span id=50 class="reply" pos="bottom left"></span>
+<span id=51 class="retweet" pos="bottom"></span>
+<span id=52 class="like" pos="bottom"></span>
+<span id=53 class="share" pos="bottom right"></span>
+<button id=55 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Like" button on all posts by @feugiat and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=12  
+click id=22  
+click id=32  
+click id=42  
+click id=52  
+click id=55
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=22  
+action to execute %s click id=22  
+next action %s click id=32  
+action to execute %s click id=32  
+next action %s click id=42  
+action to execute %s click id=42  
+next action %s click id=52  
+action to execute %s click id=52  
+next action %s click id=55
+action to execute %s click id=55
+22 22
+total_plan_cnt 22 total_action_cnt 92
+success_plan_cnt_trial1 22 success_action_cnt_trial1 92
+############################ trial %s 1
+goal %s Click the "Share" button on all posts by @sem and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Eyde</span>
+<span id=7 class="username" pos="top left">@sem</span>
+<div id=8 class="body" pos="center">Congue consectetur.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Eyde</span>
+<span id=17 class="username" pos="left">@sem</span>
+<div id=18 class="body" pos="center">Tellus fermentum.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Eyde</span>
+<span id=27 class="username" pos="bottom left">@sem</span>
+<div id=28 class="body" pos="bottom">Enim ut. Ut.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<button id=35 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Share" button on all posts by @sem and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=13  
+click id=23  
+click id=33  
+click id=35
+next action %s click id=13  
+action to execute %s click id=13  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=33  
+action to execute %s click id=33  
+next action %s click id=35
+action to execute %s click id=35
+23 23
+total_plan_cnt 23 total_action_cnt 96
+success_plan_cnt_trial1 23 success_action_cnt_trial1 96
+############################ trial %s 1
+goal %s Click the "Share" button on all posts by @tristique and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Hunter</span>
+<span id=7 class="username" pos="top">@tristique</span>
+<div id=8 class="body" pos="center">Et amet,. Urna.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Hunter</span>
+<span id=17 class="username" pos="center">@tristique</span>
+<div id=18 class="body" pos="center">Posuere arcu nunc.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Bridie</span>
+<span id=27 class="username" pos="bottom">@cheree</span>
+<div id=28 class="body" pos="bottom">Nisl rhoncus.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Hunter</span>
+<span id=37 class="username" pos="bottom">@tristique</span>
+<div id=38 class="body" pos="bottom">Pretium, maecenas at risus tincidunt.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<button id=45 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Share" button on all posts by @tristique and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=13  
+click id=23  
+click id=43  
+click id=45
+next action %s click id=13  
+action to execute %s click id=13  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=43  
+action to execute %s click id=43  
+next action %s click id=45
+action to execute %s click id=45
+24 24
+total_plan_cnt 24 total_action_cnt 100
+success_plan_cnt_trial1 24 success_action_cnt_trial1 100
+############################ trial %s 1
+goal %s Click the "Like" button on all posts by @nunc and then click Submit.
+cur_plan_prompt %s You are operating a computer for a task: social-media-all. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<span id=6 class="name" pos="top left">Ayn</span>
+<span id=7 class="username" pos="top left">@nunc</span>
+<div id=8 class="body" pos="center">A, mauris.</div>
+<span id=10 class="reply" pos="left"></span>
+<span id=11 class="retweet" pos="center"></span>
+<span id=12 class="like" pos="center"></span>
+<span id=13 class="share" pos="right"></span>
+<span id=16 class="name" pos="left">Keith</span>
+<span id=17 class="username" pos="left">@et</span>
+<div id=18 class="body" pos="center">Malesuada. Nunc, tempus.</div>
+<span id=20 class="reply" pos="bottom left"></span>
+<span id=21 class="retweet" pos="bottom"></span>
+<span id=22 class="like" pos="bottom"></span>
+<span id=23 class="share" pos="bottom right"></span>
+<span id=26 class="name" pos="bottom left">Keith</span>
+<span id=27 class="username" pos="bottom left">@et</span>
+<div id=28 class="body" pos="bottom">Risus. Molestie imperdiet enim interdum.</div>
+<span id=30 class="reply" pos="bottom left"></span>
+<span id=31 class="retweet" pos="bottom"></span>
+<span id=32 class="like" pos="bottom"></span>
+<span id=33 class="share" pos="bottom right"></span>
+<span id=36 class="name" pos="bottom left">Ayn</span>
+<span id=37 class="username" pos="bottom left">@nunc</span>
+<div id=38 class="body" pos="bottom">Eu. Vitae bibendum bibendum.</div>
+<span id=40 class="reply" pos="bottom left"></span>
+<span id=41 class="retweet" pos="bottom"></span>
+<span id=42 class="like" pos="bottom"></span>
+<span id=43 class="share" pos="bottom right"></span>
+<span id=46 class="name" pos="bottom left">Ayn</span>
+<span id=47 class="username" pos="bottom left">@nunc</span>
+<div id=48 class="body" pos="bottom">Sed risus.</div>
+<span id=50 class="reply" pos="bottom left"></span>
+<span id=51 class="retweet" pos="bottom"></span>
+<span id=52 class="like" pos="bottom"></span>
+<span id=53 class="share" pos="bottom right"></span>
+<button id=55 pos="bottom">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Click the "Like" button on all posts by @nunc and then click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=12  
+click id=42  
+click id=52  
+click id=55
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=42  
+action to execute %s click id=42  
+next action %s click id=52  
+action to execute %s click id=52  
+next action %s click id=55
+action to execute %s click id=55
+25 25
+total_plan_cnt 25 total_action_cnt 104
+success_plan_cnt_trial1 25 success_action_cnt_trial1 104

@@ -1,0 +1,120 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Select ZMhn, LU, QMz, hIUXfQq, LEb9SX4, S4, Byrc4nt and click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch8', 'type': 'checkbox'}, 'text': 'ZMhn'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch5', 'type': 'checkbox'}, 'text': 'LU'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'ch6', 'type': 'checkbox'}, 'text': 'QMz'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'ch0', 'type': 'checkbox'}, 'text': 'hIUXfQq'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'id': 'ch3', 'type': 'checkbox'}, 'text': 'LEb9SX4'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'id': 'ch2', 'type': 'checkbox'}, 'text': 'S4'}}
+> STEP #7: {'operation': 'click', 'target object': {'attributes': {'id': 'ch4', 'type': 'checkbox'}, 'text': 'Byrc4nt'}}
+> STEP #8: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #2: Task: Select hyK, bs, QK6cNs, zrt9Ff6, l8f0bGy, X6W5r, ThTJr, VkEp, WMIYM, ZTdCm, IYNJy and click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch7', 'type': 'checkbox'}, 'text': 'hyK'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch8', 'type': 'checkbox'}, 'text': 'bs'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'ch10', 'type': 'checkbox'}, 'text': 'QK6cNs'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'ch11', 'type': 'checkbox'}, 'text': 'zrt9Ff6'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'id': 'ch2', 'type': 'checkbox'}, 'text': 'l8f0bGy'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'id': 'ch6', 'type': 'checkbox'}, 'text': 'X6W5r'}}
+> STEP #7: {'operation': 'click', 'target object': {'attributes': {'id': 'ch4', 'type': 'checkbox'}, 'text': 'ThTJr'}}
+> STEP #8: {'operation': 'click', 'target object': {'attributes': {'id': 'ch0', 'type': 'checkbox'}, 'text': 'VkEp'}}
+> STEP #9: {'operation': 'click', 'target object': {'attributes': {'id': 'ch1', 'type': 'checkbox'}, 'text': 'WMIYM'}}
+> STEP #10: {'operation': 'click', 'target object': {'attributes': {'id': 'ch3', 'type': 'checkbox'}, 'text': 'ZTdCm'}}
+> STEP #11: {'operation': 'click', 'target object': {'attributes': {'id': 'ch5', 'type': 'checkbox'}, 'text': 'IYNJy'}}
+> STEP #12: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #3: Task: Select sKh, hjX9nu, h8Jf6qv, vpjicP, s585, HWyw, axEDwH7 and click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch9', 'type': 'checkbox'}, 'text': 'sKh'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch8', 'type': 'checkbox'}, 'text': 'hjX9nu'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'ch5', 'type': 'checkbox'}, 'text': 'h8Jf6qv'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'ch7', 'type': 'checkbox'}, 'text': 'vpjicP'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'id': 'ch0', 'type': 'checkbox'}, 'text': 's585'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'id': 'ch6', 'type': 'checkbox'}, 'text': 'HWyw'}}
+> STEP #7: {'operation': 'click', 'target object': {'attributes': {'id': 'ch1', 'type': 'checkbox'}, 'text': 'axEDwH7'}}
+> STEP #8: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #4: Task: Select Mni, AzeB8S, E5z, S4Jiw, Gl8 and click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch9', 'type': 'checkbox'}, 'text': 'Mni'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch0', 'type': 'checkbox'}, 'text': 'AzeB8S'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'ch8', 'type': 'checkbox'}, 'text': 'E5z'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'ch6', 'type': 'checkbox'}, 'text': 'S4Jiw'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'id': 'ch1', 'type': 'checkbox'}, 'text': 'Gl8'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #5: Task: Select pgDHBa, lsvS7i, 0koY, BYnzH, kNcHh, jW, tszSRE1, OpmpMgp, xH0bn, KilnY and click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch0', 'type': 'checkbox'}, 'text': 'pgDHBa'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch6', 'type': 'checkbox'}, 'text': 'lsvS7i'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'ch7', 'type': 'checkbox'}, 'text': '0koY'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'ch2', 'type': 'checkbox'}, 'text': 'BYnzH'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'id': 'ch9', 'type': 'checkbox'}, 'text': 'kNcHh'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'id': 'ch8', 'type': 'checkbox'}, 'text': 'jW'}}
+> STEP #7: {'operation': 'click', 'target object': {'attributes': {'id': 'ch5', 'type': 'checkbox'}, 'text': 'tszSRE1'}}
+> STEP #8: {'operation': 'click', 'target object': {'attributes': {'id': 'ch4', 'type': 'checkbox'}, 'text': 'OpmpMgp'}}
+> STEP #9: {'operation': 'click', 'target object': {'attributes': {'id': 'ch1', 'type': 'checkbox'}, 'text': 'xH0bn'}}
+> STEP #10: {'operation': 'click', 'target object': {'attributes': {'id': 'ch3', 'type': 'checkbox'}, 'text': 'KilnY'}}
+> STEP #11: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #6: Task: Select sUNA, Og, KcflOrU, Sbd4, 4sWv9rq, bqTCXjt, vTEG and click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch1', 'type': 'checkbox'}, 'text': 'sUNA'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch5', 'type': 'checkbox'}, 'text': 'Og'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'ch6', 'type': 'checkbox'}, 'text': 'KcflOrU'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'ch3', 'type': 'checkbox'}, 'text': 'Sbd4'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'id': 'ch4', 'type': 'checkbox'}, 'text': '4sWv9rq'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'id': 'ch0', 'type': 'checkbox'}, 'text': 'bqTCXjt'}}
+> STEP #7: {'operation': 'click', 'target object': {'attributes': {'id': 'ch2', 'type': 'checkbox'}, 'text': 'vTEG'}}
+> STEP #8: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #7: Task: Select 1m4J, LZqDw, P7P, JeJdCs, 7g3, cjDOxIx, hawTIW, jLNxd, ac and click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch6', 'type': 'checkbox'}, 'text': '1m4J'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch3', 'type': 'checkbox'}, 'text': 'LZqDw'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'ch8', 'type': 'checkbox'}, 'text': 'P7P'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'ch7', 'type': 'checkbox'}, 'text': 'JeJdCs'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'id': 'ch5', 'type': 'checkbox'}, 'text': '7g3'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'id': 'ch4', 'type': 'checkbox'}, 'text': 'cjDOxIx'}}
+> STEP #7: {'operation': 'click', 'target object': {'attributes': {'id': 'ch10', 'type': 'checkbox'}, 'text': 'hawTIW'}}
+> STEP #8: {'operation': 'click', 'target object': {'attributes': {'id': 'ch1', 'type': 'checkbox'}, 'text': 'jLNxd'}}
+> STEP #9: {'operation': 'click', 'target object': {'attributes': {'id': 'ch9', 'type': 'checkbox'}, 'text': 'ac'}}
+> STEP #10: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #8: Task: Select PF4nJW, 2qt0U, yquiKU, z01, 33303X and click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch0', 'type': 'checkbox'}, 'text': 'PF4nJW'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch1', 'type': 'checkbox'}, 'text': '33303X'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'ch3', 'type': 'checkbox'}, 'text': '2qt0U'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'ch6', 'type': 'checkbox'}, 'text': 'z01'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'id': 'ch7', 'type': 'checkbox'}, 'text': 'yquiKU'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #9: Task: Select nX, oHUywem, dpT, PA, fJ36m3T, pzyBC, uZbACm2, 75pr1Kh, AuT, FX, h6, Jr and click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch5', 'type': 'checkbox'}, 'text': 'nX'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch2', 'type': 'checkbox'}, 'text': 'oHUywem'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'ch7', 'type': 'checkbox'}, 'text': 'dpT'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'ch6', 'type': 'checkbox'}, 'text': 'PA'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'id': 'ch8', 'type': 'checkbox'}, 'text': 'fJ36m3T'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'id': 'ch4', 'type': 'checkbox'}, 'text': 'pzyBC'}}
+> STEP #7: {'operation': 'click', 'target object': {'attributes': {'id': 'ch9', 'type': 'checkbox'}, 'text': 'uZbACm2'}}
+> STEP #8: {'operation': 'click', 'target object': {'attributes': {'id': 'ch10', 'type': 'checkbox'}, 'text': '75pr1Kh'}}
+> STEP #9: {'operation': 'click', 'target object': {'attributes': {'id': 'ch1', 'type': 'checkbox'}, 'text': 'AuT'}}
+> STEP #10: {'operation': 'click', 'target object': {'attributes': {'id': 'ch3', 'type': 'checkbox'}, 'text': 'FX'}}
+> STEP #11: {'operation': 'click', 'target object': {'attributes': {'id': 'ch0', 'type': 'checkbox'}, 'text': 'h6'}}
+> STEP #12: {'operation': 'click', 'target object': {'attributes': {'id': 'ch11', 'type': 'checkbox'}, 'text': 'Jr'}}
+> STEP #13: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #10: Task: Select ZMhn, LU, QMz, hIUXfQq, LEb9SX4, S4, Byrc4nt and click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch8', 'type': 'checkbox'}, 'text': 'ZMhn'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch5', 'type': 'checkbox'}, 'text': 'LU'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'ch6', 'type': 'checkbox'}, 'text': 'QMz'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'ch0', 'type': 'checkbox'}, 'text': 'hIUXfQq'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'id': 'ch3', 'type': 'checkbox'}, 'text': 'LEb9SX4'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'id': 'ch2', 'type': 'checkbox'}, 'text': 'S4'}}
+> STEP #7: {'operation': 'click', 'target object': {'attributes': {'id': 'ch4', 'type': 'checkbox'}, 'text': 'Byrc4nt'}}
+> STEP #8: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #11: Task: Select ZLUoQI, A5, DpvJ, fZA, q5h, jjG8wE and click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch0', 'type': 'checkbox'}, 'text': 'ZLUoQI'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch5', 'type': 'checkbox'}, 'text': 'A5'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'ch6', 'type': 'checkbox'}, 'text': 'DpvJ'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'ch3', 'type': 'checkbox'}, 'text': 'fZA'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'id': 'ch2', 'type': 'checkbox'}, 'text': 'q5h'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'id': 'ch4', 'type': 'checkbox'}, 'text': 'jjG8wE'}}
+> STEP #7: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}

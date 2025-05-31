@@ -1,0 +1,7 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Expand the section below and click submit. 
+
+> STATE #1: No steps have been taken yet; you are at the starting screen.The webpage displays a section labeled 'Section #14' with a blue button next to it. Below this section, there is a 'Submit' button. The right side of the page shows statistics such as 'Last reward', 'Last 10 average', 'Time left: 1000 / 1000sec', and 'Episodes done: 0'.
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-controls': 'ui-id-2', 'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-1', 'role': 'tab', 'tabindex': '0'}, 'text': 'Section #14'}}
+> STATE #2: The section labeled 'Section #14' was expanded.The section 'Section #14' is now expanded, displaying some placeholder text. The 'Submit' button is visible below the section. On the right, statistics such as 'Last reward', 'Last 10 average', 'Time left: 990 / 1000sec', and 'Episodes done: 0' are shown.
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-expanded': 'false', 'aria-selected': 'false', 'class': 'ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons', 'id': 'ui-id-3', 'role': 'tab', 'style': 'margin: 16px 14px;', 'tabindex': '-1'}, 'text': 'Submit'}}

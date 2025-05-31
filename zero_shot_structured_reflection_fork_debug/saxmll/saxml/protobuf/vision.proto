@@ -1,0 +1,233 @@
+// Copyright 2022 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+// This API is experimental and under-development.
+
+syntax = "proto3";
+
+package sax.server.vision;
+
+import "saxml/protobuf/common.proto";
+
+message ClassifyRequest {
+  string model_key = 1;
+  bytes image_bytes = 2;
+  .sax.ExtraInputs extra_inputs = 3;
+}
+
+message DecodedText {
+  // The label of the classified object.
+  string text = 1;
+
+  // The score of the classified object.
+  double score = 2;
+}
+
+message ClassifyResponse {
+  repeated DecodedText texts = 1;
+}
+
+message TextToImageRequest {
+  string model_key = 1;
+  string text = 2;
+  .sax.ExtraInputs extra_inputs = 3;
+}
+
+message TextAndImageToImageRequest {
+  string model_key = 1;
+  string text = 2;
+  bytes image_bytes = 4;
+  .sax.ExtraInputs extra_inputs = 3;
+}
+
+message ImageGenerations {
+  // The generated image in byte array format.
+  // TODO(jianlijianli): decide on a image encoding format; Currently PNG.
+  bytes image = 1;
+  // The score for the generated image.
+  double score = 2;
+}
+
+message TextToImageResponse {
+  repeated ImageGenerations images = 2;
+}
+
+message TextAndImageToImageResponse {
+  repeated ImageGenerations images = 2;
+}
+
+message EmbedRequest {
+  string model_key = 1;
+  bytes image_bytes = 2;
+  .sax.ExtraInputs extra_inputs = 3;
+}
+
+message EmbedResponse {
+  repeated double embedding = 1 [packed = true];
+}
+
+message DetectionMask {
+  // mask represents a C-order 2-D uint8 array.
+  // The array's dimension are given by [mask_height, mask_width].
+  // mask[i, j] / 255 represents the probability of the pixel being in the
+  // segment (the range [0,1] was scaled to [0, 255] for compression).
+  bytes mask_values = 1;
+
+  int32 mask_height = 2;
+  int32 mask_width = 3;
+}
+
+message BoundingBox {
+  // Coordinates are in pixel space.
+  // Upper left corner of the image represents (0.0, 0.0)
+  // Bottom right corner of the image represents (image_width, image_height)
+  double cx = 1;
+  double cy = 2;
+  double w = 3;
+  double h = 4;
+
+  // A label for the bounding box object.
+  string text = 5;
+
+  // A positive number which represents the ranking (the higher the better)
+  // of the bounding boxes. The semantic meaning of the score is left for
+  // each model to define.
+  double score = 6;
+
+  // A mask for the bounding box, indicating which pixels belong to the object.
+  // Note that the mask is optional, but cx/cy/w/h must be set.
+
+  // When a mask is present, it only contains values inside the bounding box
+  // defined by cx,cy,w,h. I.e.:
+  // mask[i, j] corresponding the image pixel[cx - w/2 + i, cy - h / 2 + j],
+  // where cx,cy,w,h are given in the BoundingBox.
+  // Outside the bounding box the mask is always zero. This enables sending
+  // smaller mask sizes, since the mask size is only the bounding box size.
+  // E.g. MaskRCNN returns masks that are always 28x28 pixels, and they resized
+  // by third_party/cloud_tpu/models/detection/utils/mask_utils.py.
+  DetectionMask mask = 7;
+}
+
+message DetectRequest {
+  string model_key = 1;
+  bytes image_bytes = 2;
+
+  // For open-set detection models, one can pass specified sets here.
+  // Elements in `text` describe concepts in the image that should be
+  // detected; it is up to the detection model to interpret these texts.
+  // Some detection models may interpret the text to be object names, and
+  // the corresponding response.bounding_boxes.text must be one of the
+  // given text elements.
+  repeated string text = 4;
+
+  // Optionally accept box inputs to predict region class labels.
+  // The boxes are N regions of interest in the image.
+  // The .text and .score fields should be unset.
+  repeated BoundingBox boxes_of_interest = 5;
+
+  .sax.ExtraInputs extra_inputs = 3;
+}
+
+message DetectResponse {
+  // A list of bounding boxes.  The bounding boxes have no explicit order.
+  repeated BoundingBox bounding_boxes = 1;
+}
+
+message ImageToTextRequest {
+  string model_key = 1;
+  bytes image_bytes = 2;
+  // Optional prefix text.
+  string text = 3;
+  .sax.ExtraInputs extra_inputs = 4;
+}
+
+message ImageToTextResponse {
+  repeated DecodedText texts = 1;
+}
+
+message ImageToImageRequest {
+  string model_key = 1;
+  bytes image_bytes = 2;
+  .sax.ExtraInputs extra_inputs = 4;
+}
+
+message ImageToImageResponse {
+  repeated ImageGenerations images = 2;
+}
+
+message VideoToTextRequest {
+  string model_key = 1;
+  repeated bytes image_frames = 2;
+  // Optional prefix text.
+  string text = 3;
+  .sax.ExtraInputs extra_inputs = 4;
+}
+
+message VideoToTextResponse {
+  repeated DecodedText texts = 1;
+}
+
+message VideoToTokenRequest {
+  string model_key = 1;
+  repeated bytes image_frames = 2;  // Video composed of multiple image frames.
+  .sax.ExtraInputs extra_inputs = 3;
+}
+
+message VideoToTokenResponse {
+  repeated double tokens = 1;  // quantized or soft tokens.
+}
+
+message TokenToVideoRequest {
+  string model_key = 1;
+  repeated double tokens = 2;  // quantized or soft tokens.
+  .sax.ExtraInputs extra_inputs = 3;
+}
+
+message TokenToVideoResponse {
+  repeated bytes image_frames = 2;  // Video composed of multiple image frames.
+}
+
+service VisionService {
+  // Returns the score (e.g., log pplx) given the text.
+  rpc Classify(ClassifyRequest) returns (ClassifyResponse);
+
+  // Returns image generation results given the text.
+  rpc TextToImage(TextToImageRequest) returns (TextToImageResponse);
+
+  // Returns image generation results given the text and image.
+  rpc TextAndImageToImage(TextAndImageToImageRequest)
+      returns (TextAndImageToImageResponse);
+
+  // Returns an image embedding given an image.
+  rpc Embed(EmbedRequest) returns (EmbedResponse);
+
+  // Returns bounding box, label, and the score of objects detected given an
+  // image.
+  rpc Detect(DetectRequest) returns (DetectResponse);
+
+  // Returns text generation results given image_bytes.
+  rpc ImageToText(ImageToTextRequest) returns (ImageToTextResponse);
+
+  // Returns image generation results given image_bytes.
+  rpc ImageToImage(ImageToImageRequest) returns (ImageToImageResponse);
+
+  // Returns text generation results given video.
+  rpc VideoToText(VideoToTextRequest) returns (VideoToTextResponse);
+
+  // Returns video tokens results given video (tokenization).
+  rpc VideoToToken(VideoToTokenRequest) returns (VideoToTokenResponse);
+
+  // Returns video bytes results given video tokens (de-tokenization).
+  rpc TokenToVideo(TokenToVideoRequest) returns (TokenToVideoResponse);
+}

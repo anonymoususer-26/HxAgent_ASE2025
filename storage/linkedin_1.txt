@@ -1,0 +1,7 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Login with username abc@gmail.com and password 123456789 
+
+> STEP #1: {'operation': 'click', 'target object': {'text': 'Sign in with email'}}
+> STEP #2: {'operation': 'input', 'target object': {'attributes': {'aria-describedby': 'error-for-username', 'aria-label': 'Email or phone', 'autocomplete': 'username webauthn', 'autofocus': '', 'id': 'username', 'name': 'session_key', 'required': '', 'type': 'text', 'validation': 'email|tel', 'value': ''}}, 'content': 'abc@gmail.com'}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'aria-describedby': 'error-for-password', 'aria-label': 'Password', 'autocomplete': 'current-password', 'id': 'password', 'name': 'session_password', 'required': '', 'type': 'password', 'validation': 'password'}}, 'content': '123456789'}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'aria-label': 'Sign in'}, 'text': 'Sign in'}}

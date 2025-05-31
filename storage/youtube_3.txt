@@ -1,0 +1,13 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Go to Watch later section and click the first video 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-label': 'Guide'}}}
+> STEP #2: {'operation': 'click', 'target object': {'text': 'You'}}
+> STEP #3: {'operation': 'click', 'target object': {'icon': 'style-scope ytd-shelf-renderer', 'text': 'Watch later'}}
+> STEP #4: {'operation': 'click', 'target object': {'text': '“This is how you get rich.” - Steve Harvey'}}
+SUCCESSFUL TRIAL #2: Task: Go to Watch later section and click the second video 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'aria-label': 'Guide'}}}
+> STEP #2: {'operation': 'click', 'target object': {'icon': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape', 'text': 'You'}}
+> STEP #3: {'operation': 'click', 'target object': {'icon': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape', 'text': 'Watch later'}}
+> STEP #4: {'operation': 'click', 'target object': {'text': "If I had ONE message to the world... It'd be this."}}

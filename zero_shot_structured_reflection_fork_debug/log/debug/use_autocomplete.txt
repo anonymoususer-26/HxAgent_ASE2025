@@ -1,0 +1,2843 @@
+=====================================
+Running task use-autocomplete
+=====================================
+############################ trial %s 1
+goal %s Enter an item that starts with "Ber" and ends with "uda".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Ber" and ends with "uda".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Ber" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Ber" to id=5  
+action to execute %s enter "Ber" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+1 1
+total_plan_cnt 1 total_action_cnt 4
+success_plan_cnt_trial1 1 success_action_cnt_trial1 4
+############################ trial %s 1
+goal %s Enter an item that starts with "Slo".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Slo".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Slo" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Slo" to id=5  
+action to execute %s enter "Slo" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+2 2
+total_plan_cnt 2 total_action_cnt 8
+success_plan_cnt_trial1 2 success_action_cnt_trial1 8
+############################ trial %s 1
+goal %s Enter an item that starts with "Niue" and ends with "Niue".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Niue" and ends with "Niue".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Niue" to id=5  
+press ENTER  
+click id=6
+next action %s enter "Niue" to id=5  
+action to execute %s enter "Niue" to id=5  
+next action %s press ENTER  
+action to execute %s press ENTER  
+no change, moving to the next iteration.
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Niue" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Niue" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Niue</div>
+<div id=11 pos="bottom left">1 result is available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: press ENTER  
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Niue" and ends with "Niue".
+
+However, your last action did not cause anything to change on the last screen. You probably used the wrong action type. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=2, you should click id=10
+############################ trial %s 2
+goal %s Enter an item that starts with "Niue" and ends with "Niue".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Niue" and ends with "Niue".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Niue" to id=5  
+press ENTER  
+click id=6
+next action %s enter "Niue" to id=5  
+action to execute %s enter "Niue" to id=5  
+goal %s Enter an item that starts with "Niue" and ends with "Niue".
+enforcing act from reflection %s click id=10
+cur_plan %s click id=10
+next action %s click id=10
+action to execute %s click id=10
+goal %s Enter an item that starts with "Niue" and ends with "Niue".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Niue" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=12 pos="bottom left">Niue</div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Niue" and ends with "Niue".
+Your past actions are:
+1st action: The user has typed the word "Niue" into the text input field labeled "Tags" on the computer screen.
+2nd action: The user clicked on the suggestion "Niue" from a dropdown menu or autocomplete list that appeared while they were entering text into an input field. This action likely indicates that the user wanted to select "Niue" as their desired input from the available options.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Niue" to id=5  
+click id=6
+next action %s enter "Niue" to id=5  
+action to execute %s enter "Niue" to id=5  
+next action %s click id=6
+action to execute %s click id=6
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Niue" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Niue" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Niue</div>
+<div id=11 pos="bottom left">1 result is available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: click id=10
+
+The index=3 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Niue" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=12 pos="bottom left">Niue</div>
+</screen>
+Your index=3 action: enter "Niue" to id=5  
+
+The index=4 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=12 pos="bottom left">Niue</div>
+</screen>
+Your index=4 action: click id=6
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Niue" and ends with "Niue".
+
+However, your actions did not complete the goal. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=3, you should click id=5
+############################ trial %s 3
+goal %s Enter an item that starts with "Niue" and ends with "Niue".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Niue" and ends with "Niue".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Niue" to id=5  
+press ENTER  
+click id=6
+next action %s enter "Niue" to id=5  
+action to execute %s enter "Niue" to id=5  
+goal %s Enter an item that starts with "Niue" and ends with "Niue".
+enforcing act from reflection %s click id=10
+cur_plan %s click id=10
+next action %s click id=10
+action to execute %s click id=10
+goal %s Enter an item that starts with "Niue" and ends with "Niue".
+enforcing act from reflection %s click id=5
+cur_plan %s click id=5
+next action %s click id=5
+action to execute %s click id=5
+no change, moving to the next iteration.
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Niue" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Niue" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Niue</div>
+<div id=11 pos="bottom left">1 result is available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: click id=10
+
+The index=3 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Niue" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=12 pos="bottom left">Niue</div>
+</screen>
+Your index=3 action: click id=5
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Niue" and ends with "Niue".
+
+However, your last action did not cause anything to change on the last screen. You probably used the wrong action type. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=3, you should click id=6
+############################ trial %s 4
+goal %s Enter an item that starts with "Niue" and ends with "Niue".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Niue" and ends with "Niue".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Niue" to id=5  
+press ENTER  
+click id=6
+next action %s enter "Niue" to id=5  
+action to execute %s enter "Niue" to id=5  
+goal %s Enter an item that starts with "Niue" and ends with "Niue".
+enforcing act from reflection %s click id=10
+cur_plan %s click id=10
+next action %s click id=10
+action to execute %s click id=10
+goal %s Enter an item that starts with "Niue" and ends with "Niue".
+enforcing act from reflection %s click id=6
+cur_plan %s click id=6
+next action %s click id=6
+action to execute %s click id=6
+3 3
+total_plan_cnt 12 total_action_cnt 20
+success_plan_cnt_trial1 3 success_action_cnt_trial1 10
+############################ trial %s 1
+goal %s Enter an item that starts with "Bo" and ends with "ia".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Bo" and ends with "ia".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Bo" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Bo" to id=5  
+action to execute %s enter "Bo" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+4 4
+total_plan_cnt 13 total_action_cnt 24
+success_plan_cnt_trial1 4 success_action_cnt_trial1 14
+############################ trial %s 1
+goal %s Enter an item that starts with "Urug" and ends with "uay".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Urug" and ends with "uay".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Urug" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Urug" to id=5  
+action to execute %s enter "Urug" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+5 5
+total_plan_cnt 14 total_action_cnt 28
+success_plan_cnt_trial1 5 success_action_cnt_trial1 18
+############################ trial %s 1
+goal %s Enter an item that starts with "Sw" and ends with "land".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Sw" and ends with "land".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Sw" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Sw" to id=5  
+action to execute %s enter "Sw" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+6 6
+total_plan_cnt 15 total_action_cnt 32
+success_plan_cnt_trial1 6 success_action_cnt_trial1 22
+############################ trial %s 1
+goal %s Enter an item that starts with "Hon" and ends with "ng".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Hon" and ends with "ng".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Hon" to id=5  
+press ARROWDOWN x N  
+press ENTER  
+click id=6
+next action %s enter "Hon" to id=5  
+action to execute %s enter "Hon" to id=5  
+next action %s press ARROWDOWN x N  
+action to execute %s press ARROWDOWN x N  
+exception detected %s press ARROWDOWN x N  
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Hon" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Hon" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Honduras</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Hong Kong</div>
+<div id=13 pos="bottom left">2 results are available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: press ARROWDOWN x N  
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Hon" and ends with "ng".
+
+However, your last action is invalid. You should avoid doing that again and try a different action. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=2, you should click id=12
+############################ trial %s 2
+goal %s Enter an item that starts with "Hon" and ends with "ng".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Hon" and ends with "ng".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Hon" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Hon" to id=5  
+action to execute %s enter "Hon" to id=5  
+goal %s Enter an item that starts with "Hon" and ends with "ng".
+enforcing act from reflection %s click id=12
+cur_plan %s click id=12
+next action %s click id=12
+action to execute %s click id=12
+goal %s Enter an item that starts with "Hon" and ends with "ng".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Hong Kong" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=14 pos="bottom left">Hong Kong</div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Hon" and ends with "ng".
+Your past actions are:
+1st action: The user has typed the text "Hon" into the input field labeled "Tags" on the computer screen.
+2nd action: The user clicked on the option "Hong Kong" from a list of autocomplete suggestions that appeared while they were typing "Hon" into a text input field labeled "Tags."
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Hon" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Hon" to id=5  
+action to execute %s enter "Hon" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+no change, moving to the next iteration.
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Hon" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Hon" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Honduras</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Hong Kong</div>
+<div id=13 pos="bottom left">2 results are available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: click id=12
+
+The index=3 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Hong Kong" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=14 pos="bottom left">Hong Kong</div>
+</screen>
+Your index=3 action: enter "Hon" to id=5  
+
+The index=4 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=14 pos="bottom left">Hong Kong</div>
+</screen>
+Your index=4 action: press ARROWDOWN x 1  
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Hon" and ends with "ng".
+
+However, your last action did not cause anything to change on the last screen. You probably used the wrong action type. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=3, you should click id=5
+############################ trial %s 3
+goal %s Enter an item that starts with "Hon" and ends with "ng".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Hon" and ends with "ng".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Hon" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Hon" to id=5  
+action to execute %s enter "Hon" to id=5  
+goal %s Enter an item that starts with "Hon" and ends with "ng".
+enforcing act from reflection %s click id=12
+cur_plan %s click id=12
+next action %s click id=12
+action to execute %s click id=12
+goal %s Enter an item that starts with "Hon" and ends with "ng".
+enforcing act from reflection %s click id=5
+cur_plan %s click id=5
+next action %s click id=5
+action to execute %s click id=5
+no change, moving to the next iteration.
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Hon" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Hon" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Honduras</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Hong Kong</div>
+<div id=13 pos="bottom left">2 results are available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: click id=12
+
+The index=3 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Hong Kong" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=14 pos="bottom left">Hong Kong</div>
+</screen>
+Your index=3 action: click id=5
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Hon" and ends with "ng".
+
+However, your last action did not cause anything to change on the last screen. You probably used the wrong action type. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=3, you should click id=6
+############################ trial %s 4
+goal %s Enter an item that starts with "Hon" and ends with "ng".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Hon" and ends with "ng".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Hon" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Hon" to id=5  
+action to execute %s enter "Hon" to id=5  
+goal %s Enter an item that starts with "Hon" and ends with "ng".
+enforcing act from reflection %s click id=12
+cur_plan %s click id=12
+next action %s click id=12
+action to execute %s click id=12
+goal %s Enter an item that starts with "Hon" and ends with "ng".
+enforcing act from reflection %s click id=6
+cur_plan %s click id=6
+next action %s click id=6
+action to execute %s click id=6
+7 7
+total_plan_cnt 25 total_action_cnt 44
+success_plan_cnt_trial1 7 success_action_cnt_trial1 24
+############################ trial %s 1
+goal %s Enter an item that starts with "Sao".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Sao".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Sao" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Sao" to id=5  
+action to execute %s enter "Sao" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+8 8
+total_plan_cnt 26 total_action_cnt 48
+success_plan_cnt_trial1 8 success_action_cnt_trial1 28
+############################ trial %s 1
+goal %s Enter an item that starts with "Zim" and ends with "abwe".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Zim" and ends with "abwe".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Zim" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Zim" to id=5  
+action to execute %s enter "Zim" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+9 9
+total_plan_cnt 27 total_action_cnt 52
+success_plan_cnt_trial1 9 success_action_cnt_trial1 32
+############################ trial %s 1
+goal %s Enter an item that starts with "Pe" and ends with "Peru".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Pe" and ends with "Peru".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Pe" to id=5  
+press ARROWDOWN x N  
+press ENTER  
+click id=6
+next action %s enter "Pe" to id=5  
+action to execute %s enter "Pe" to id=5  
+next action %s press ARROWDOWN x N  
+action to execute %s press ARROWDOWN x N  
+exception detected %s press ARROWDOWN x N  
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Pe" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Pe" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Peru</div>
+<div id=11 pos="bottom left">1 result is available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: press ARROWDOWN x N  
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Pe" and ends with "Peru".
+
+However, your last action is invalid. You should avoid doing that again and try a different action. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=2, you should click id=10
+############################ trial %s 2
+goal %s Enter an item that starts with "Pe" and ends with "Peru".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Pe" and ends with "Peru".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Pe" to id=5  
+press ARROWDOWN x N  
+press ENTER  
+click id=6
+next action %s enter "Pe" to id=5  
+action to execute %s enter "Pe" to id=5  
+goal %s Enter an item that starts with "Pe" and ends with "Peru".
+enforcing act from reflection %s click id=10
+cur_plan %s click id=10
+next action %s click id=10
+action to execute %s click id=10
+goal %s Enter an item that starts with "Pe" and ends with "Peru".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Peru" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=12 pos="bottom left">Peru</div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Pe" and ends with "Peru".
+Your past actions are:
+1st action: The user has typed the text "Pe" into the text input field labeled "Tags" on the computer screen.
+2nd action: The user clicked on the suggestion "Peru" from a list of autocomplete options that appeared while they were typing "Pe" into a text input field.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Pe" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Pe" to id=5  
+action to execute %s enter "Pe" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+no change, moving to the next iteration.
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Pe" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Pe" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Peru</div>
+<div id=11 pos="bottom left">1 result is available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: click id=10
+
+The index=3 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Peru" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=12 pos="bottom left">Peru</div>
+</screen>
+Your index=3 action: enter "Pe" to id=5  
+
+The index=4 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=12 pos="bottom left">Peru</div>
+</screen>
+Your index=4 action: press ARROWDOWN x 1  
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Pe" and ends with "Peru".
+
+However, your last action did not cause anything to change on the last screen. You probably used the wrong action type. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=3, you should click id=5
+############################ trial %s 3
+goal %s Enter an item that starts with "Pe" and ends with "Peru".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Pe" and ends with "Peru".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Pe" to id=5  
+press ARROWDOWN x N  
+press ENTER  
+click id=6
+next action %s enter "Pe" to id=5  
+action to execute %s enter "Pe" to id=5  
+goal %s Enter an item that starts with "Pe" and ends with "Peru".
+enforcing act from reflection %s click id=10
+cur_plan %s click id=10
+next action %s click id=10
+action to execute %s click id=10
+goal %s Enter an item that starts with "Pe" and ends with "Peru".
+enforcing act from reflection %s click id=5
+cur_plan %s click id=5
+next action %s click id=5
+action to execute %s click id=5
+no change, moving to the next iteration.
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Pe" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Pe" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Peru</div>
+<div id=11 pos="bottom left">1 result is available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: click id=10
+
+The index=3 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Peru" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=12 pos="bottom left">Peru</div>
+</screen>
+Your index=3 action: click id=5
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Pe" and ends with "Peru".
+
+However, your last action did not cause anything to change on the last screen. You probably used the wrong action type. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=3, you should click id=6
+############################ trial %s 4
+goal %s Enter an item that starts with "Pe" and ends with "Peru".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Pe" and ends with "Peru".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Pe" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Pe" to id=5  
+action to execute %s enter "Pe" to id=5  
+goal %s Enter an item that starts with "Pe" and ends with "Peru".
+enforcing act from reflection %s click id=10
+cur_plan %s click id=10
+next action %s click id=10
+action to execute %s click id=10
+goal %s Enter an item that starts with "Pe" and ends with "Peru".
+enforcing act from reflection %s click id=6
+cur_plan %s click id=6
+next action %s click id=6
+action to execute %s click id=6
+10 10
+total_plan_cnt 37 total_action_cnt 64
+success_plan_cnt_trial1 10 success_action_cnt_trial1 34
+############################ trial %s 1
+goal %s Enter an item that starts with "Ca".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Ca".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Ca" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Ca" to id=5  
+action to execute %s enter "Ca" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+11 11
+total_plan_cnt 38 total_action_cnt 68
+success_plan_cnt_trial1 11 success_action_cnt_trial1 38
+############################ trial %s 1
+goal %s Enter an item that starts with "Gu".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Gu".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Gu" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Gu" to id=5  
+action to execute %s enter "Gu" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+12 12
+total_plan_cnt 39 total_action_cnt 72
+success_plan_cnt_trial1 12 success_action_cnt_trial1 42
+############################ trial %s 1
+goal %s Enter an item that starts with "Nica" and ends with "gua".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Nica" and ends with "gua".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Nica" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Nica" to id=5  
+action to execute %s enter "Nica" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+13 13
+total_plan_cnt 40 total_action_cnt 76
+success_plan_cnt_trial1 13 success_action_cnt_trial1 46
+############################ trial %s 1
+goal %s Enter an item that starts with "Gui" and ends with "nea".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Gui" and ends with "nea".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Gui" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Gui" to id=5  
+action to execute %s enter "Gui" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+14 14
+total_plan_cnt 41 total_action_cnt 80
+success_plan_cnt_trial1 14 success_action_cnt_trial1 50
+############################ trial %s 1
+goal %s Enter an item that starts with "Cap" and ends with "erde".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Cap" and ends with "erde".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Cap" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Cap" to id=5  
+action to execute %s enter "Cap" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+15 15
+total_plan_cnt 42 total_action_cnt 84
+success_plan_cnt_trial1 15 success_action_cnt_trial1 54
+############################ trial %s 1
+goal %s Enter an item that starts with "Mong" and ends with "lia".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Mong" and ends with "lia".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Mong" to id=5  
+press ARROWDOWN x N  
+press ENTER  
+click id=6
+next action %s enter "Mong" to id=5  
+action to execute %s enter "Mong" to id=5  
+next action %s press ARROWDOWN x N  
+action to execute %s press ARROWDOWN x N  
+exception detected %s press ARROWDOWN x N  
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Mong" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Mong" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Mongolia</div>
+<div id=11 pos="bottom left">1 result is available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: press ARROWDOWN x N  
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Mong" and ends with "lia".
+
+However, your last action is invalid. You should avoid doing that again and try a different action. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=2, you should click id=10
+############################ trial %s 2
+goal %s Enter an item that starts with "Mong" and ends with "lia".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Mong" and ends with "lia".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Mong" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Mong" to id=5  
+action to execute %s enter "Mong" to id=5  
+goal %s Enter an item that starts with "Mong" and ends with "lia".
+enforcing act from reflection %s click id=10
+cur_plan %s click id=10
+next action %s click id=10
+action to execute %s click id=10
+goal %s Enter an item that starts with "Mong" and ends with "lia".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Mongolia" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=12 pos="bottom left">Mongolia</div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Mong" and ends with "lia".
+Your past actions are:
+1st action: The user has typed the text "Mong" into the input field labeled "Tags" on the computer screen.
+2nd action: The user clicked on the suggestion "Mongolia" from a dropdown menu that appeared while they were typing in the input field labeled "Tags." This action likely indicates that the user intended to select "Mongolia" as the desired tag or input value.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Mong" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Mong" to id=5  
+action to execute %s enter "Mong" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+no change, moving to the next iteration.
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Mong" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Mong" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Mongolia</div>
+<div id=11 pos="bottom left">1 result is available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: click id=10
+
+The index=3 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Mongolia" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=12 pos="bottom left">Mongolia</div>
+</screen>
+Your index=3 action: enter "Mong" to id=5  
+
+The index=4 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=12 pos="bottom left">Mongolia</div>
+</screen>
+Your index=4 action: press ARROWDOWN x 1  
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Mong" and ends with "lia".
+
+However, your last action did not cause anything to change on the last screen. You probably used the wrong action type. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=3, you should click id=5
+############################ trial %s 3
+goal %s Enter an item that starts with "Mong" and ends with "lia".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Mong" and ends with "lia".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Mong" to id=5  
+press ARROWDOWN x N  
+press ENTER  
+click id=6
+next action %s enter "Mong" to id=5  
+action to execute %s enter "Mong" to id=5  
+goal %s Enter an item that starts with "Mong" and ends with "lia".
+enforcing act from reflection %s click id=10
+cur_plan %s click id=10
+next action %s click id=10
+action to execute %s click id=10
+goal %s Enter an item that starts with "Mong" and ends with "lia".
+enforcing act from reflection %s click id=5
+cur_plan %s click id=5
+next action %s click id=5
+action to execute %s click id=5
+no change, moving to the next iteration.
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Mong" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Mong" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Mongolia</div>
+<div id=11 pos="bottom left">1 result is available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: click id=10
+
+The index=3 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Mongolia" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=12 pos="bottom left">Mongolia</div>
+</screen>
+Your index=3 action: click id=5
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Mong" and ends with "lia".
+
+However, your last action did not cause anything to change on the last screen. You probably used the wrong action type. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=3, you should click id=6
+############################ trial %s 4
+goal %s Enter an item that starts with "Mong" and ends with "lia".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Mong" and ends with "lia".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Mong" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Mong" to id=5  
+action to execute %s enter "Mong" to id=5  
+goal %s Enter an item that starts with "Mong" and ends with "lia".
+enforcing act from reflection %s click id=10
+cur_plan %s click id=10
+next action %s click id=10
+action to execute %s click id=10
+goal %s Enter an item that starts with "Mong" and ends with "lia".
+enforcing act from reflection %s click id=6
+cur_plan %s click id=6
+next action %s click id=6
+action to execute %s click id=6
+16 16
+total_plan_cnt 52 total_action_cnt 96
+success_plan_cnt_trial1 16 success_action_cnt_trial1 56
+############################ trial %s 1
+goal %s Enter an item that starts with "Bu" and ends with "Faso".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Bu" and ends with "Faso".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Bu" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Bu" to id=5  
+action to execute %s enter "Bu" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Bu" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Bu" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Bulgaria</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Burkina Faso</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Burundi</div>
+<div id=15 pos="bottom left">3 results are available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: press ARROWDOWN x 1  
+
+The index=3 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Bulgaria" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper ui-state-active" pos="center">Bulgaria</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Burkina Faso</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Burundi</div>
+<div id=16 pos="bottom left">Bulgaria</div>
+</screen>
+Your index=3 action: press ENTER  
+
+The index=4 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Bulgaria" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=16 pos="bottom left">Bulgaria</div>
+</screen>
+Your index=4 action: click id=6
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Bu" and ends with "Faso".
+
+However, your actions did not complete the goal. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=3, you should press ARROWDOWN x 2
+############################ trial %s 2
+goal %s Enter an item that starts with "Bu" and ends with "Faso".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Bu" and ends with "Faso".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Bu" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Bu" to id=5  
+action to execute %s enter "Bu" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+goal %s Enter an item that starts with "Bu" and ends with "Faso".
+enforcing act from reflection %s press ARROWDOWN x 2
+cur_plan %s press ARROWDOWN x 2
+next action %s press ARROWDOWN x 2
+action to execute %s press ARROWDOWN x 2
+goal %s Enter an item that starts with "Bu" and ends with "Faso".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Burundi" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Bulgaria</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Burkina Faso</div>
+<div id=14 class="ui-menu-item-wrapper ui-state-active" pos="bottom">Burundi</div>
+<div id=17 pos="bottom left">Burundi</div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Bu" and ends with "Faso".
+Your past actions are:
+1st action: The user has started typing the text "Bu" into a text input field labeled "Tags" on the computer screen. This action is likely part of a process to enter or search for tags, possibly with an autocomplete feature to assist in completing the input.
+2nd action: press ARROWDOWN x 1
+3rd action: press ARROWDOWN x 2
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s press ENTER  
+click id=6
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Bu" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Bu" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Bulgaria</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Burkina Faso</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Burundi</div>
+<div id=15 pos="bottom left">3 results are available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: press ARROWDOWN x 1  
+
+The index=3 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Bulgaria" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper ui-state-active" pos="center">Bulgaria</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Burkina Faso</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Burundi</div>
+<div id=16 pos="bottom left">Bulgaria</div>
+</screen>
+Your index=3 action: press ARROWDOWN x 2
+
+The index=4 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Burundi" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Bulgaria</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Burkina Faso</div>
+<div id=14 class="ui-menu-item-wrapper ui-state-active" pos="bottom">Burundi</div>
+<div id=17 pos="bottom left">Burundi</div>
+</screen>
+Your index=4 action: press ENTER  
+
+The index=5 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Burundi" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=17 pos="bottom left">Burundi</div>
+</screen>
+Your index=5 action: click id=6
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Bu" and ends with "Faso".
+
+However, your actions did not complete the goal. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=3, you should press ARROWDOWN x 1
+############################ trial %s 3
+goal %s Enter an item that starts with "Bu" and ends with "Faso".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Bu" and ends with "Faso".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Bu" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Bu" to id=5  
+action to execute %s enter "Bu" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+goal %s Enter an item that starts with "Bu" and ends with "Faso".
+enforcing act from reflection %s press ARROWDOWN x 1
+cur_plan %s press ARROWDOWN x 1
+next action %s press ARROWDOWN x 1
+action to execute %s press ARROWDOWN x 1
+goal %s Enter an item that starts with "Bu" and ends with "Faso".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Burkina Faso" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Bulgaria</div>
+<div id=12 class="ui-menu-item-wrapper ui-state-active" pos="center">Burkina Faso</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Burundi</div>
+<div id=17 pos="bottom left">Burkina Faso</div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Bu" and ends with "Faso".
+Your past actions are:
+1st action: The user has started typing the text "Bu" into a text input field labeled "Tags" on the computer screen. This action is likely part of a process to enter or search for tags, possibly to categorize or label something.
+2nd action: press ARROWDOWN x 1
+3rd action: press ARROWDOWN x 1
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s press ENTER  
+click id=6
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+17 17
+total_plan_cnt 59 total_action_cnt 110
+success_plan_cnt_trial1 17 success_action_cnt_trial1 60
+############################ trial %s 1
+goal %s Enter an item that starts with "Moz" and ends with "ue".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Moz" and ends with "ue".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Moz" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Moz" to id=5  
+action to execute %s enter "Moz" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+18 18
+total_plan_cnt 60 total_action_cnt 114
+success_plan_cnt_trial1 18 success_action_cnt_trial1 64
+############################ trial %s 1
+goal %s Enter an item that starts with "Kor" and ends with "ea".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Kor" and ends with "ea".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Kor" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Kor" to id=5  
+action to execute %s enter "Kor" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+19 19
+total_plan_cnt 61 total_action_cnt 118
+success_plan_cnt_trial1 19 success_action_cnt_trial1 68
+############################ trial %s 1
+goal %s Enter an item that starts with "Su" and ends with "udan".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Su" and ends with "udan".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Su" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Su" to id=5  
+action to execute %s enter "Su" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+20 20
+total_plan_cnt 62 total_action_cnt 122
+success_plan_cnt_trial1 20 success_action_cnt_trial1 72
+############################ trial %s 1
+goal %s Enter an item that starts with "Kir".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Kir".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Kir" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Kir" to id=5  
+action to execute %s enter "Kir" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+21 21
+total_plan_cnt 63 total_action_cnt 126
+success_plan_cnt_trial1 21 success_action_cnt_trial1 76
+############################ trial %s 1
+goal %s Enter an item that starts with "Soma".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Soma".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Soma" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Soma" to id=5  
+action to execute %s enter "Soma" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+22 22
+total_plan_cnt 64 total_action_cnt 130
+success_plan_cnt_trial1 22 success_action_cnt_trial1 80
+############################ trial %s 1
+goal %s Enter an item that starts with "An" and ends with "illa".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "An" and ends with "illa".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "An" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "An" to id=5  
+action to execute %s enter "An" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "An" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="An" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Andorra</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Angola</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Anguilla</div>
+<div id=16 class="ui-menu-item-wrapper" pos="bottom">Antarctica</div>
+<div id=18 class="ui-menu-item-wrapper" pos="bottom">Antigua and Barbuda</div>
+<div id=19 pos="bottom left">5 results are available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: press ARROWDOWN x 1  
+
+The index=3 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Andorra" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper ui-state-active" pos="center">Andorra</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Angola</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Anguilla</div>
+<div id=16 class="ui-menu-item-wrapper" pos="bottom">Antarctica</div>
+<div id=18 class="ui-menu-item-wrapper" pos="bottom">Antigua and Barbuda</div>
+<div id=20 pos="bottom left">Andorra</div>
+</screen>
+Your index=3 action: press ENTER  
+
+The index=4 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Andorra" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=20 pos="bottom left">Andorra</div>
+</screen>
+Your index=4 action: click id=6
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "An" and ends with "illa".
+
+However, your actions did not complete the goal. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=2, you should press ARROWDOWN x 2
+############################ trial %s 2
+goal %s Enter an item that starts with "An" and ends with "illa".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "An" and ends with "illa".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "An" to id=5  
+press ARROWDOWN x N  
+press ENTER  
+click id=6
+next action %s enter "An" to id=5  
+action to execute %s enter "An" to id=5  
+goal %s Enter an item that starts with "An" and ends with "illa".
+enforcing act from reflection %s press ARROWDOWN x 2
+cur_plan %s press ARROWDOWN x 2
+next action %s press ARROWDOWN x 2
+action to execute %s press ARROWDOWN x 2
+goal %s Enter an item that starts with "An" and ends with "illa".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Angola" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Andorra</div>
+<div id=12 class="ui-menu-item-wrapper ui-state-active" pos="center">Angola</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Anguilla</div>
+<div id=16 class="ui-menu-item-wrapper" pos="bottom">Antarctica</div>
+<div id=18 class="ui-menu-item-wrapper" pos="bottom">Antigua and Barbuda</div>
+<div id=20 pos="bottom left">Angola</div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "An" and ends with "illa".
+Your past actions are:
+1st action: The user has typed the text "An" into the text input field labeled "Tags" on the computer screen.
+2nd action: press ARROWDOWN x 2
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s press ENTER  
+click id=6
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "An" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="An" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Andorra</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Angola</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Anguilla</div>
+<div id=16 class="ui-menu-item-wrapper" pos="bottom">Antarctica</div>
+<div id=18 class="ui-menu-item-wrapper" pos="bottom">Antigua and Barbuda</div>
+<div id=19 pos="bottom left">5 results are available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: press ARROWDOWN x 2
+
+The index=3 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Angola" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Andorra</div>
+<div id=12 class="ui-menu-item-wrapper ui-state-active" pos="center">Angola</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Anguilla</div>
+<div id=16 class="ui-menu-item-wrapper" pos="bottom">Antarctica</div>
+<div id=18 class="ui-menu-item-wrapper" pos="bottom">Antigua and Barbuda</div>
+<div id=20 pos="bottom left">Angola</div>
+</screen>
+Your index=3 action: press ENTER  
+
+The index=4 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Angola" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=20 pos="bottom left">Angola</div>
+</screen>
+Your index=4 action: click id=6
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "An" and ends with "illa".
+
+However, your actions did not complete the goal. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=2, you should press ARROWDOWN x 3
+############################ trial %s 3
+goal %s Enter an item that starts with "An" and ends with "illa".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "An" and ends with "illa".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "An" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "An" to id=5  
+action to execute %s enter "An" to id=5  
+goal %s Enter an item that starts with "An" and ends with "illa".
+enforcing act from reflection %s press ARROWDOWN x 3
+cur_plan %s press ARROWDOWN x 3
+next action %s press ARROWDOWN x 3
+action to execute %s press ARROWDOWN x 3
+goal %s Enter an item that starts with "An" and ends with "illa".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Anguilla" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Andorra</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Angola</div>
+<div id=14 class="ui-menu-item-wrapper ui-state-active" pos="bottom">Anguilla</div>
+<div id=16 class="ui-menu-item-wrapper" pos="bottom">Antarctica</div>
+<div id=18 class="ui-menu-item-wrapper" pos="bottom">Antigua and Barbuda</div>
+<div id=20 pos="bottom left">Anguilla</div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "An" and ends with "illa".
+Your past actions are:
+1st action: The user has typed the text "An" into the text input field labeled "Tags" on the computer screen.
+2nd action: press ARROWDOWN x 3
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s press ENTER  
+click id=6
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+23 23
+total_plan_cnt 71 total_action_cnt 142
+success_plan_cnt_trial1 23 success_action_cnt_trial1 84
+############################ trial %s 1
+goal %s Enter an item that starts with "Ma" and ends with "ia".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Ma" and ends with "ia".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Ma" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Ma" to id=5  
+action to execute %s enter "Ma" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Ma" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Ma" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Macao</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Macedonia</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Madagascar</div>
+<div id=16 class="ui-menu-item-wrapper" pos="bottom">Malawi</div>
+<div id=18 class="ui-menu-item-wrapper" pos="bottom">Malaysia</div>
+<div id=20 class="ui-menu-item-wrapper" pos="bottom">Maldives</div>
+<div id=22 class="ui-menu-item-wrapper" pos="bottom">Mali</div>
+<div id=24 class="ui-menu-item-wrapper" pos="bottom">Malta</div>
+<div id=26 class="ui-menu-item-wrapper" pos="bottom">Marshall Islands</div>
+<div id=28 class="ui-menu-item-wrapper" pos="bottom">Martinique</div>
+<div id=30 class="ui-menu-item-wrapper" pos="bottom">Mauritania</div>
+<div id=32 class="ui-menu-item-wrapper" pos="bottom">Mauritius</div>
+<div id=34 class="ui-menu-item-wrapper" pos="bottom">Mayotte</div>
+<div id=35 pos="bottom left">13 results are available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: press ARROWDOWN x 1  
+
+The index=3 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Macao" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper ui-state-active" pos="center">Macao</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Macedonia</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Madagascar</div>
+<div id=16 class="ui-menu-item-wrapper" pos="bottom">Malawi</div>
+<div id=18 class="ui-menu-item-wrapper" pos="bottom">Malaysia</div>
+<div id=20 class="ui-menu-item-wrapper" pos="bottom">Maldives</div>
+<div id=22 class="ui-menu-item-wrapper" pos="bottom">Mali</div>
+<div id=24 class="ui-menu-item-wrapper" pos="bottom">Malta</div>
+<div id=26 class="ui-menu-item-wrapper" pos="bottom">Marshall Islands</div>
+<div id=28 class="ui-menu-item-wrapper" pos="bottom">Martinique</div>
+<div id=30 class="ui-menu-item-wrapper" pos="bottom">Mauritania</div>
+<div id=32 class="ui-menu-item-wrapper" pos="bottom">Mauritius</div>
+<div id=34 class="ui-menu-item-wrapper" pos="bottom">Mayotte</div>
+<div id=36 pos="bottom left">Macao</div>
+</screen>
+Your index=3 action: press ENTER  
+
+The index=4 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Macao" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=36 pos="bottom left">Macao</div>
+</screen>
+Your index=4 action: click id=6
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Ma" and ends with "ia".
+
+However, your actions did not complete the goal. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=3, you should press ARROWDOWN x 2
+############################ trial %s 2
+goal %s Enter an item that starts with "Ma" and ends with "ia".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Ma" and ends with "ia".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Ma" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Ma" to id=5  
+action to execute %s enter "Ma" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+goal %s Enter an item that starts with "Ma" and ends with "ia".
+enforcing act from reflection %s press ARROWDOWN x 2
+cur_plan %s press ARROWDOWN x 2
+next action %s press ARROWDOWN x 2
+action to execute %s press ARROWDOWN x 2
+goal %s Enter an item that starts with "Ma" and ends with "ia".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Madagascar" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Macao</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Macedonia</div>
+<div id=14 class="ui-menu-item-wrapper ui-state-active" pos="bottom">Madagascar</div>
+<div id=16 class="ui-menu-item-wrapper" pos="bottom">Malawi</div>
+<div id=18 class="ui-menu-item-wrapper" pos="bottom">Malaysia</div>
+<div id=20 class="ui-menu-item-wrapper" pos="bottom">Maldives</div>
+<div id=22 class="ui-menu-item-wrapper" pos="bottom">Mali</div>
+<div id=24 class="ui-menu-item-wrapper" pos="bottom">Malta</div>
+<div id=26 class="ui-menu-item-wrapper" pos="bottom">Marshall Islands</div>
+<div id=28 class="ui-menu-item-wrapper" pos="bottom">Martinique</div>
+<div id=30 class="ui-menu-item-wrapper" pos="bottom">Mauritania</div>
+<div id=32 class="ui-menu-item-wrapper" pos="bottom">Mauritius</div>
+<div id=34 class="ui-menu-item-wrapper" pos="bottom">Mayotte</div>
+<div id=37 pos="bottom left">Madagascar</div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Ma" and ends with "ia".
+Your past actions are:
+1st action: The user has started typing the text "Ma" into the input field labeled "Tags" on the computer screen. This action is likely part of a process to enter or search for tags, possibly to categorize or filter content.
+2nd action: press ARROWDOWN x 1
+3rd action: press ARROWDOWN x 2
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s press ENTER  
+click id=6
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Ma" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Ma" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Macao</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Macedonia</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Madagascar</div>
+<div id=16 class="ui-menu-item-wrapper" pos="bottom">Malawi</div>
+<div id=18 class="ui-menu-item-wrapper" pos="bottom">Malaysia</div>
+<div id=20 class="ui-menu-item-wrapper" pos="bottom">Maldives</div>
+<div id=22 class="ui-menu-item-wrapper" pos="bottom">Mali</div>
+<div id=24 class="ui-menu-item-wrapper" pos="bottom">Malta</div>
+<div id=26 class="ui-menu-item-wrapper" pos="bottom">Marshall Islands</div>
+<div id=28 class="ui-menu-item-wrapper" pos="bottom">Martinique</div>
+<div id=30 class="ui-menu-item-wrapper" pos="bottom">Mauritania</div>
+<div id=32 class="ui-menu-item-wrapper" pos="bottom">Mauritius</div>
+<div id=34 class="ui-menu-item-wrapper" pos="bottom">Mayotte</div>
+<div id=35 pos="bottom left">13 results are available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: press ARROWDOWN x 1  
+
+The index=3 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Macao" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper ui-state-active" pos="center">Macao</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Macedonia</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Madagascar</div>
+<div id=16 class="ui-menu-item-wrapper" pos="bottom">Malawi</div>
+<div id=18 class="ui-menu-item-wrapper" pos="bottom">Malaysia</div>
+<div id=20 class="ui-menu-item-wrapper" pos="bottom">Maldives</div>
+<div id=22 class="ui-menu-item-wrapper" pos="bottom">Mali</div>
+<div id=24 class="ui-menu-item-wrapper" pos="bottom">Malta</div>
+<div id=26 class="ui-menu-item-wrapper" pos="bottom">Marshall Islands</div>
+<div id=28 class="ui-menu-item-wrapper" pos="bottom">Martinique</div>
+<div id=30 class="ui-menu-item-wrapper" pos="bottom">Mauritania</div>
+<div id=32 class="ui-menu-item-wrapper" pos="bottom">Mauritius</div>
+<div id=34 class="ui-menu-item-wrapper" pos="bottom">Mayotte</div>
+<div id=36 pos="bottom left">Macao</div>
+</screen>
+Your index=3 action: press ARROWDOWN x 2
+
+The index=4 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Madagascar" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Macao</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Macedonia</div>
+<div id=14 class="ui-menu-item-wrapper ui-state-active" pos="bottom">Madagascar</div>
+<div id=16 class="ui-menu-item-wrapper" pos="bottom">Malawi</div>
+<div id=18 class="ui-menu-item-wrapper" pos="bottom">Malaysia</div>
+<div id=20 class="ui-menu-item-wrapper" pos="bottom">Maldives</div>
+<div id=22 class="ui-menu-item-wrapper" pos="bottom">Mali</div>
+<div id=24 class="ui-menu-item-wrapper" pos="bottom">Malta</div>
+<div id=26 class="ui-menu-item-wrapper" pos="bottom">Marshall Islands</div>
+<div id=28 class="ui-menu-item-wrapper" pos="bottom">Martinique</div>
+<div id=30 class="ui-menu-item-wrapper" pos="bottom">Mauritania</div>
+<div id=32 class="ui-menu-item-wrapper" pos="bottom">Mauritius</div>
+<div id=34 class="ui-menu-item-wrapper" pos="bottom">Mayotte</div>
+<div id=37 pos="bottom left">Madagascar</div>
+</screen>
+Your index=4 action: press ENTER  
+
+The index=5 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Madagascar" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=37 pos="bottom left">Madagascar</div>
+</screen>
+Your index=5 action: click id=6
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Ma" and ends with "ia".
+
+However, your actions did not complete the goal. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=3, you should press ARROWDOWN x 3
+############################ trial %s 3
+goal %s Enter an item that starts with "Ma" and ends with "ia".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Ma" and ends with "ia".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Ma" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Ma" to id=5  
+action to execute %s enter "Ma" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+goal %s Enter an item that starts with "Ma" and ends with "ia".
+enforcing act from reflection %s press ARROWDOWN x 3
+cur_plan %s press ARROWDOWN x 3
+next action %s press ARROWDOWN x 3
+action to execute %s press ARROWDOWN x 3
+goal %s Enter an item that starts with "Ma" and ends with "ia".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Malawi" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Macao</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Macedonia</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Madagascar</div>
+<div id=16 class="ui-menu-item-wrapper ui-state-active" pos="bottom">Malawi</div>
+<div id=18 class="ui-menu-item-wrapper" pos="bottom">Malaysia</div>
+<div id=20 class="ui-menu-item-wrapper" pos="bottom">Maldives</div>
+<div id=22 class="ui-menu-item-wrapper" pos="bottom">Mali</div>
+<div id=24 class="ui-menu-item-wrapper" pos="bottom">Malta</div>
+<div id=26 class="ui-menu-item-wrapper" pos="bottom">Marshall Islands</div>
+<div id=28 class="ui-menu-item-wrapper" pos="bottom">Martinique</div>
+<div id=30 class="ui-menu-item-wrapper" pos="bottom">Mauritania</div>
+<div id=32 class="ui-menu-item-wrapper" pos="bottom">Mauritius</div>
+<div id=34 class="ui-menu-item-wrapper" pos="bottom">Mayotte</div>
+<div id=37 pos="bottom left">Malawi</div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Ma" and ends with "ia".
+Your past actions are:
+1st action: The user has typed the text "Ma" into the input field labeled "Tags" on the computer screen.
+2nd action: press ARROWDOWN x 1
+3rd action: press ARROWDOWN x 3
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s press ENTER  
+click id=6
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: use-autocomplete. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+The index=1 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+Your index=1 action: enter "Ma" to id=5  
+
+The index=2 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Ma" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Macao</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Macedonia</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Madagascar</div>
+<div id=16 class="ui-menu-item-wrapper" pos="bottom">Malawi</div>
+<div id=18 class="ui-menu-item-wrapper" pos="bottom">Malaysia</div>
+<div id=20 class="ui-menu-item-wrapper" pos="bottom">Maldives</div>
+<div id=22 class="ui-menu-item-wrapper" pos="bottom">Mali</div>
+<div id=24 class="ui-menu-item-wrapper" pos="bottom">Malta</div>
+<div id=26 class="ui-menu-item-wrapper" pos="bottom">Marshall Islands</div>
+<div id=28 class="ui-menu-item-wrapper" pos="bottom">Martinique</div>
+<div id=30 class="ui-menu-item-wrapper" pos="bottom">Mauritania</div>
+<div id=32 class="ui-menu-item-wrapper" pos="bottom">Mauritius</div>
+<div id=34 class="ui-menu-item-wrapper" pos="bottom">Mayotte</div>
+<div id=35 pos="bottom left">13 results are available, use up and down arrow keys to navigate.</div>
+</screen>
+Your index=2 action: press ARROWDOWN x 1  
+
+The index=3 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Macao" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper ui-state-active" pos="center">Macao</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Macedonia</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Madagascar</div>
+<div id=16 class="ui-menu-item-wrapper" pos="bottom">Malawi</div>
+<div id=18 class="ui-menu-item-wrapper" pos="bottom">Malaysia</div>
+<div id=20 class="ui-menu-item-wrapper" pos="bottom">Maldives</div>
+<div id=22 class="ui-menu-item-wrapper" pos="bottom">Mali</div>
+<div id=24 class="ui-menu-item-wrapper" pos="bottom">Malta</div>
+<div id=26 class="ui-menu-item-wrapper" pos="bottom">Marshall Islands</div>
+<div id=28 class="ui-menu-item-wrapper" pos="bottom">Martinique</div>
+<div id=30 class="ui-menu-item-wrapper" pos="bottom">Mauritania</div>
+<div id=32 class="ui-menu-item-wrapper" pos="bottom">Mauritius</div>
+<div id=34 class="ui-menu-item-wrapper" pos="bottom">Mayotte</div>
+<div id=36 pos="bottom left">Macao</div>
+</screen>
+Your index=3 action: press ARROWDOWN x 3
+
+The index=4 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Malawi" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Macao</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Macedonia</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Madagascar</div>
+<div id=16 class="ui-menu-item-wrapper ui-state-active" pos="bottom">Malawi</div>
+<div id=18 class="ui-menu-item-wrapper" pos="bottom">Malaysia</div>
+<div id=20 class="ui-menu-item-wrapper" pos="bottom">Maldives</div>
+<div id=22 class="ui-menu-item-wrapper" pos="bottom">Mali</div>
+<div id=24 class="ui-menu-item-wrapper" pos="bottom">Malta</div>
+<div id=26 class="ui-menu-item-wrapper" pos="bottom">Marshall Islands</div>
+<div id=28 class="ui-menu-item-wrapper" pos="bottom">Martinique</div>
+<div id=30 class="ui-menu-item-wrapper" pos="bottom">Mauritania</div>
+<div id=32 class="ui-menu-item-wrapper" pos="bottom">Mauritius</div>
+<div id=34 class="ui-menu-item-wrapper" pos="bottom">Mayotte</div>
+<div id=37 pos="bottom left">Malawi</div>
+</screen>
+Your index=4 action: press ENTER  
+
+The index=5 screen:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Malawi" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=37 pos="bottom left">Malawi</div>
+</screen>
+Your index=5 action: click id=6
+
+
+You conducted the above actions for the top-level goal: Enter an item that starts with "Ma" and ends with "ia".
+
+However, your actions did not complete the goal. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=3, you should press ARROWDOWN x 4
+############################ trial %s 4
+goal %s Enter an item that starts with "Ma" and ends with "ia".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Ma" and ends with "ia".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "Ma" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "Ma" to id=5  
+action to execute %s enter "Ma" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+goal %s Enter an item that starts with "Ma" and ends with "ia".
+enforcing act from reflection %s press ARROWDOWN x 4
+cur_plan %s press ARROWDOWN x 4
+next action %s press ARROWDOWN x 4
+action to execute %s press ARROWDOWN x 4
+goal %s Enter an item that starts with "Ma" and ends with "ia".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" value="Malaysia" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=10 class="ui-menu-item-wrapper" pos="center">Macao</div>
+<div id=12 class="ui-menu-item-wrapper" pos="center">Macedonia</div>
+<div id=14 class="ui-menu-item-wrapper" pos="bottom">Madagascar</div>
+<div id=16 class="ui-menu-item-wrapper" pos="bottom">Malawi</div>
+<div id=18 class="ui-menu-item-wrapper ui-state-active" pos="bottom">Malaysia</div>
+<div id=20 class="ui-menu-item-wrapper" pos="bottom">Maldives</div>
+<div id=22 class="ui-menu-item-wrapper" pos="bottom">Mali</div>
+<div id=24 class="ui-menu-item-wrapper" pos="bottom">Malta</div>
+<div id=26 class="ui-menu-item-wrapper" pos="bottom">Marshall Islands</div>
+<div id=28 class="ui-menu-item-wrapper" pos="bottom">Martinique</div>
+<div id=30 class="ui-menu-item-wrapper" pos="bottom">Mauritania</div>
+<div id=32 class="ui-menu-item-wrapper" pos="bottom">Mauritius</div>
+<div id=34 class="ui-menu-item-wrapper" pos="bottom">Mayotte</div>
+<div id=37 pos="bottom left">Malaysia</div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "Ma" and ends with "ia".
+Your past actions are:
+1st action: The user has typed the text "Ma" into the input field labeled "Tags" on the computer screen.
+2nd action: press ARROWDOWN x 1
+3rd action: press ARROWDOWN x 4
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s press ENTER  
+click id=6
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+24 24
+total_plan_cnt 81 total_action_cnt 161
+success_plan_cnt_trial1 24 success_action_cnt_trial1 88
+############################ trial %s 1
+goal %s Enter an item that starts with "West".
+cur_plan_prompt %s You are operating a computer for a task: use-autocomplete. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<label id=4 pos="top left">Tags:</label>
+<input_text id=5 class="ui-autocomplete-input" pos="center"></input_text>
+<button id=6 class="secondary-action" pos="center">Submit</button>
+<div id=7 class="ui-helper-hidden-accessible" pos="bottom left"></div>
+</screen>
+
+The top-level goal you want to achieve is: Enter an item that starts with "West".
+Your past actions are:
+You have not taken any actions yet.
+
+Here are some lessons you learnt in your previous trials:
+- You should always finish your task by clicking the submit button, if it is presented.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s enter "West" to id=5  
+press ARROWDOWN x 1  
+press ENTER  
+click id=6
+next action %s enter "West" to id=5  
+action to execute %s enter "West" to id=5  
+next action %s press ARROWDOWN x 1  
+action to execute %s press ARROWDOWN x 1  
+next action %s press ENTER  
+action to execute %s press ENTER  
+next action %s click id=6
+action to execute %s click id=6
+25 25
+total_plan_cnt 82 total_action_cnt 165
+success_plan_cnt_trial1 25 success_action_cnt_trial1 92

@@ -1,0 +1,58 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Find the email by Rochella and click the trash icon to delete it. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'trash'}, 'belongTo': {'email body': 'Nisi, euismod n..', 'email sender': 'Rochella', 'email subject': 'Aliquet.'}}}
+SUCCESSFUL TRIAL #2: Task: Find the email by Frankie and click the star icon to mark it as important. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'star'}, 'belongTo': {'email body': 'Morbi dictum id..', 'email sender': 'Frankie', 'email subject': 'Tortor.'}}}
+SUCCESSFUL TRIAL #3: Task: Find the email by Alexina and forward that email to Anne-Corinne. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '4'}, 'text': 'Alexina\nMi.\nSollicitudin nu..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #4: Task: Find the email by Van and click the trash icon to delete it. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'trash'}, 'belongTo': {'email body': 'Egestas vitae. ..', 'email sender': 'Van', 'email subject': 'Volutpat lorem...'}}}
+SUCCESSFUL TRIAL #5: Task: Find the email by Willetta and click the star icon to mark it as important. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'star'}, 'belongTo': {'email body': 'Gravida. Enim j..', 'email sender': 'Willetta', 'email subject': 'Sit.'}}}
+SUCCESSFUL TRIAL #6: Task: Find the email by Orelie and forward that email to Emmey. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '4'}, 'text': 'Orelie\nMauris pulvinar..\nTellus. Nunc ar..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #7: Task: Find the email by Ranna and click the trash icon to delete it. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'trash'}, 'belongTo': {'email body': 'Vulputate. Urna..', 'email sender': 'Ranna', 'email subject': 'Bibendum cursus..'}}}
+SUCCESSFUL TRIAL #8: Task: Find the email by Nadean and forward that email to Melba. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '1'}, 'text': 'Nadean\nId.\nEget eget dictu..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #9: Task: Find the email by Kaila and click the trash icon to delete it. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'trash'}, 'belongTo': {'email body': 'Laoreet placera..', 'email sender': 'Kaila', 'email subject': 'Pellentesque.'}}}
+SUCCESSFUL TRIAL #10: Task: Find the email by Zorina and click the trash icon to delete it. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'trash'}, 'belongTo': {'email body': 'Nibh vehicula. ..', 'email sender': 'Zorina', 'email subject': 'Montes.'}}}
+SUCCESSFUL TRIAL #11: Task: Find the email by Rochella and click the trash icon to delete it. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'trash'}, 'belongTo': {'email body': 'Nisi, euismod n..', 'email sender': 'Rochella', 'email subject': 'Aliquet.'}}}
+SUCCESSFUL TRIAL #12: Task: Find the email by Deeann and forward that email to Molly. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '1'}, 'text': 'Deeann\nLeo. Consectetu..\nVel et. Massa, ..'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+SUCCESSFUL TRIAL #13: Task: Find the email by Meaghan and click the star icon to mark it as important. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'star'}, 'belongTo': {'email body': 'Facilisis trist..', 'email sender': 'Meaghan', 'email subject': 'Sem sed.'}}}
+SUCCESSFUL TRIAL #14: Task: Find the email by Carlie and click the trash icon to delete it. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'trash'}, 'belongTo': {'email body': 'Dui amet ac mat..', 'email sender': 'Carlie', 'email subject': 'Id interdum.'}}}
+SUCCESSFUL TRIAL #15: Task: Find the email by Zandra and click the trash icon to delete it. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'trash'}, 'belongTo': {'email body': 'Cursus elementu..', 'email sender': 'Zandra', 'email subject': 'Fermentum.'}}}

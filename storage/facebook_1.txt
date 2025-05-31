@@ -1,0 +1,6 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Login with username abc@gmail.com and password 123456789 
+
+> STEP #1: {'operation': 'input', 'target object': {'attributes': {'aria-label': 'Email address or phone number', 'autofocus': '1', 'class': 'inputtext _55r1 _6luy', 'data-testid': 'royal_email', 'id': 'email', 'name': 'email', 'placeholder': 'Email address or phone number', 'type': 'text'}}, 'content': 'abc@gmail.com'}
+> STEP #2: {'operation': 'input', 'target object': {'attributes': {'aria-label': 'Password', 'class': 'inputtext _55r1 _6luy _9npi', 'data-testid': 'royal_pass', 'id': 'pass', 'name': 'pass', 'placeholder': 'Password', 'type': 'password'}}, 'content': '123456789'}
+> STEP #3: {'operation': 'click', 'target object': {'text': 'Log in'}}

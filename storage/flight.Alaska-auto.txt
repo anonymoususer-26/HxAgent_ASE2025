@@ -1,0 +1,16 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: {"Departure City":"Miami","Destination City":"Denver","Ticket Type":"Return flight","Departure Day":16,"Returning Day":18,"Passengers":1,"Seat type":"First"} 
+
+> STEP #1: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input-pad', 'id': 'geo-from', 'name': 'SearchFields.DepartureCity', 'type': 'text', 'value': ''}, 'text': 'From'}, 'content': 'Miami'}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'last', 'data-value': 'Miami, FL (MIA-Miami Intl.)', 'iseventadded': 'true'}, 'text': 'Miami, FL (MIA-Miami Intl.)'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input-pad', 'hxagentidentity': '9', 'id': 'geo-to', 'name': 'SearchFields.ArrivalCity', 'type': 'text', 'value': ''}, 'text': 'To'}, 'content': 'Denver'}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'last', 'data-value': 'Denver, CO (DEN-Denver Intl.)', 'iseventadded': 'true'}, 'text': 'Denver, CO (DEN-Denver Intl.)'}}
+> STEP #5: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input calbg', 'hxagentidentity': '13', 'id': 'departure-date', 'iseventadded': 'true', 'maxlength': '10', 'name': 'SearchFields.DepartureDate', 'type': 'text', 'value': ''}, 'text': 'Depart'}, 'content': '16'}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day', 'href': '#'}, 'text': '16'}}
+> STEP #7: {'operation': 'click', 'target object': {'attributes': {'class': 'button-link', 'hxagentidentity': '77', 'id': 'btnDone', 'onclick': 'Alaska.datepickrDone();'}, 'text': 'DONE'}}
+> STEP #8: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'autocorrect': 'off', 'class': 'text-input calbg', 'hxagentidentity': '14', 'id': 'return-date', 'iseventadded': 'true', 'maxlength': '10', 'name': 'SearchFields.ReturnDate', 'type': 'text', 'value': ''}, 'text': 'Return'}, 'content': '18'}
+> STEP #9: {'operation': 'click', 'target object': {'attributes': {'class': 'cal-day', 'href': '#'}, 'text': '18'}}
+> STEP #10: {'operation': 'click', 'target object': {'attributes': {'class': 'button-link', 'hxagentidentity': '77', 'id': 'btnDone', 'onclick': 'Alaska.datepickrDone();'}, 'text': 'DONE'}}
+> STEP #11: {'operation': 'click', 'target object': {'attributes': {'class': 'closed drop-head', 'hxagentidentity': '20', 'iseventadded': 'true'}, 'text': 'More search options'}}
+> STEP #12: {'operation': 'click', 'target object': {'attributes': {'id': 'cabin-first', 'name': 'SearchFields.CabinType', 'type': 'radio', 'value': 'First'}, 'text': 'First'}}
+> STEP #13: {'operation': 'input', 'target object': {'attributes': {'class': 'button', 'hxagentidentity': '35', 'type': 'submit', 'value': 'Find Flights'}}, 'content': '0'}

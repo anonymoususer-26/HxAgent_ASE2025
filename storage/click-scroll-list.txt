@@ -1,0 +1,39 @@
+# Here are the history of your trials
+SUCCESS TRIAL #1: Task: Select Brittan, Wynnie from the scroll list and click Submit.
+STEP #1: Click Wynnie
+STEP #2: Click Brittan
+STEP #3: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #2: Task: Select Guernsey from the scroll list and click Submit.
+STEP #1: Click Guernsey
+STEP #2: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #3: Task: Select Alecia, Thomasin from the scroll list and click Submit.
+STEP #1: Click Alecia on 2/1/2022
+STEP #2: Click Thomasin
+STEP #3: Click Submit
+
+SUCCESS TRIAL #4: Task: Select Jersey from the scroll list and click Submit.
+STEP #1: Click Jersey
+STEP #2: Click Jersey
+STEP #3: Click Jersey
+STEP #4: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #5: Task: Select Audry, Danna from the scroll list and click Submit.
+STEP #1: Click Audry
+STEP #2: Click Danna
+STEP #3: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #6: Task: Select Gray from the scroll list and click Submit.
+STEP #1: Click Gray
+STEP #2: Click Submit
+
+SUCCESS TRIAL #7: Task: Select Moldova, Seychelles from the scroll list and click Submit.
+STEP #1: Click Moldova
+STEP #2: Click Seychelles
+STEP #3: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #8: Task: Select Czech Republic, Thailand from the scroll list and click Submit.
+STEP #1: Click Czech Republic
+STEP #2: Click Thailand
+STEP #3: Type in the form as follows: , then click submit.

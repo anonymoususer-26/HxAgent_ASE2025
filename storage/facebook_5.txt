@@ -1,0 +1,19 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Search David Bowie profile and like their latest post 
+
+You are visiting the website title: Facebook
+You are asked to complete the following task: Search David Bowie profile and like their latest post 
+
+You have completed the following steps:
+> STATE #1: No previous actions have been taken yet as this is the starting screen of Facebook.The Facebook homepage is displayed with a search bar at the top that says 'Search Facebook'. The main navigation menu is visible on the left side, including options like Friends, Groups, Video, and Marketplace. The center of the page shows a 'What's on your mind' post creation box and some stories from connections.
+> STEP #1: {'operation': 'input', 'target object': {'attributes': {'aria-autocomplete': 'list', 'aria-expanded': 'false', 'aria-invalid': 'false', 'aria-label': 'Search Facebook', 'autocomplete': 'off', 'class': 'x1i10hfl xggy1nq x1s07b3s x1kdt53j x1yc453h xhb22t3 xb5gni xcj1dhv x2s2ed0 xq33zhf xjbqb8w xnwf7zb x40j3uw x1s7lred x15gyhx8 x972fbf xcfux6l x1qhh985 xm0m39n x9f619 xzsf02u xdl72j9 x1iyjqo2 xs83m0k xjb2p0i x6prxxf xeuugli x1a2a7pz x1n2onr6 xdvlbce x1sxyh0 xurb0ha xm7lytj x1vqgdyp x1xtgk1k x17hph69 xtilpmw x1ad04t7 x1glnyev x1ix68h3 x19gujb8', 'dir': 'ltr', 'id': 'UVlRUhgfZGBfSkc9NGgh', 'placeholder': 'Search Facebook', 'role': 'combobox', 'spellcheck': 'false', 'type': 'search', 'value': ''}}, 'content': 'David Bowie official'}
+> STATE #2: I have entered 'David Bowie official' into the Facebook search bar at the top of the page.The search term 'David Bowie official' has been entered in the search bar at the top of the page. The main content area shows a 'What's on your mind' post creation box with options for Live video, Photo/video, and Feeling/activity. Below that are story circles from various users. The navigation menu remains visible on the left side, and there is a sponsored content section on the right.
+> STEP #2: {'operation': 'click', 'target object': {'text': 'david bowie official'}}
+> STATE #3: I have entered 'David Bowie official' into the Facebook search bar and clicked on the search suggestion.The search results page shows David Bowie's official Facebook profile with 5.8M followers. The profile indicates it has posted 10+ times in the last 2 weeks and includes a link to official Bowie pages. Below the profile, there are several David Bowie related groups including 'David Bowie (Official Fan Site) Freunde' with 1.2K members, 'DAVID BOWIE WORLD' with 14K members, and 'David Bowie's Sound &amp; Vision' with 4.3K members.
+> STEP #3: {'operation': 'click', 'target object': {'text': 'Pages'}}
+> STATE #4: I searched for 'David Bowie official' in the Facebook search bar and navigated to the Pages section of the search results.The search results page displays several David Bowie related pages. The top result is the verified David Bowie page with 5.8M followers and 10+ posts in the last 2 weeks. Below that are multiple other David Bowie official pages with varying follower counts, each with a 'Follow' button. Each page listing shows the category as Musician/band.
+> STEP #4: {'operation': 'click', 'target object': {'text': 'David Bowie'}}
+> STATE #5: I searched for 'David Bowie official' on Facebook, navigated through the search results and Pages section, and clicked on the verified David Bowie page.I am now on David Bowie's official Facebook page which has 5.8M followers and 127 following. The page displays a large cover photo with text 'ROCK 'N' ROLL STAR!' and has several action buttons including 'Shop Now', 'Following', and 'Search'. The navigation menu shows different sections including Posts, About, Mentions, Reels, Photos, and Videos.
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'aria-label': 'Like'}, 'text': 'Like'}}
+
+RULE #1: Including 'official' in the search query for celebrity profiles.

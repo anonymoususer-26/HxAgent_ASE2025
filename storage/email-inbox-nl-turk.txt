@@ -1,0 +1,45 @@
+# Here are the history of your trials
+SUCCESS TRIAL #1: Task: Find Kala's email and mark it as important.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Kala\nMalesuada.\nPotenti rutrum ..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'star'}}}
+
+SUCCESS TRIAL #2: Task: put Dorree on the list of people to send Dolly's email to
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '2'}, 'text': 'Dolly\nEgestas.\nElementum. Adip..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-reply'}, 'text': 'Reply'}}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'close-reply'}}}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+STEP #5: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}, 'content': 'Dorree'}
+STEP #6: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+
+SUCCESS TRIAL #3: Task: You must find Cordula's email and mark it important.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Cordula\nMalesuada.\nScelerisque mat..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'star'}}}
+
+SUCCESS TRIAL #4: Task: Open Aubrey's latest email and forward it to Xaviera.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Aubrey\nEgestas in.\nPurus. Porttito..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}, 'content': 'Xaviera'}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+
+SUCCESS TRIAL #5: Task: Just mark all the emails by Sorcha as important.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '1'}, 'text': 'Sorcha\nSollicitudin.\nNon vulputate p..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'star'}}}
+
+SUCCESS TRIAL #6: Task: Get rid of my message from Anett.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'trash'}, 'belongTo': {'email body': 'Tincidunt vitae..', 'email sender': 'Anett', 'email subject': 'Nullam.'}}}
+
+SUCCESS TRIAL #7: Task: Email Selestina back to tell her "In enim."
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '2'}, 'text': 'Selestina\nUrna.\nConvallis. Mass..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-reply'}, 'text': 'Reply'}}
+STEP #3: {'operation': 'input', 'target object': {'attributes': {'id': 'reply-text'}}, 'content': 'In enim.'}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-reply'}}}
+
+SUCCESS TRIAL #8: Task: Forward email from Margi to Andreana.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '2'}, 'text': 'Margi\nAliquet amet.\nIn nulla. Viver..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}, 'content': 'Andreana'}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+
+
+
+RULE #1: Ensure the correct recipient is selected before replying or sending an email.

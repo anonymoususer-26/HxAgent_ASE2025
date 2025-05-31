@@ -1,0 +1,105 @@
+# Here are the history of your trials
+SUCCESS TRIAL #1: Task: Select R7gZo, 4GyPdg, 1M, Svk, KoovO7r, rQ, D3, 7p5uHkm, sQSG7 and click Submit.
+STEP #1: Click R7gZo checkbox
+STEP #2: Click 4GyPdg checkbox
+STEP #3: Click 1M checkbox
+STEP #4: Click Svk checkbox
+STEP #5: Click KoovO7r checkbox
+STEP #6: Click rQ checkbox
+STEP #7: Click D3 checkbox
+STEP #8: Click 7p5uHkm checkbox
+STEP #9: Click sQSG7 checkbox
+STEP #10: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #2: Task: Select syS2, 5ufQ, 1Hm, 0PKHl, 1x, fKPH, uL, Q6, NbzZ and click Submit.
+STEP #1: Click checkbox for syS2
+STEP #2: Click checkbox for 5ufQ
+STEP #3: Click checkbox for 1Hm
+STEP #4: Click checkbox 0PKHl
+STEP #5: Click checkbox 1x
+STEP #6: Click checkbox for uL
+STEP #7: Click checkbox for fKPH
+STEP #8: Click checkbox Q6
+STEP #9: Click checkbox NbzZ
+STEP #10: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #3: Task: Select ALTsi, ySfxI6o, AYAI, 5U7, jYTv, aLI and click Submit.
+STEP #1: Click checkbox with text ALTsi
+STEP #2: Click checkbox ySfxI6o
+STEP #3: Click checkbox 5U7
+STEP #4: Click checkbox AYAI
+STEP #5: Click checkbox jYTv
+STEP #6: Click checkbox aLI
+STEP #7: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #4: Task: Select aspv, zP, EV, L3M0X2I, ubjMaBr, IMmhm, mo0YVO, p37P, HPQ and click Submit.
+STEP #1: Click aspv checkbox
+STEP #2: Click zP checkbox
+STEP #3: Click EV checkbox
+STEP #4: Click HPQ checkbox
+STEP #5: Click IMmhm checkbox
+STEP #6: Click ubjMaBr checkbox
+STEP #7: Click L3M0X2I checkbox
+STEP #8: Click mo0YVO checkbox
+STEP #9: Click p37P checkbox
+STEP #10: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #5: Task: Select YwxD, prM, dXq, ez, 480u, lCXC, AP, PNkVIC, 1i, QA, AP8r and click Submit.
+STEP #1: Click checkbox YwxD
+STEP #2: Click checkbox prM
+STEP #3: Click checkbox dXq
+STEP #4: Click checkbox ez
+STEP #5: Click checkbox 480u
+STEP #6: Click checkbox lCXC
+STEP #7: Click checkbox PNkVIC
+STEP #8: Click checkbox 1i
+STEP #9: Click checkbox AP
+STEP #10: Click checkbox QA
+STEP #11: Click checkbox AP8r
+STEP #12: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #6: Task: Select 64qQ, 2W, B1lUc, k1XJdC, yQ8Ff, jj7, Zxu, x2lYu, 470Qg and click Submit.
+STEP #1: Click checkbox with text 64qQ
+STEP #2: Click checkbox 2W
+STEP #3: Click checkbox B1lUc
+STEP #4: Click checkbox k1XJdC
+STEP #5: Click checkbox yQ8Ff
+STEP #6: Click checkbox jj7
+STEP #7: Click checkbox Zxu
+STEP #8: Click checkbox x2lYu
+STEP #9: Click checkbox for 470Qg
+STEP #10: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #7: Task: Select 9FA, xh, 4bORi, Kgiar, 2dx, j2g3, vYLtf, tex, zfds, ho and click Submit.
+STEP #1: Click 9FA checkbox
+STEP #2: Click checkbox xh
+STEP #3: Click 4bORi checkbox
+STEP #4: Click checkbox Kgiar
+STEP #5: Click checkbox vYLtf
+STEP #6: Click ho checkbox
+STEP #7: Click checkbox tex
+STEP #8: Click 2dx checkbox
+STEP #9: Click zfds checkbox
+STEP #10: Click checkbox j2g3
+STEP #11: Type in following fields, then click submit: 
+
+
+SUCCESS TRIAL #8: Task: Select xgaN5, 9njn, G4269X, KVA5, zJiZJBd, AzaGevF, M3pZ, CKWw, dpQK6FQ, t8, PpBWAk, 5S3 and click Submit.
+STEP #1: Click checkbox xgaN5
+STEP #2: Click checkbox 9njn
+STEP #3: Click checkbox G4269X
+STEP #4: Click checkbox KVA5
+STEP #5: Click checkbox AzaGevF
+STEP #6: Click checkbox zJiZJBd
+STEP #7: Click checkbox M3pZ
+STEP #8: Click checkbox dpQK6FQ
+STEP #9: Click checkbox CKWw
+STEP #10: Click checkbox 5S3
+STEP #11: Click checkbox PpBWAk
+STEP #12: Click checkbox t8
+STEP #13: Type in the form as follows: , then click submit.
+
+
+
+RULE #1: Ensure all checkboxes are clicked in the correct order before submitting the form.
+RULE #2: Ensure to avoid duplicate checkbox selection before submitting the form.

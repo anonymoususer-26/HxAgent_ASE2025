@@ -1,0 +1,2166 @@
+=====================================
+Running task click-checkboxes-large
+=====================================
+############################ trial %s 1
+goal %s Select AzBm, kDIvB, cOK, 2L5, lj and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">iTEC</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">AzBm</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">eeQmv9n</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">kDIvB</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">lj</t>
+<input_checkbox id=17 class="ch5" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top right">svlG0c</t>
+<input_checkbox id=19 class="ch6" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">z8zxFb3</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">cOK</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">2L5</t>
+<button id=24 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select AzBm, kDIvB, cOK, 2L5, lj and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=8  
+click id=12  
+click id=21  
+click id=23  
+click id=14  
+click id=24
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=14  
+action to execute %s click id=14  
+next action %s click id=24
+action to execute %s click id=24
+1 1
+total_plan_cnt 1 total_action_cnt 6
+success_plan_cnt_trial1 1 success_action_cnt_trial1 6
+############################ trial %s 1
+goal %s Select co, 0rAk, 99O8, PCQ2JfG, ZAHr, IJ, cA319, TdxB, XrseL, ktK, CjXor and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">CjXor</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">ktK</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">0rAk</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">PCQ2JfG</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">IJ</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">XrseL</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top right">ZAHr</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">co</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">TdxB</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">99O8</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">cA319</t>
+<input_checkbox id=29 class="ch11" pos="bottom"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">peaMd</t>
+<button id=30 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select co, 0rAk, 99O8, PCQ2JfG, ZAHr, IJ, cA319, TdxB, XrseL, ktK, CjXor and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=8  
+click id=10  
+click id=12  
+click id=14  
+click id=16  
+click id=19  
+click id=21  
+click id=23  
+click id=25  
+click id=27  
+click id=30
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=14  
+action to execute %s click id=14  
+next action %s click id=16  
+action to execute %s click id=16  
+next action %s click id=19  
+action to execute %s click id=19  
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=25  
+action to execute %s click id=25  
+next action %s click id=27  
+action to execute %s click id=27  
+next action %s click id=30
+action to execute %s click id=30
+2 2
+total_plan_cnt 2 total_action_cnt 18
+success_plan_cnt_trial1 2 success_action_cnt_trial1 18
+############################ trial %s 1
+goal %s Select WdB7er, Mhjk0j, w5UhK3q, IMTq1, RMvNz, mlViB, nrezx, 2PAzLd, rtz6, 04vodub and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">WdB7er</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">Mhjk0j</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">IMTq1</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">04vodub</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">2PAzLd</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">nrezx</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">o9</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">y289X</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">RMvNz</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">rtz6</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">w5UhK3q</t>
+<input_checkbox id=29 class="ch11" pos="bottom"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">mlViB</t>
+<button id=30 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select WdB7er, Mhjk0j, w5UhK3q, IMTq1, RMvNz, mlViB, nrezx, 2PAzLd, rtz6, 04vodub and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=8  
+click id=10  
+click id=12  
+click id=14  
+click id=16  
+click id=23  
+click id=25  
+click id=27  
+click id=29  
+click id=30
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=14  
+action to execute %s click id=14  
+next action %s click id=16  
+action to execute %s click id=16  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=25  
+action to execute %s click id=25  
+next action %s click id=27  
+action to execute %s click id=27  
+next action %s click id=29  
+action to execute %s click id=29  
+next action %s click id=30
+action to execute %s click id=30
+3 3
+total_plan_cnt 3 total_action_cnt 29
+success_plan_cnt_trial1 3 success_action_cnt_trial1 29
+############################ trial %s 1
+goal %s Select ZO2kZQm, qdhieF, eI4, vA, ci9 and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">vA</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">Ivv</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">eI4</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">qdhieF</t>
+<input_checkbox id=15 class="ch4" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top right">ZO2kZQm</t>
+<input_checkbox id=17 class="ch5" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">ci9</t>
+<input_checkbox id=19 class="ch6" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">8j</t>
+<button id=20 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select ZO2kZQm, qdhieF, eI4, vA, ci9 and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=15  
+click id=12  
+click id=10  
+click id=6  
+click id=17  
+click id=20
+next action %s click id=15  
+action to execute %s click id=15  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=17  
+action to execute %s click id=17  
+next action %s click id=20
+action to execute %s click id=20
+4 4
+total_plan_cnt 4 total_action_cnt 35
+success_plan_cnt_trial1 4 success_action_cnt_trial1 35
+############################ trial %s 1
+goal %s Select 7gT, OkdFv, ImN, zgjtSK, WPumV, 1xyzt0, 0hCqY, lU6iKv, EIkT, adkufy, LwM, tvD and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">OkdFv</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">1xyzt0</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">tvD</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">EIkT</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">WPumV</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">LwM</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">lU6iKv</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">ImN</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">zgjtSK</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">7gT</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">0hCqY</t>
+<input_checkbox id=29 class="ch11" pos="bottom"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">adkufy</t>
+<button id=30 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select 7gT, OkdFv, ImN, zgjtSK, WPumV, 1xyzt0, 0hCqY, lU6iKv, EIkT, adkufy, LwM, tvD and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=8  
+click id=10  
+click id=12  
+click id=14  
+click id=16  
+click id=19  
+click id=21  
+click id=23  
+click id=25  
+click id=27  
+click id=29  
+click id=30
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=14  
+action to execute %s click id=14  
+next action %s click id=16  
+action to execute %s click id=16  
+next action %s click id=19  
+action to execute %s click id=19  
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=25  
+action to execute %s click id=25  
+next action %s click id=27  
+action to execute %s click id=27  
+next action %s click id=29  
+action to execute %s click id=29  
+next action %s click id=30
+action to execute %s click id=30
+5 5
+total_plan_cnt 5 total_action_cnt 48
+success_plan_cnt_trial1 5 success_action_cnt_trial1 48
+############################ trial %s 1
+goal %s Select sNBu, J1I7k3, kXY59S, mXSN9, HNbsCpV, VwYl, wCiqiu0, S9M, Ia3, XI59, 8tyudgj, 3WN8eBr and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">kXY59S</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">XI59</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">Ia3</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">VwYl</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">3WN8eBr</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">S9M</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top right">HNbsCpV</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">8tyudgj</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">mXSN9</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">wCiqiu0</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">sNBu</t>
+<input_checkbox id=29 class="ch11" pos="bottom"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">J1I7k3</t>
+<button id=30 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select sNBu, J1I7k3, kXY59S, mXSN9, HNbsCpV, VwYl, wCiqiu0, S9M, Ia3, XI59, 8tyudgj, 3WN8eBr and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=8  
+click id=10  
+click id=12  
+click id=14  
+click id=16  
+click id=19  
+click id=21  
+click id=23  
+click id=25  
+click id=27  
+click id=29  
+click id=30
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=14  
+action to execute %s click id=14  
+next action %s click id=16  
+action to execute %s click id=16  
+next action %s click id=19  
+action to execute %s click id=19  
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=25  
+action to execute %s click id=25  
+next action %s click id=27  
+action to execute %s click id=27  
+next action %s click id=29  
+action to execute %s click id=29  
+next action %s click id=30
+action to execute %s click id=30
+6 6
+total_plan_cnt 6 total_action_cnt 61
+success_plan_cnt_trial1 6 success_action_cnt_trial1 61
+############################ trial %s 1
+goal %s Select cU2, AaoT7, 0g1jDu, mx0cy6i, 6F, AAyKKu, QeqbdsG, mw and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">oD</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">0g1jDu</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">6F</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">AaoT7</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">cU2</t>
+<input_checkbox id=17 class="ch5" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">mx0cy6i</t>
+<input_checkbox id=19 class="ch6" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">AAyKKu</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">oADA</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">QeqbdsG</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom">mw</t>
+<button id=26 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select cU2, AaoT7, 0g1jDu, mx0cy6i, 6F, AAyKKu, QeqbdsG, mw and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=14  
+click id=12  
+click id=8  
+click id=17  
+click id=10  
+click id=19  
+click id=23  
+click id=25  
+click id=26
+next action %s click id=14  
+action to execute %s click id=14  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=17  
+action to execute %s click id=17  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=19  
+action to execute %s click id=19  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=25  
+action to execute %s click id=25  
+next action %s click id=26
+action to execute %s click id=26
+7 7
+total_plan_cnt 7 total_action_cnt 70
+success_plan_cnt_trial1 7 success_action_cnt_trial1 70
+############################ trial %s 1
+goal %s Select 4O3j, ty, kr, Ap, UL2d, ShxR8EK, scsLM9, gk, 6R, TI, 6Cre and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">4O3j</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">gk</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">gR4</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">ShxR8EK</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">Ap</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">6R</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">ty</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">kr</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">TI</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">6Cre</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">scsLM9</t>
+<input_checkbox id=29 class="ch11" pos="bottom"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">UL2d</t>
+<button id=30 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select 4O3j, ty, kr, Ap, UL2d, ShxR8EK, scsLM9, gk, 6R, TI, 6Cre and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=8  
+click id=12  
+click id=14  
+click id=16  
+click id=19  
+click id=21  
+click id=23  
+click id=25  
+click id=27  
+click id=29  
+click id=30
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=14  
+action to execute %s click id=14  
+next action %s click id=16  
+action to execute %s click id=16  
+next action %s click id=19  
+action to execute %s click id=19  
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=25  
+action to execute %s click id=25  
+next action %s click id=27  
+action to execute %s click id=27  
+next action %s click id=29  
+action to execute %s click id=29  
+next action %s click id=30
+action to execute %s click id=30
+8 8
+total_plan_cnt 8 total_action_cnt 82
+success_plan_cnt_trial1 8 success_action_cnt_trial1 82
+############################ trial %s 1
+goal %s Select CgC, dN, bJtcU5, G1mpI7, zdq, JA87tu, nt, d9Ts, EgUFnNc, Bnx, 3VS, JgxO and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">bJtcU5</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">G1mpI7</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">zdq</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">CgC</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">EgUFnNc</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">nt</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top right">3VS</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">dN</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">JgxO</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">JA87tu</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">d9Ts</t>
+<input_checkbox id=29 class="ch11" pos="bottom"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">Bnx</t>
+<button id=30 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select CgC, dN, bJtcU5, G1mpI7, zdq, JA87tu, nt, d9Ts, EgUFnNc, Bnx, 3VS, JgxO and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=8  
+click id=10  
+click id=12  
+click id=14  
+click id=16  
+click id=19  
+click id=21  
+click id=23  
+click id=25  
+click id=27  
+click id=29  
+click id=30
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=14  
+action to execute %s click id=14  
+next action %s click id=16  
+action to execute %s click id=16  
+next action %s click id=19  
+action to execute %s click id=19  
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=25  
+action to execute %s click id=25  
+next action %s click id=27  
+action to execute %s click id=27  
+next action %s click id=29  
+action to execute %s click id=29  
+next action %s click id=30
+action to execute %s click id=30
+9 9
+total_plan_cnt 9 total_action_cnt 95
+success_plan_cnt_trial1 9 success_action_cnt_trial1 95
+############################ trial %s 1
+goal %s Select nVK, exC, zaIgVs, EFIR28Q, tcXKoe, jRa5, mMU3Hz, G5dZMKB, gOl, xMpGYsP and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">mMU3Hz</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">EFIR28Q</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">zaIgVs</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">exC</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">G5dZMKB</t>
+<input_checkbox id=17 class="ch5" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top right">gOl</t>
+<input_checkbox id=19 class="ch6" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">xMpGYsP</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">nVK</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">tcXKoe</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">jRa5</t>
+<button id=26 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select nVK, exC, zaIgVs, EFIR28Q, tcXKoe, jRa5, mMU3Hz, G5dZMKB, gOl, xMpGYsP and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s hold CTRL  
+click id=6  
+click id=8  
+click id=10  
+click id=12  
+click id=14  
+click id=17  
+click id=19  
+click id=21  
+click id=23  
+click id=25  
+release CTRL  
+click id=26
+next action %s hold CTRL  
+action to execute %s hold CTRL  
+no change, moving to the next iteration.
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: click-checkboxes-large. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">mMU3Hz</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">EFIR28Q</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">zaIgVs</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">exC</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">G5dZMKB</t>
+<input_checkbox id=17 class="ch5" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top right">gOl</t>
+<input_checkbox id=19 class="ch6" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">xMpGYsP</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">nVK</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">tcXKoe</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">jRa5</t>
+<button id=26 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+Your index=1 action: hold CTRL  
+
+You conducted the above actions for the top-level goal: Select nVK, exC, zaIgVs, EFIR28Q, tcXKoe, jRa5, mMU3Hz, G5dZMKB, gOl, xMpGYsP and click Submit.
+
+However, your last action did not cause anything to change on the last screen. You probably used the wrong action type. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=1, you should click id=6
+############################ trial %s 2
+goal %s Select nVK, exC, zaIgVs, EFIR28Q, tcXKoe, jRa5, mMU3Hz, G5dZMKB, gOl, xMpGYsP and click Submit.
+enforcing act from reflection %s click id=6
+cur_plan %s click id=6
+next action %s click id=6
+action to execute %s click id=6
+goal %s Select nVK, exC, zaIgVs, EFIR28Q, tcXKoe, jRa5, mMU3Hz, G5dZMKB, gOl, xMpGYsP and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" value="True" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">mMU3Hz</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">EFIR28Q</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">zaIgVs</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">exC</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">G5dZMKB</t>
+<input_checkbox id=17 class="ch5" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top right">gOl</t>
+<input_checkbox id=19 class="ch6" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">xMpGYsP</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">nVK</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">tcXKoe</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">jRa5</t>
+<button id=26 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select nVK, exC, zaIgVs, EFIR28Q, tcXKoe, jRa5, mMU3Hz, G5dZMKB, gOl, xMpGYsP and click Submit.
+Your past actions are:
+1st action: A checkbox located at the top left of the screen, associated with the text "mMU3Hz," has been clicked.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=8  
+click id=10  
+click id=12  
+click id=14  
+click id=17  
+click id=19  
+click id=21  
+click id=23  
+click id=25  
+click id=26
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=14  
+action to execute %s click id=14  
+next action %s click id=17  
+action to execute %s click id=17  
+next action %s click id=19  
+action to execute %s click id=19  
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=25  
+action to execute %s click id=25  
+next action %s click id=26
+action to execute %s click id=26
+10 10
+total_plan_cnt 12 total_action_cnt 107
+success_plan_cnt_trial1 10 success_action_cnt_trial1 96
+############################ trial %s 1
+goal %s Select CzFlj7, 1PE7, 4fewzz, MOUUfQ, nHdQlPA, f4Jj2 and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">CzFlj7</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">1PE7</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">4fewzz</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">MOUUfQ</t>
+<input_checkbox id=15 class="ch4" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top right">nHdQlPA</t>
+<input_checkbox id=17 class="ch5" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">f4Jj2</t>
+<input_checkbox id=19 class="ch6" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">uxrzT</t>
+<button id=20 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select CzFlj7, 1PE7, 4fewzz, MOUUfQ, nHdQlPA, f4Jj2 and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=8  
+click id=10  
+click id=12  
+click id=15  
+click id=17  
+click id=20
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=15  
+action to execute %s click id=15  
+next action %s click id=17  
+action to execute %s click id=17  
+next action %s click id=20
+action to execute %s click id=20
+11 11
+total_plan_cnt 13 total_action_cnt 114
+success_plan_cnt_trial1 11 success_action_cnt_trial1 103
+############################ trial %s 1
+goal %s Select bKU, Gt7, m6LHU, 4yOB, EBmX, BZG, pb, QsfB2 and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">4yOB</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">m6LHU</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">Gt7</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">QsfB2</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">BZG</t>
+<input_checkbox id=17 class="ch5" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">bKU</t>
+<input_checkbox id=19 class="ch6" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">EBmX</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">zvu</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">pb</t>
+<button id=24 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select bKU, Gt7, m6LHU, 4yOB, EBmX, BZG, pb, QsfB2 and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=8  
+click id=10  
+click id=12  
+click id=14  
+click id=17  
+click id=19  
+click id=23  
+click id=24
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=14  
+action to execute %s click id=14  
+next action %s click id=17  
+action to execute %s click id=17  
+next action %s click id=19  
+action to execute %s click id=19  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=24
+action to execute %s click id=24
+12 12
+total_plan_cnt 14 total_action_cnt 123
+success_plan_cnt_trial1 12 success_action_cnt_trial1 112
+############################ trial %s 1
+goal %s Select IT, jFIu, UN9, 4BS3Uy, yzYmApY, 2g, j5, V9ThCXT, Qg48, 6hbnz and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">Qg48</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">jFIu</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">4BS3Uy</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">yzYmApY</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">UN9</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">2g</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top right">V9ThCXT</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">EbE7l</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">j5</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">IFaN3T</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">6hbnz</t>
+<input_checkbox id=29 class="ch11" pos="bottom"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom">IT</t>
+<button id=30 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select IT, jFIu, UN9, 4BS3Uy, yzYmApY, 2g, j5, V9ThCXT, Qg48, 6hbnz and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=8  
+click id=10  
+click id=12  
+click id=14  
+click id=16  
+click id=19  
+click id=23  
+click id=27  
+click id=29  
+click id=30
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=14  
+action to execute %s click id=14  
+next action %s click id=16  
+action to execute %s click id=16  
+next action %s click id=19  
+action to execute %s click id=19  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=27  
+action to execute %s click id=27  
+next action %s click id=29  
+action to execute %s click id=29  
+next action %s click id=30
+action to execute %s click id=30
+13 13
+total_plan_cnt 15 total_action_cnt 134
+success_plan_cnt_trial1 13 success_action_cnt_trial1 123
+############################ trial %s 1
+goal %s Select MuItFH, IzuOqIb, mXqqqE, 6Y, iF1t, coQqtL, lPo1p, uD9x and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">lPo1p</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">6Y</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">iF1t</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">mXqqqE</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">5V</t>
+<input_checkbox id=17 class="ch5" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top right">IzuOqIb</t>
+<input_checkbox id=19 class="ch6" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">Dyv</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">coQqtL</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">MuItFH</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom">uD9x</t>
+<button id=26 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select MuItFH, IzuOqIb, mXqqqE, 6Y, iF1t, coQqtL, lPo1p, uD9x and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=8  
+click id=10  
+click id=12  
+click id=17  
+click id=21  
+click id=23  
+click id=25  
+click id=26
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=17  
+action to execute %s click id=17  
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=25  
+action to execute %s click id=25  
+next action %s click id=26
+action to execute %s click id=26
+14 14
+total_plan_cnt 16 total_action_cnt 143
+success_plan_cnt_trial1 14 success_action_cnt_trial1 132
+############################ trial %s 1
+goal %s Select yrH, rXLna, cLQZUx, 93TpV, CPYp, NyTEZ and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">cLQZUx</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">Nmhmj</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">CPYp</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">93TpV</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">dO</t>
+<input_checkbox id=17 class="ch5" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">yrH</t>
+<input_checkbox id=19 class="ch6" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">Kv</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">NyTEZ</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">rXLna</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">mBDSb</t>
+<button id=26 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select yrH, rXLna, cLQZUx, 93TpV, CPYp, NyTEZ and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=10  
+click id=12  
+click id=17  
+click id=21  
+click id=23  
+click id=26
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=17  
+action to execute %s click id=17  
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=26
+action to execute %s click id=26
+15 15
+total_plan_cnt 17 total_action_cnt 150
+success_plan_cnt_trial1 15 success_action_cnt_trial1 139
+############################ trial %s 1
+goal %s Select 79UD, WUYVy, rbpn, I85qmxi, qQkYS, 06VGWMn, ccSN, BHzk, rh and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">rbpn</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">FcS</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">06VGWMn</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">eFAeuU</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">rh</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">WUYVy</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top right">79UD</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">I85qmxi</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">BHzk</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">ccSN</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">qQkYS</t>
+<input_checkbox id=29 class="ch11" pos="bottom"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">UJf</t>
+<button id=30 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select 79UD, WUYVy, rbpn, I85qmxi, qQkYS, 06VGWMn, ccSN, BHzk, rh and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=10  
+click id=14  
+click id=16  
+click id=19  
+click id=21  
+click id=23  
+click id=25  
+click id=27  
+click id=30
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=14  
+action to execute %s click id=14  
+next action %s click id=16  
+action to execute %s click id=16  
+next action %s click id=19  
+action to execute %s click id=19  
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=25  
+action to execute %s click id=25  
+next action %s click id=27  
+action to execute %s click id=27  
+next action %s click id=30
+action to execute %s click id=30
+16 16
+total_plan_cnt 18 total_action_cnt 160
+success_plan_cnt_trial1 16 success_action_cnt_trial1 149
+############################ trial %s 1
+goal %s Select F4cXeKn, XtKgGFy, iPX, IFVg7, 2tmVGz, gehDEmi and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">gehDEmi</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">iPX</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">F4cXeKn</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">IFVg7</t>
+<input_checkbox id=15 class="ch4" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top right">XtKgGFy</t>
+<input_checkbox id=17 class="ch5" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">2tmVGz</t>
+<input_checkbox id=19 class="ch6" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">CWL</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">fGn2</t>
+<button id=22 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select F4cXeKn, XtKgGFy, iPX, IFVg7, 2tmVGz, gehDEmi and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=8  
+click id=10  
+click id=12  
+click id=15  
+click id=17  
+click id=22
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=15  
+action to execute %s click id=15  
+next action %s click id=17  
+action to execute %s click id=17  
+next action %s click id=22
+action to execute %s click id=22
+17 17
+total_plan_cnt 19 total_action_cnt 167
+success_plan_cnt_trial1 17 success_action_cnt_trial1 156
+############################ trial %s 1
+goal %s Select xkLL88, PZ7, A6ULF, bfwOahg, LgdnKv, vDoAb, yFI, XR1, mQmUlf, oPqZvCO and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">PZ7</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">vDoAb</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">LgdnKv</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">XR1</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">yFI</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">xkLL88</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">A6ULF</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">i5</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">oPqZvCO</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">bfwOahg</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">mQmUlf</t>
+<button id=28 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select xkLL88, PZ7, A6ULF, bfwOahg, LgdnKv, vDoAb, yFI, XR1, mQmUlf, oPqZvCO and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=8  
+click id=10  
+click id=12  
+click id=14  
+click id=16  
+click id=19  
+click id=23  
+click id=25  
+click id=27  
+click id=28
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=14  
+action to execute %s click id=14  
+next action %s click id=16  
+action to execute %s click id=16  
+next action %s click id=19  
+action to execute %s click id=19  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=25  
+action to execute %s click id=25  
+next action %s click id=27  
+action to execute %s click id=27  
+next action %s click id=28
+action to execute %s click id=28
+18 18
+total_plan_cnt 20 total_action_cnt 178
+success_plan_cnt_trial1 18 success_action_cnt_trial1 167
+############################ trial %s 1
+goal %s Select dHbM, 20if4OA, xLOdEg, KoRvX, t7l, 3w3iVCf, UO, heCYpb and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">t7l</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">KoRvX</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">GGK</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">20if4OA</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">woP6</t>
+<input_checkbox id=17 class="ch5" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top right">3w3iVCf</t>
+<input_checkbox id=19 class="ch6" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">xLOdEg</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">dHbM</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">UO</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">heCYpb</t>
+<button id=26 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select dHbM, 20if4OA, xLOdEg, KoRvX, t7l, 3w3iVCf, UO, heCYpb and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=8  
+click id=12  
+click id=17  
+click id=19  
+click id=21  
+click id=23  
+click id=25  
+click id=26
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=17  
+action to execute %s click id=17  
+next action %s click id=19  
+action to execute %s click id=19  
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=25  
+action to execute %s click id=25  
+next action %s click id=26
+action to execute %s click id=26
+19 19
+total_plan_cnt 21 total_action_cnt 187
+success_plan_cnt_trial1 19 success_action_cnt_trial1 176
+############################ trial %s 1
+goal %s Select TM, dNHWG, jZgDz0, 3SDow, SeM9Av, Kk, ydGGb, pEec, YpSKIY, mk, QZ0 and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">YpSKIY</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">dNHWG</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">3SDow</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">ydGGb</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">jZgDz0</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">pEec</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">mk</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">SeM9Av</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">QZ0</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">Kk</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom">TM</t>
+<button id=28 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select TM, dNHWG, jZgDz0, 3SDow, SeM9Av, Kk, ydGGb, pEec, YpSKIY, mk, QZ0 and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s hold CTRL  
+click id=6  
+click id=8  
+click id=10  
+click id=12  
+click id=14  
+click id=16  
+click id=19  
+click id=21  
+click id=23  
+click id=25  
+click id=27  
+release CTRL  
+click id=28
+next action %s hold CTRL  
+action to execute %s hold CTRL  
+no change, moving to the next iteration.
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: click-checkboxes-large. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">YpSKIY</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">dNHWG</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">3SDow</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">ydGGb</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">jZgDz0</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">pEec</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">mk</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">SeM9Av</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">QZ0</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">Kk</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom">TM</t>
+<button id=28 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+Your index=1 action: hold CTRL  
+
+You conducted the above actions for the top-level goal: Select TM, dNHWG, jZgDz0, 3SDow, SeM9Av, Kk, ydGGb, pEec, YpSKIY, mk, QZ0 and click Submit.
+
+However, your last action did not cause anything to change on the last screen. You probably used the wrong action type. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=1, you should click id=27
+############################ trial %s 2
+goal %s Select TM, dNHWG, jZgDz0, 3SDow, SeM9Av, Kk, ydGGb, pEec, YpSKIY, mk, QZ0 and click Submit.
+enforcing act from reflection %s click id=27
+cur_plan %s click id=27
+next action %s click id=27
+action to execute %s click id=27
+goal %s Select TM, dNHWG, jZgDz0, 3SDow, SeM9Av, Kk, ydGGb, pEec, YpSKIY, mk, QZ0 and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">YpSKIY</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">dNHWG</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">3SDow</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">ydGGb</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">jZgDz0</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">pEec</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">mk</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">SeM9Av</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">QZ0</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">Kk</t>
+<input_checkbox id=27 class="ch10" value="True" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom">TM</t>
+<button id=28 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select TM, dNHWG, jZgDz0, 3SDow, SeM9Av, Kk, ydGGb, pEec, YpSKIY, mk, QZ0 and click Submit.
+Your past actions are:
+1st action: A checkbox associated with the text "TM" located in the center of the screen was clicked.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s hold CTRL  
+click id=8  
+click id=10  
+click id=12  
+click id=14  
+click id=16  
+click id=6  
+click id=19  
+click id=21  
+click id=23  
+click id=25  
+release CTRL  
+click id=28
+next action %s hold CTRL  
+action to execute %s hold CTRL  
+no change, moving to the next iteration.
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: click-checkboxes-large. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">YpSKIY</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">dNHWG</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">3SDow</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">ydGGb</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">jZgDz0</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">pEec</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">mk</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">SeM9Av</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">QZ0</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">Kk</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom">TM</t>
+<button id=28 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+Your index=1 action: click id=27
+Your index=2 action: hold CTRL  
+
+You conducted the above actions for the top-level goal: Select TM, dNHWG, jZgDz0, 3SDow, SeM9Av, Kk, ydGGb, pEec, YpSKIY, mk, QZ0 and click Submit.
+
+However, your last action did not cause anything to change on the last screen. You probably used the wrong action type. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=1, you should click id=8
+############################ trial %s 3
+goal %s Select TM, dNHWG, jZgDz0, 3SDow, SeM9Av, Kk, ydGGb, pEec, YpSKIY, mk, QZ0 and click Submit.
+enforcing act from reflection %s click id=8
+cur_plan %s click id=8
+next action %s click id=8
+action to execute %s click id=8
+goal %s Select TM, dNHWG, jZgDz0, 3SDow, SeM9Av, Kk, ydGGb, pEec, YpSKIY, mk, QZ0 and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">YpSKIY</t>
+<input_checkbox id=8 class="ch1" value="True" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">dNHWG</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">3SDow</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">ydGGb</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">jZgDz0</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">pEec</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">mk</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">SeM9Av</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">QZ0</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">Kk</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom">TM</t>
+<button id=28 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select TM, dNHWG, jZgDz0, 3SDow, SeM9Av, Kk, ydGGb, pEec, YpSKIY, mk, QZ0 and click Submit.
+Your past actions are:
+1st action: A checkbox labeled "dNHWG" was selected.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s hold CTRL  
+click id=6  
+click id=10  
+click id=12  
+click id=14  
+click id=16  
+click id=19  
+click id=21  
+click id=23  
+click id=25  
+click id=27  
+release CTRL  
+click id=28
+next action %s hold CTRL  
+action to execute %s hold CTRL  
+no change, moving to the next iteration.
+disabling clicks %s on html at %s {'27'} 0
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: click-checkboxes-large. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">YpSKIY</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">dNHWG</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">3SDow</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">ydGGb</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">jZgDz0</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">pEec</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">mk</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">SeM9Av</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">QZ0</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">Kk</t>
+<input_checkbox class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom">TM</t>
+<button id=28 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+Your index=1 action: click id=8
+Your index=2 action: hold CTRL  
+
+You conducted the above actions for the top-level goal: Select TM, dNHWG, jZgDz0, 3SDow, SeM9Av, Kk, ydGGb, pEec, YpSKIY, mk, QZ0 and click Submit.
+
+However, your last action did not cause anything to change on the last screen. You probably used the wrong action type. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=2, you should click id=6
+19 20
+total_plan_cnt 26 total_action_cnt 192
+success_plan_cnt_trial1 19 success_action_cnt_trial1 176
+############################ trial %s 1
+goal %s Select NwT9L, NY7, FUYfI4, d8xtbS, aXkYM07, 9t8R, fv, Je and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">NY7</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">9t8R</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">UvL2</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">fv</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">FUYfI4</t>
+<input_checkbox id=17 class="ch5" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top right">aXkYM07</t>
+<input_checkbox id=19 class="ch6" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">Je</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">NwT9L</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">DqKTpm</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom">d8xtbS</t>
+<button id=26 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select NwT9L, NY7, FUYfI4, d8xtbS, aXkYM07, 9t8R, fv, Je and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=21  
+click id=6  
+click id=14  
+click id=25  
+click id=17  
+click id=8  
+click id=12  
+click id=19  
+click id=26
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=14  
+action to execute %s click id=14  
+next action %s click id=25  
+action to execute %s click id=25  
+next action %s click id=17  
+action to execute %s click id=17  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=19  
+action to execute %s click id=19  
+next action %s click id=26
+action to execute %s click id=26
+20 21
+total_plan_cnt 27 total_action_cnt 201
+success_plan_cnt_trial1 20 success_action_cnt_trial1 185
+############################ trial %s 1
+goal %s Select 1Me, CI6, mpZmF, nYUHcx, GIL, Q3j, a4f, a0o, 39i9jIO, I5kkYuY, C7JZVi5 and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">C7JZVi5</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">a4f</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">Q3j</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">8wXz9Pz</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">1Me</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">I5kkYuY</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">GIL</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">CI6</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">nYUHcx</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">39i9jIO</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">mpZmF</t>
+<input_checkbox id=29 class="ch11" pos="bottom"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom">a0o</t>
+<button id=30 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select 1Me, CI6, mpZmF, nYUHcx, GIL, Q3j, a4f, a0o, 39i9jIO, I5kkYuY, C7JZVi5 and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s hold CTRL  
+click id=6  
+click id=8  
+click id=10  
+click id=12  
+click id=14  
+click id=16  
+click id=19  
+click id=21  
+click id=23  
+click id=25  
+click id=27  
+click id=29  
+release CTRL  
+click id=30
+next action %s hold CTRL  
+action to execute %s hold CTRL  
+no change, moving to the next iteration.
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: click-checkboxes-large. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">C7JZVi5</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">a4f</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">Q3j</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">8wXz9Pz</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">1Me</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">I5kkYuY</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">GIL</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">CI6</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">nYUHcx</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">39i9jIO</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">mpZmF</t>
+<input_checkbox id=29 class="ch11" pos="bottom"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom">a0o</t>
+<button id=30 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+Your index=1 action: hold CTRL  
+
+You conducted the above actions for the top-level goal: Select 1Me, CI6, mpZmF, nYUHcx, GIL, Q3j, a4f, a0o, 39i9jIO, I5kkYuY, C7JZVi5 and click Submit.
+
+However, your last action did not cause anything to change on the last screen. You probably used the wrong action type. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=1, you should click id=6
+############################ trial %s 2
+goal %s Select 1Me, CI6, mpZmF, nYUHcx, GIL, Q3j, a4f, a0o, 39i9jIO, I5kkYuY, C7JZVi5 and click Submit.
+enforcing act from reflection %s click id=6
+cur_plan %s click id=6
+next action %s click id=6
+action to execute %s click id=6
+goal %s Select 1Me, CI6, mpZmF, nYUHcx, GIL, Q3j, a4f, a0o, 39i9jIO, I5kkYuY, C7JZVi5 and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" value="True" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">C7JZVi5</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">a4f</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">Q3j</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">8wXz9Pz</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">1Me</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">I5kkYuY</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">GIL</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">CI6</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">nYUHcx</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">39i9jIO</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">mpZmF</t>
+<input_checkbox id=29 class="ch11" pos="bottom"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom">a0o</t>
+<button id=30 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select 1Me, CI6, mpZmF, nYUHcx, GIL, Q3j, a4f, a0o, 39i9jIO, I5kkYuY, C7JZVi5 and click Submit.
+Your past actions are:
+1st action: A checkbox located at the top left of the screen, associated with the text "C7JZVi5," has been clicked.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s hold CTRL  
+click id=8  
+click id=10  
+click id=12  
+click id=14  
+click id=16  
+click id=19  
+click id=21  
+click id=23  
+click id=25  
+click id=27  
+click id=29  
+release CTRL  
+click id=30
+next action %s hold CTRL  
+action to execute %s hold CTRL  
+no change, moving to the next iteration.
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: click-checkboxes-large. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">C7JZVi5</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">a4f</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">Q3j</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">8wXz9Pz</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">1Me</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">I5kkYuY</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">GIL</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">CI6</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">nYUHcx</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">39i9jIO</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">mpZmF</t>
+<input_checkbox id=29 class="ch11" pos="bottom"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom">a0o</t>
+<button id=30 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+Your index=1 action: click id=6
+Your index=2 action: hold CTRL  
+
+You conducted the above actions for the top-level goal: Select 1Me, CI6, mpZmF, nYUHcx, GIL, Q3j, a4f, a0o, 39i9jIO, I5kkYuY, C7JZVi5 and click Submit.
+
+However, your last action did not cause anything to change on the last screen. You probably used the wrong action type. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=1, you should hold CTRL
+############################ trial %s 3
+goal %s Select 1Me, CI6, mpZmF, nYUHcx, GIL, Q3j, a4f, a0o, 39i9jIO, I5kkYuY, C7JZVi5 and click Submit.
+enforcing act from reflection %s hold CTRL
+cur_plan %s hold CTRL
+next action %s hold CTRL
+action to execute %s hold CTRL
+no change, moving to the next iteration.
+************** reflect_prompt
+reflect_prompt %s You are operating a computer for a task: click-checkboxes-large. You went over a series of screens and executed actions to fulfill a top-level goal.
+Your action trajectory is as follows:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">C7JZVi5</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">a4f</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">Q3j</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">8wXz9Pz</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">1Me</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">I5kkYuY</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">GIL</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">CI6</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">nYUHcx</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">39i9jIO</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">mpZmF</t>
+<input_checkbox id=29 class="ch11" pos="bottom"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom">a0o</t>
+<button id=30 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+Your index=1 action: hold CTRL
+
+You conducted the above actions for the top-level goal: Select 1Me, CI6, mpZmF, nYUHcx, GIL, Q3j, a4f, a0o, 39i9jIO, I5kkYuY, C7JZVi5 and click Submit.
+
+However, your last action did not cause anything to change on the last screen. You probably used the wrong action type. Now, you need to identify the earliest critical step where you made a mistake, and suggest a correction. Your suggestion must be in this format: "For action index=A, you should B.", where A is the action index, and B is the suggested action you should have taken, without any additional explanation or detail. There are three type of atomic actions you can suggested. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter ... to id=...". However, every time you want to enter something, you should always click the desired input field before typing. Lastly, you can press and hold special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections.
+Your suggestion:
+reflection %s For action index=1, you should click id=6
+20 22
+total_plan_cnt 31 total_action_cnt 205
+success_plan_cnt_trial1 20 success_action_cnt_trial1 185
+############################ trial %s 1
+goal %s Select c9EOgN, cZpjxSS, 10JDQo4, qugQc, nrC and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">c9EOgN</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">10JDQo4</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">usqJ</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">qugQc</t>
+<input_checkbox id=15 class="ch4" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">nrC</t>
+<input_checkbox id=17 class="ch5" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">cZpjxSS</t>
+<input_checkbox id=19 class="ch6" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">TeCUY</t>
+<button id=20 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select c9EOgN, cZpjxSS, 10JDQo4, qugQc, nrC and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=8  
+click id=12  
+click id=15  
+click id=17  
+click id=20
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=15  
+action to execute %s click id=15  
+next action %s click id=17  
+action to execute %s click id=17  
+next action %s click id=20
+action to execute %s click id=20
+21 23
+total_plan_cnt 32 total_action_cnt 211
+success_plan_cnt_trial1 21 success_action_cnt_trial1 191
+############################ trial %s 1
+goal %s Select z6wbk, yh, MK8CCb, TjPDmu, oEHYK, GSu3L8h, 9oEHYX, QqMxNNl, oi and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">oi</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">yh</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">z6wbk</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">9oEHYX</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">MK8CCb</t>
+<input_checkbox id=17 class="ch5" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top right">TjPDmu</t>
+<input_checkbox id=19 class="ch6" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">GSu3L8h</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">oEHYK</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">QqMxNNl</t>
+<button id=24 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select z6wbk, yh, MK8CCb, TjPDmu, oEHYK, GSu3L8h, 9oEHYX, QqMxNNl, oi and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=8  
+click id=10  
+click id=12  
+click id=14  
+click id=17  
+click id=19  
+click id=21  
+click id=23  
+click id=24
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=14  
+action to execute %s click id=14  
+next action %s click id=17  
+action to execute %s click id=17  
+next action %s click id=19  
+action to execute %s click id=19  
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=24
+action to execute %s click id=24
+22 24
+total_plan_cnt 33 total_action_cnt 221
+success_plan_cnt_trial1 22 success_action_cnt_trial1 201
+############################ trial %s 1
+goal %s Select NpyO, KyHbJ, 5TL, opT, gX9H9oO, YSk, NpBuv, 87J, EIwU699, XdaA, Z3l62, Ayt5e and click Submit.
+cur_plan_prompt %s You are operating a computer for a task: click-checkboxes-large. You can generate a series of atomic actions to fulfill a top-level goal. There are three types of atomic actions you can perform. Firstly, you can click an object by referring to its id, such as "click id=...". Secondly, you can enter text to an input field, such as "enter "..." to id=...". Specifically, you should always wrap the text you want to type in with double quotes. Lastly, you can operate special keys on the keyboard, such as "hold CTRL" and "release CTRL" before and after multiple selections. If dropdownlist is available, you can "press ARROWUP x N" or "press ARROWDOWN x N" to press the arrow key N times to iterate over list items, and then "press ENTER" to select the current item.
+
+The screen you see is represented by the following HTML code:
+<screen>
+<input_checkbox id=6 class="ch0" pos="top left"></input_checkbox>
+<t class="TEXT_CLASS" pos="top left">5TL</t>
+<input_checkbox id=8 class="ch1" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">NpBuv</t>
+<input_checkbox id=10 class="ch2" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">EIwU699</t>
+<input_checkbox id=12 class="ch3" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="left">XdaA</t>
+<input_checkbox id=14 class="ch4" pos="left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">YSk</t>
+<input_checkbox id=16 class="ch5" pos="bottom left"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom left">KyHbJ</t>
+<input_checkbox id=19 class="ch6" pos="top"></input_checkbox>
+<t class="TEXT_CLASS" pos="top">opT</t>
+<input_checkbox id=21 class="ch7" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="center">87J</t>
+<input_checkbox id=23 class="ch8" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">NpyO</t>
+<input_checkbox id=25 class="ch9" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="right">Ayt5e</t>
+<input_checkbox id=27 class="ch10" pos="center"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">Z3l62</t>
+<input_checkbox id=29 class="ch11" pos="bottom"></input_checkbox>
+<t class="TEXT_CLASS" pos="bottom right">gX9H9oO</t>
+<button id=30 class="secondary-action" pos="bottom left">Submit</button>
+</screen>
+
+The top-level goal you want to achieve is: Select NpyO, KyHbJ, 5TL, opT, gX9H9oO, YSk, NpBuv, 87J, EIwU699, XdaA, Z3l62, Ayt5e and click Submit.
+Your past actions are:
+You have not taken any actions yet.
+
+Now, you need to plan actions that are executable on and only on this screen. For actions that are not executable on this screen, you should leave them to future planning. Your plan should consist of a list of atomic actions on the screen.  Please separate them by newline, without adding quotes or extra explanations.
+Your plan:
+cur_plan %s click id=6  
+click id=8  
+click id=10  
+click id=12  
+click id=14  
+click id=16  
+click id=19  
+click id=21  
+click id=23  
+click id=25  
+click id=27  
+click id=29  
+click id=30
+next action %s click id=6  
+action to execute %s click id=6  
+next action %s click id=8  
+action to execute %s click id=8  
+next action %s click id=10  
+action to execute %s click id=10  
+next action %s click id=12  
+action to execute %s click id=12  
+next action %s click id=14  
+action to execute %s click id=14  
+next action %s click id=16  
+action to execute %s click id=16  
+next action %s click id=19  
+action to execute %s click id=19  
+next action %s click id=21  
+action to execute %s click id=21  
+next action %s click id=23  
+action to execute %s click id=23  
+next action %s click id=25  
+action to execute %s click id=25  
+next action %s click id=27  
+action to execute %s click id=27  
+next action %s click id=29  
+action to execute %s click id=29  
+next action %s click id=30
+action to execute %s click id=30
+23 25
+total_plan_cnt 34 total_action_cnt 234
+success_plan_cnt_trial1 23 success_action_cnt_trial1 214

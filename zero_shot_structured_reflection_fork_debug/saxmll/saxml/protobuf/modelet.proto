@@ -1,0 +1,227 @@
+// Copyright 2022 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+// Protobuf definitions for the Sax model service. This API is experimental.
+
+syntax = "proto3";
+
+package sax;
+
+import "saxml/protobuf/common.proto";
+
+// TODO(yuanzx): Add a way to override static model parameters.
+message LoadRequest {
+  // Key identifying the model to load.
+  string model_key = 1;
+
+  // Path of the model in Sax's model registry linked in the server binary.
+  // This is the name used to locate a model in Sax, e.g.,
+  //   lingvo.lm.lm_cloud.LmCloudSpmd1024B
+  string model_path = 2;
+
+  // Path to checkpoint, e.g.,
+  //   gs://model/path/checkpoints/checkpoint_00050000
+  string checkpoint_path = 3;
+
+  // ACLs protecting data methods supported by this model.
+  AccessControlLists acls = 4;
+
+  // model config overrides, e.g.
+  // BATCH_SIZE: 1
+  map<string, string> overrides = 5;
+}
+
+message LoadResponse {}
+
+message UpdateLoadedRequest {
+  // Key identifying the model to load.
+  string model_key = 1;
+
+  // ACLs protecting data methods supported by this model.
+  AccessControlLists acls = 2;
+}
+
+message UpdateLoadedResponse {}
+
+message UnloadRequest {
+  string model_key = 1;
+}
+
+message UnloadResponse {}
+
+message ExportRequest {
+  enum SerializedModelFormat {
+    SERIALIZED_MODEL_FORMAT_UNKNOWN = 0;  // Invalid.
+    TF_SAVEDMODEL_V0 = 1;                 // The TensorFlow SavedModel format.
+  }
+
+  enum RngSeedMode {
+    // If this is left unspecified, it is up to Sax to determine a mode that
+    // matches its native serving behavior. Currently, the native serving
+    // behavior is STATEFUL.
+    RNG_SEED_MODE_UNSPECIFIED = 0;
+    // The exported method takes a uint32 tensor of shape `[batch_size]` and
+    // named `rng_seed`. `rng_seed[0]` will be used as the seed for the whole
+    // batch and other entries in `rng_seed` are ignored.
+    STATELESS = 1;
+    // # The exported method uses an in-graph tf.random.uniform internally to
+    // generate the rng seed.
+    STATEFUL = 2;
+    // The exported method uses an in-graph tf.constant() as the random seed.
+    FIXED = 3;
+  }
+
+  // Key identifying the model to export.
+  string model_key = 1;
+
+  // The names of the method to export.
+  repeated string method_names = 6;
+
+  // The Signatures of the exported methods.
+  // If unspecified, default to `serving_default` and only works when having
+  // one method_name specified.
+  // If exporting multiple method_names, the signatures need to be a list that
+  // corresponds to method names.
+  // e.g., if we export with `method_names : [Generate, GenerateStream]`,
+  // the signatures here need to be:
+  // ['signature_for_generate', 'signature_for_generate_stream'].
+  repeated string signatures = 7;
+  // Path in which to save the exported model.
+  string export_path = 3;
+
+  // The format of the serialized model.
+  SerializedModelFormat serialized_model_format = 4;
+
+  // The RNG seed mode.
+  RngSeedMode rng_seed_mode = 5;
+
+  // If true, enable the multi-device execution type for GPU.
+  bool enable_gpu_multi_device_execution = 8;
+
+  reserved 2;
+}
+
+message ExportResponse {}
+
+message SaveRequest {
+  // Key identifying the model to save.
+  string model_key = 1;
+
+  // Path to checkpoint, e.g.,
+  //   gs://model/path/checkpoints/checkpoint_00050000
+  string checkpoint_path = 2;
+}
+
+message SaveResponse {}
+
+message GetStatusRequest {
+  bool include_failure_reasons = 1;
+  bool include_method_stats = 2;
+}
+
+// TODO(jiawenhao): Add MemoryStats and LoadStats.
+// MemoryStats: Per-device/total used, free, etc.
+// LoadStats: Per-model/method RPCs minute/hour/total.
+message GetStatusResponse {
+  message ModelWithStatus {
+    string model_key = 1;
+    ModelStatus model_status = 2;
+    string failure_reason = 3;  // only filled in if requested
+
+    // Only filled if request.include_method_stats=true.
+    repeated MethodStats method_stats = 4;
+  }
+
+  // Method stats shown on modelet home pages.
+  message MethodStats {
+    // The method name.
+    string method = 1;
+
+    // THe number of calls on this model/method waiting on the server.
+    int64 pending_reqs = 9;
+
+    // The QPS of failed requests in the past minute.
+    float errors_per_second = 2;
+
+    // The QPS of succeeded requests in the past minute.
+    float successes_per_second = 3;
+
+    // The mean latency of succeeded requests in the past minute.
+    optional float mean_latency_on_success_per_second = 4;
+
+    // The 50 percentile latency of succeeded requests in the past minute.
+    optional float p50_latency_on_success_per_second = 5;
+
+    // The 95 percentile latency of succeeded requests in the past minute.
+    optional float p95_latency_on_success_per_second = 6;
+
+    // The 99 percentile latency of succeeded requests in the past minute.
+    optional float p99_latency_on_success_per_second = 7;
+
+    // The recent 10 batch sizes.
+    repeated int32 recent_batch_sizes = 8 [packed = true];
+  }
+
+  repeated ModelWithStatus models = 1;
+
+  message ServerStatus {
+    enum State {
+      UNDEFINED = 0;
+      // The server is usable and ready to serve.
+      ACTIVE = 1;
+      // The server is offline and unusable now, but the job is able to be back
+      // online and become active when needed.
+      DORMANT = 2;
+    }
+    optional State state = 1;
+    // Optionally, human readable explanation for the server state.
+    optional string explanation = 2;
+
+    message Stats {
+      // The QPS of early rejected requests in the past 10s.
+      // Early rejected requests are requests that are rejected by the server
+      // with "kUnavailable" error before they are processed, e.g., due to
+      // server is dormant.
+      float early_rejection_errors_per_second = 1;
+    }
+    optional Stats stats = 3;
+  }
+  optional ServerStatus server_status = 2;
+}
+
+message WakeUpRequest {}
+message WakeUpResponse {}
+
+service Modelet {
+  // Loads a model onto the model server.
+  rpc Load(LoadRequest) returns (LoadResponse);
+
+  // Updates a model loaded on the model server.
+  rpc UpdateLoaded(UpdateLoadedRequest) returns (UpdateLoadedResponse);
+
+  // Unloads a model from the model server.
+  rpc Unload(UnloadRequest) returns (UnloadResponse);
+
+  // Exports a method of a model.
+  rpc Export(ExportRequest) returns (ExportResponse);
+
+  // Reports server status such as models loaded.
+  rpc GetStatus(GetStatusRequest) returns (GetStatusResponse);
+
+  // Saves checkpoint of a model.
+  rpc Save(SaveRequest) returns (SaveResponse);
+
+  // Wake-up a dormant server.
+  rpc WakeUp(WakeUpRequest) returns (WakeUpResponse);
+}

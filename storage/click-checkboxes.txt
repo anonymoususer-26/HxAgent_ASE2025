@@ -1,0 +1,40 @@
+# Here are the history of your trials
+SUCCESS TRIAL #1: Task: Select ZxtKkaJ, VXkt8, XK4j and click Submit.
+STEP #1: Click checkbox ZxtKkaJ
+STEP #2: Click checkbox VXkt8
+STEP #3: Click checkbox XK4j
+STEP #4: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #2: Task: Select ls, h86r0 and click Submit.
+STEP #1: Click checkbox ls
+STEP #2: Click checkbox with text 'h86r0'
+STEP #3: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #3: Task: Select pX6 and click Submit.
+STEP #1: Click checkbox with ID ch1 and text pX6
+STEP #2: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #4: Task: Select Dr, ngA, AgT, lp8 and click Submit.
+STEP #1: Click checkbox for Dr
+STEP #2: Click checkbox for ngA
+STEP #3: Click checkbox for AgT
+STEP #4: Click checkbox for lp8
+STEP #5: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #5: Task: Select xWEaV and click Submit.
+STEP #1: Click checkbox with id ch1 and text xWEaV
+STEP #2: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #6: Task: Select HkPpjc and click Submit.
+STEP #1: Click checkbox HkPpjc
+STEP #2: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #7: Task: Select FpI6L, 5TrBob, vlwl and click Submit.
+STEP #1: Click checkbox FpI6L
+STEP #2: Click checkbox 5TrBob
+STEP #3: Click checkbox vlwl
+STEP #4: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #8: Task: Select 0EtW5zE and click Submit.
+STEP #1: Click checkbox with id ch0 and text 0EtW5zE
+STEP #2: Type in the form as follows: , then click submit.

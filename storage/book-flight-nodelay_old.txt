@@ -1,0 +1,23 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Book the cheapest one-way flight from: Emmonak, AK to: Steamboat Springs, CO on 11/19/2016. 
+
+> STEP #1: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'class': 'flight-input ui-autocomplete-input', 'id': 'flight-from', 'placeholder': 'From:', 'type': 'text'}, 'belongTo': {'': 'Book Your One-Way Flight', 'departure header': 'Departure Date'}}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'ui-menu ui-widget ui-widget-content ui-autocomplete ui-front', 'id': 'ui-id-1', 'style': 'display: block; width: 127.4px; top: 103.8px; left: 4px;', 'tabindex': '0'}, 'text': 'Emmonak, AK (EMK)'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'class': 'flight-input ui-autocomplete-input', 'id': 'flight-to', 'placeholder': 'To:', 'type': 'text'}, 'belongTo': {'': 'Book Your One-Way Flight', 'departure header': 'Departure Date'}}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'ui-menu ui-widget ui-widget-content ui-autocomplete ui-front', 'id': 'ui-id-2', 'style': 'display: block; width: 127.4px; top: 129.4px; left: 4px;', 'tabindex': '0'}, 'text': 'Steamboat Springs, CO (SBS)'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'class': 'flight-input hasDatepicker', 'id': 'datepicker', 'readonly': '', 'type': 'text'}, 'text': 'Departure Date'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'class': 'ui-datepicker-prev ui-corner-all', 'title': 'Prev'}, 'icon': 'ui-icon ui-icon-circle-triangle-w', 'text': 'Prev'}}
+> STEP #7: {'operation': 'click', 'target object': {'attributes': {'class': ' ui-datepicker-week-end ', 'data-month': '10', 'data-year': '2016'}, 'text': '19'}}
+> STEP #8: {'operation': 'click', 'target object': {'attributes': {'id': 'search'}, 'text': 'Search'}}
+> STEP #9: {'operation': 'click', 'target object': {'attributes': {'class': 'flight-price', 'data-price': '55'}, 'text': 'Book flight for $55'}}
+
+SUCCESSFUL TRIAL #2: Task: Book the cheapest one-way flight from: Togiak Village, AK to: Block Island, RI on 12/23/2016.
+
+> STEP #1: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'class': 'flight-input ui-autocomplete-input', 'id': 'flight-from', 'placeholder': 'From:', 'type': 'text'}, 'belongTo': {'': 'Book Your One-Way Flight', 'departure header': 'Departure Date'}}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'ui-menu ui-widget ui-widget-content ui-autocomplete ui-front', 'id': 'ui-id-1', 'style': 'display: block; width: 127.4px; top: 103.8px; left: 4px;', 'tabindex': '0'}, 'text': 'Togiak Village, AK (TOG)'}}
+> STEP #3: {'operation': 'input', 'target object': {'attributes': {'autocomplete': 'off', 'class': 'flight-input ui-autocomplete-input', 'id': 'flight-to', 'placeholder': 'To:', 'type': 'text'}, 'belongTo': {'': 'Book Your One-Way Flight', 'departure header': 'Departure Date'}}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'ui-menu ui-widget ui-widget-content ui-autocomplete ui-front', 'id': 'ui-id-2', 'style': 'display: block; width: 127.4px; top: 129.4px; left: 4px;', 'tabindex': '0'}, 'text': 'Block Island, RI (BID)'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'class': 'flight-input hasDatepicker', 'id': 'datepicker', 'readonly': '', 'type': 'text'}, 'text': 'Departure Date'}}
+> STEP #7: {'operation': 'click', 'target object': {'attributes': {'class': ' ui-datepicker-week-end ', 'data-month': '11', 'data-year': '2016'}, 'text': '23'}}
+> STEP #8: {'operation': 'click', 'target object': {'attributes': {'id': 'search'}, 'text': 'Search'}}
+> STEP #9: {'operation': 'click', 'target object': {'attributes': {'class': 'flight-price', 'data-price': '92'}, 'text': 'Book flight for $92'}}

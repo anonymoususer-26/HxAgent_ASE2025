@@ -1,0 +1,27 @@
+# Here are the history of your trials
+SUCCESS TRIAL #1: Task: Click on the "okay" button.
+STEP #1: Type in the form as follows: FIELD #1: Fill in the 1th field with content ''
+FIELD #2: Fill in the 2th field with content ''
+FIELD #3: Fill in the 3th field with content ''
+, then click submit.
+
+SUCCESS TRIAL #2: Task: Click on the "Next" button.
+STEP #1: Click Next button
+
+SUCCESS TRIAL #3: Task: Click on the "ok" button.
+STEP #1: Click ok
+
+SUCCESS TRIAL #4: Task: Click on the "Submit" button.
+STEP #1: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #5: Task: Click on the "cancel" button.
+STEP #1: Click cancel button
+
+SUCCESS TRIAL #6: Task: Click on the "submit" button.
+STEP #1: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #7: Task: Click on the "Okay" button.
+STEP #1: Click Okay button
+
+SUCCESS TRIAL #8: Task: Click on the "previous" button.
+STEP #1: Click previous button

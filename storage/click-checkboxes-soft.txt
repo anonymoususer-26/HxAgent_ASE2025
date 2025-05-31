@@ -1,0 +1,61 @@
+# Here are the history of your trials
+SUCCESS TRIAL #1: Task: Select words similar to irritated, murder, automobile, unwise and click Submit.
+STEP #1: Click kill checkbox
+STEP #2: Click angry checkbox
+STEP #3: Click cars checkbox
+STEP #4: Click stupid checkbox
+STEP #5: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #2: Task: Select words similar to favor, actual, slice, furious, petite and click Submit.
+STEP #1: Click favor checkbox
+STEP #2: Click furious checkbox
+STEP #3: Click small checkbox
+STEP #4: Click cut checkbox
+STEP #5: Click genuine checkbox
+STEP #6: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #3: Task: Select words similar to automobile, end, pork, joyful and click Submit.
+STEP #1: Click automobiles checkbox
+STEP #2: Click pork checkbox
+STEP #3: Click gleeful checkbox
+STEP #4: Click halt checkbox
+STEP #5: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #4: Task: Select words similar to delectable, mistaken, rabbits, begin and click Submit.
+STEP #1: Click checkbox for appetizing
+STEP #2: Click checkbox for rabbits
+STEP #3: Click checkbox for wrong
+STEP #4: Click launch checkbox
+STEP #5: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #5: Task: Select words similar to preserve, bunnies, kill, finish, gigantic and click Submit.
+STEP #1: Click keep checkbox
+STEP #2: Click bunny checkbox
+STEP #3: Click kill checkbox
+STEP #4: Click enormous checkbox
+STEP #5: Click halt checkbox
+STEP #6: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #6: Task: Select words similar to dumb, odd, sorrowful and click Submit.
+STEP #1: Click sorrowful checkbox
+STEP #2: Click dull checkbox on 1/1/2022
+STEP #3: Click unusual checkbox
+STEP #4: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #7: Task: Select words similar to despise, real, vermillion, petite and click Submit.
+STEP #1: Click checkbox for loathe
+STEP #2: Click checkbox for actual
+STEP #3: Click checkbox for tiny
+STEP #4: Click checkbox for red
+STEP #5: Type in the form as follows: , then click submit.
+
+SUCCESS TRIAL #8: Task: Select words similar to favor, mini and click Submit.
+STEP #1: Click favor checkbox
+STEP #2: Click mini checkbox
+STEP #3: Type in the form as follows: , then click submit.
+
+
+
+RULE #1: Avoid redundant actions and ensure correct input format.
+RULE #2: Ensure the correct selection of checkboxes before submitting the form.
+RULE #3: Avoid excessive and redundant clicking on checkboxes

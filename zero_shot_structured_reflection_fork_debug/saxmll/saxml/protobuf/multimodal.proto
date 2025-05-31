@@ -1,0 +1,128 @@
+// Copyright 2022 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+// This API is experimental and under-development.
+
+syntax = "proto3";
+
+package sax.server.multimodal;
+
+import "saxml/protobuf/common.proto";
+
+option java_package = "com.google.saxml";
+
+message IdList {
+  repeated int64 id = 1;
+}
+
+message FloatEmbedding {
+  repeated float values = 1 [packed = true];
+}
+
+message DoubleEmbedding {
+  repeated double values = 1 [packed = true];
+}
+
+message AudioFloatSamples {
+  repeated float sample = 1;
+}
+
+message DataItem {
+  oneof item {
+    string text = 1;
+    bytes image_bytes = 2;
+    IdList image_tokens = 3;
+    FloatEmbedding image_embedding = 6;
+    AudioFloatSamples audio_float_samples = 4;
+    IdList audio_tokens = 7;
+    // 'video' is up to the specific model to interpret. E.g., it can be the
+    // content of a mpeg4 file.
+    bytes video = 5;
+  }
+}
+
+message ScoreRequest {
+  repeated DataItem prefix_items = 1;
+  repeated DataItem suffix_items = 2;
+}
+
+message ScoreResponse {
+  repeated ScoreResult results = 1;
+}
+
+message ScoreResult {
+  double score = 1;
+}
+
+message GenerateRequest {
+  repeated DataItem items = 1;
+
+  reserved 2, 3;
+}
+
+message GenerateResult {
+  repeated DataItem items = 1;
+  double score = 2;
+}
+
+message GenerateResponse {
+  repeated GenerateResult results = 1;  // len(result) == # samples
+}
+
+message EmbedRequest {
+  repeated DataItem items = 1;
+}
+
+message EmbedResponse {
+  DoubleEmbedding embedding = 1;
+}
+
+message ScoreRpcRequest {
+  string model_key = 1;
+  ScoreRequest request = 2;
+  .sax.ExtraInputs extra_inputs = 3;
+}
+
+message GenerateRpcRequest {
+  string model_key = 1;
+  GenerateRequest request = 2;
+  .sax.ExtraInputs extra_inputs = 3;
+}
+
+message EmbedRpcRequest {
+  string model_key = 1;
+  EmbedRequest request = 2;
+  .sax.ExtraInputs extra_inputs = 3;
+}
+
+message ScoreRpcResponse {
+  ScoreResponse response = 1;
+}
+
+message GenerateRpcResponse {
+  GenerateResponse response = 1;
+}
+
+message EmbedRpcResponse {
+  EmbedResponse response = 1;
+}
+
+service MultimodalService {
+  // Returns generated results using the data items in the request.
+  rpc Generate(GenerateRpcRequest) returns (GenerateRpcResponse);
+  // Returns score results of the suffix items in the request.
+  rpc Score(ScoreRpcRequest) returns (ScoreRpcResponse);
+  // Returns an embedding given the data items.
+  rpc Embed(EmbedRpcRequest) returns (EmbedRpcResponse);
+}

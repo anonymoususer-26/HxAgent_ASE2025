@@ -1,0 +1,16 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Search for a person name Jeff Weiner and click connect or follow 
+
+> STEP #1: {'operation': 'input', 'target object': {'attributes': {'aria-activedescendant': '', 'aria-autocomplete': 'list', 'aria-expanded': 'false', 'aria-label': 'Search', 'class': 'search-global-typeahead__input \n            \n            ', 'data-view-name': 'search-global-typeahead-input', 'dir': 'auto', 'id': 'IzblK51P58HO9FhwJnhg', 'placeholder': 'Search', 'role': 'combobox', 'type': 'text'}}, 'content': 'Jeff Weiner'}
+> STEP #2: {'operation': 'click', 'target object': {'text': 'jeff weiner • 3rd+ • Executive Chairman at LinkedIn / Founding Partner Next Play Ventures'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'aria-label': 'Following Jeff Weiner'}, 'icon': 'artdeco-button__text', 'text': 'Following'}}
+SUCCESSFUL TRIAL #2: Task: Search for a person name Satya Nadella and click connect or follow 
+
+> STEP #1: {'operation': 'input', 'target object': {'attributes': {'aria-activedescendant': '', 'aria-autocomplete': 'list', 'aria-expanded': 'false', 'aria-label': 'Search', 'class': 'search-global-typeahead__input \n            \n            ', 'data-view-name': 'search-global-typeahead-input', 'dir': 'auto', 'id': '18a8MDfTQz6fasFYe8ps', 'placeholder': 'Search', 'role': 'combobox', 'type': 'text'}}, 'content': 'Satya Nadella'}
+> STEP #2: {'operation': 'click', 'target object': {'text': 'satya nadella • 3rd+ • Chairman and CEO at Microsoft'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'aria-label': 'Follow Satya Nadella'}, 'icon': 'artdeco-button__text', 'text': 'Follow'}}
+SUCCESSFUL TRIAL #3: Task: Search for a person name Sheryl Sandberg and click connect or follow 
+
+> STEP #1: {'operation': 'input', 'target object': {'attributes': {'aria-activedescendant': '', 'aria-autocomplete': 'list', 'aria-expanded': 'false', 'aria-label': 'Search', 'class': 'search-global-typeahead__input \n            \n            ', 'data-view-name': 'search-global-typeahead-input', 'dir': 'auto', 'id': 'cDOie1VZgM0hdLZnhJGR', 'placeholder': 'Search', 'role': 'combobox', 'type': 'text'}}, 'content': 'Sheryl Sandberg'}
+> STEP #2: {'operation': 'click', 'target object': {'text': 'sheryl sandberg • 3rd+ • Founder, Lean In'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'aria-label': 'Follow Sheryl Sandberg'}, 'icon': 'artdeco-button__text', 'text': 'Follow'}}

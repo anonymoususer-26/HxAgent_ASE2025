@@ -1,0 +1,28 @@
+# Here are the history of your trials
+SUCCESS TRIAL #1: Task: Click the button in the dialog box labeled "OK".
+STEP #1: Click OK button
+
+SUCCESS TRIAL #2: Task: Click the button in the dialog box labeled "x".
+STEP #1: Click Close button
+
+SUCCESS TRIAL #3: Task: Click the button in the dialog box labeled "Cancel".
+STEP #1: Click Cancel button
+
+SUCCESS TRIAL #4: Task: Click the button in the dialog box labeled "OK".
+STEP #1: Click OK button
+
+SUCCESS TRIAL #5: Task: Click the button in the dialog box labeled "x".
+STEP #1: Click Close button
+
+SUCCESS TRIAL #6: Task: Click the button in the dialog box labeled "OK".
+STEP #1: Click OK button
+
+SUCCESS TRIAL #7: Task: Click the button in the dialog box labeled "OK".
+STEP #1: Click OK button
+
+SUCCESS TRIAL #8: Task: Click the button in the dialog box labeled "x".
+STEP #1: Click Close button
+
+
+
+RULE #1: Always verify the label of the button before clicking.

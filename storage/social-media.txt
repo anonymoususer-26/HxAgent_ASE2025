@@ -1,0 +1,26 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: For the user @euismod, click on the "Copy link to Tweet" button. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'more'}, 'belongTo': {'body': 'Tortor. Cursus. Iaculis.', 'name': 'Cordelie', 'time': '13h ago', 'username': '@euismod'}}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'more'}, 'belongTo': {'body': 'Tortor. Cursus. Iaculis.', 'name': 'Cordelie', 'time': '13h ago', 'username': '@euismod'}}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'copy'}, 'text': 'Copy link to Tweet'}}
+SUCCESSFUL TRIAL #2: Task: For the user @massa, click on the "Mute" button. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'more'}, 'belongTo': {'body': 'Aliquet ut amet, aliquam. Nunc.', 'name': 'Lavinia', 'time': '12h ago', 'username': '@massa'}}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'more'}, 'belongTo': {'body': 'Aliquet ut amet, aliquam. Nunc.', 'name': 'Lavinia', 'time': '12h ago', 'username': '@massa'}}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'menu-user'}, 'text': 'Mute @massa'}}
+SUCCESSFUL TRIAL #3: Task: For the user @vestibulum, click on the "Mute" button. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'more'}, 'belongTo': {'body': 'Ipsum. Dolor.', 'name': 'Doll', 'time': '15h ago', 'username': '@vestibulum'}}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'more'}, 'belongTo': {'body': 'Ipsum. Dolor.', 'name': 'Doll', 'time': '15h ago', 'username': '@vestibulum'}}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'menu-user'}, 'text': 'Mute @vestibulum'}}
+SUCCESSFUL TRIAL #4: Task: For the user @id, click on the "Embed Tweet" button. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'more'}, 'belongTo': {'body': 'Vivamus. Eget. Et.', 'name': 'Olsen', 'time': '9h ago', 'username': '@id'}}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'more'}, 'belongTo': {'body': 'Vivamus. Eget. Et.', 'name': 'Olsen', 'time': '9h ago', 'username': '@id'}}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'embed'}, 'text': 'Embed Tweet'}}
+SUCCESSFUL TRIAL #5: Task: For the user @briana, click on the "Copy link to Tweet" button. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'more'}, 'belongTo': {'body': 'Diam. Tellus.', 'name': 'Holli', 'time': '12h ago', 'username': '@briana'}}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'more'}, 'belongTo': {'body': 'Diam. Tellus.', 'name': 'Holli', 'time': '12h ago', 'username': '@briana'}}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'copy'}, 'text': 'Copy link to Tweet'}}

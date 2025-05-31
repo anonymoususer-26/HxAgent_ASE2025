@@ -1,0 +1,11 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Search the channel PewDiePie and subscribe to their channel 
+
+> STEP #1: {'operation': 'input', 'target object': {'attributes': {'aria-label': 'Search', 'autocapitalize': 'none', 'autocomplete': 'off', 'autocorrect': 'off', 'id': 'search', 'name': 'search_query', 'placeholder': 'Search', 'spellcheck': 'false', 'tabindex': '0', 'type': 'text'}}, 'content': 'PewDiePie'}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-label': 'Search'}, 'icon': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'aria-label': 'Subscribe to PewDiePie.'}, 'icon': 'yt-core-attributed-string yt-core-attributed-string--white-space-no-wrap', 'text': 'Subscribe'}}
+SUCCESSFUL TRIAL #2: Task: Search the channel Dude Perfect and subscribe to their channel 
+
+> STEP #1: {'operation': 'input', 'target object': {'attributes': {'aria-label': 'Search', 'autocapitalize': 'none', 'autocomplete': 'off', 'autocorrect': 'off', 'id': 'search', 'name': 'search_query', 'placeholder': 'Search', 'spellcheck': 'false', 'tabindex': '0', 'type': 'text'}}, 'content': 'Dude Perfect'}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-label': 'Search'}, 'icon': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'aria-label': 'Subscribe to Dude Perfect.'}, 'icon': 'yt-core-attributed-string yt-core-attributed-string--white-space-no-wrap', 'text': 'Subscribe'}}

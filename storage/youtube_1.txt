@@ -1,0 +1,7 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Search "funny cat videos" and like the first video 
+
+> STEP #1: {'operation': 'input', 'target object': {'attributes': {'aria-label': 'Search', 'autocapitalize': 'none', 'autocomplete': 'off', 'autocorrect': 'off', 'id': 'search', 'name': 'search_query', 'placeholder': 'Search', 'spellcheck': 'false', 'tabindex': '0', 'type': 'text'}}, 'content': 'funny cat videos'}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'aria-label': 'Search'}, 'icon': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'aria-label': 'Funny Cat Fails | Funny Cat Compilation - FailArmy by FailArmy 5,379,862 views 3 years ago 8 minutes, 14 seconds'}, 'text': 'Funny Cat Fails | Funny Cat Compilation - FailArmy'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'aria-label': 'like this video along with 49,080 other people'}, 'text': '49K'}}

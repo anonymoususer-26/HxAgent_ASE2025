@@ -1,0 +1,7 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Switch to Friends tab 
+
+> STEP #1: {'operation': 'click', 'target object': {'text': 'Friends'}}
+SUCCESSFUL TRIAL #2: Task: Switch to Video tab 
+
+> STEP #1: {'operation': 'click', 'target object': {'text': 'Video'}}

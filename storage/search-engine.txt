@@ -1,0 +1,40 @@
+# Here are the history of your trials
+SUCCESS TRIAL #1: Task: Use the textbox to enter "Beaulah" and press "Search", then find and click the 2nd search result.
+STEP #1: {'action description': "Type in the form as follows: FIELD #1: Fill in the 1th field with content 'Beaulah'\n, then click submit."}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'search-title', 'data-result': '1', 'href': '#'}, 'text': 'Beaulah'}}
+
+SUCCESS TRIAL #2: Task: Use the textbox to enter "Marcella" and press "Search", then find and click the 3rd search result.
+STEP #1: {'action description': "Type in the form as follows: FIELD #1: Fill in 'Search Text' with content 'Marcella'\n, then click submit."}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'search-title', 'data-result': '2', 'href': '#'}, 'text': 'Marcella'}}
+
+SUCCESS TRIAL #3: Task: Use the textbox to enter "Deneen" and press "Search", then find and click the 2nd search result.
+STEP #1: {'action description': "Type in the form as follows: FIELD #1: Fill in the 1th field with content 'Deneen'\n, then click submit."}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'search-title', 'data-result': '1', 'href': '#'}, 'text': 'Deneen'}}
+
+SUCCESS TRIAL #4: Task: Use the textbox to enter "Kenda" and press "Search", then find and click the 1st search result.
+STEP #1: {'action description': "Type in the form as follows: FIELD #1: Fill in 'Search Text' with content 'Kenda'\n, then click submit."}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'search-title', 'data-result': '0', 'href': '#'}, 'text': 'Kenda'}}
+
+SUCCESS TRIAL #5: Task: Use the textbox to enter "Vanda" and press "Search", then find and click the 2nd search result.
+STEP #1: {'action description': "Type in the form as follows: FIELD #1: Fill in the 1th field with content 'Vanda'\n, then click submit."}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'search-title', 'data-result': '1', 'href': '#'}, 'text': 'Vanda'}}
+
+SUCCESS TRIAL #6: Task: Use the textbox to enter "Cristin" and press "Search", then find and click the 3rd search result.
+STEP #1: {'action description': "Type in the form as follows: FIELD #1: Fill in 'Search Text' with content 'Cristin'\n, then click submit."}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'search-title', 'data-result': '2', 'href': '#'}, 'text': 'Cristin'}}
+
+SUCCESS TRIAL #7: Task: Use the textbox to enter "Juan" and press "Search", then find and click the 5th search result.
+STEP #1: {'action description': "Type in the form as follows: FIELD #1: Fill in the 1th field with content 'Juan'\n, then click submit."}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'page-link', 'href': '#'}, 'text': '>'}}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'search-title', 'data-result': '4', 'href': '#'}, 'text': 'Juan'}}
+
+SUCCESS TRIAL #8: Task: Use the textbox to enter "Augus" and press "Search", then find and click the 6th search result.
+STEP #1: {'action description': "Type in the form as follows: FIELD #1: Fill in the 1th field with content 'Augus'\n, then click submit."}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'page-link', 'href': '#'}, 'text': '>'}}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'search-title', 'data-result': '5', 'href': '#'}, 'text': 'Augus'}}
+
+
+
+RULE #1: Ensure to input unique search text for each task
+RULE #2: Ensure to input the correct field number when filling in the search text
+RULE #3: Ensure to navigate to the correct page before clicking the search result

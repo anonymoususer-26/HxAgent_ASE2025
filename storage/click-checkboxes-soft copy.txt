@@ -1,0 +1,33 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Select words similar to unhappy, happy and click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch1', 'type': 'checkbox'}, 'text': 'miserable'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch2', 'type': 'checkbox'}, 'text': 'joyful'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #2: Task: Select words similar to gigantic, chop, cars and click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch2', 'type': 'checkbox'}, 'text': 'huge'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch3', 'type': 'checkbox'}, 'text': 'cut'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'ch4', 'type': 'checkbox'}, 'text': 'cars'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #3: Task: Select words similar to old, end, detest, calm and click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch3', 'type': 'checkbox'}, 'text': 'old'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch2', 'type': 'checkbox'}, 'text': 'halt'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'ch4', 'type': 'checkbox'}, 'text': 'despise'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'ch1', 'type': 'checkbox'}, 'text': 'peaceful'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #4: Task: Select words similar to joyful and click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch5', 'type': 'checkbox'}, 'text': 'cheerful'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #5: Task: Select words similar to red, fleshy, enormous, flames, aged and click Submit. 
+
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch4', 'type': 'checkbox'}, 'text': 'scarlet'}}
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch1', 'type': 'checkbox'}, 'text': 'aged'}}
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'ch2', 'type': 'checkbox'}, 'text': 'chubby'}}
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'ch5', 'type': 'checkbox'}, 'text': 'gigantic'}}
+> STEP #5: {'operation': 'click', 'target object': {'attributes': {'id': 'ch3', 'type': 'checkbox'}, 'text': 'flame'}}
+> STEP #6: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+
+RULE #1: When selecting similar words, choose words that are synonyms or have equivalent meanings to the given target words (e.g., 'miserable' for 'unhappy', 'joyful' for 'happy', 'scarlet' for 'vermillion', 'old' for 'aged', 'laughable' for 'comical').

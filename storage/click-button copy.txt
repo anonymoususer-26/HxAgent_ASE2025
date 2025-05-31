@@ -1,0 +1,5 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Click on the "previous" button. 
+
+> STATE #1: No steps taken, you are at the starting screen.The webpage instructs to click on the 'previous' button. There are two buttons labeled 'Ok' and 'previous' below a text input field. The right side of the page displays information such as 'Last reward', 'Last 10 average', 'Time left: 198 / 200sec', and 'Episodes done: 0'.
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {}, 'text': 'previous'}}

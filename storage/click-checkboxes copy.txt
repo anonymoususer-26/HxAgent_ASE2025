@@ -1,0 +1,21 @@
+# Here are the history of your trials
+SUCCESSFUL TRIAL #1: Task: Select nothing and click Submit. 
+
+> STATE #1: No steps have been taken yet; you are at the starting screen.The webpage instructs to 'Select nothing and click Submit.' There are three checkboxes labeled '3hIU,' 'Qqi,' and 'rs49,' all of which are currently unchecked. A 'Submit' button is present below the checkboxes. On the right, there is information about 'Last reward,' 'Last 10 average,' 'Time left: 991 / 1000sec,' and 'Episodes done: 0.'
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #2: Task: Select C0ZWRz, vrD, YT0peP and click Submit. 
+
+> STATE #1: No steps taken, you are at the starting screen.The webpage displays a task to select checkboxes labeled C0ZWRz, vrD, and YT0peP, and then click the Submit button. The checkboxes for C0ZWRz, vrD, and YT0peP are visible and unchecked. There is a Submit button below the checkboxes. The right side of the page shows some statistics, including 'Time left: 986 / 1000Sec' and 'Episodes done: 0'.
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch1', 'type': 'checkbox'}, 'text': 'C0ZWRz'}}
+> STATE #2: Checkbox C0ZWRz has been selected.The webpage shows a task to select checkboxes labeled C0ZWRz, vrD, and YT0peP, and then click Submit. The checkbox for C0ZWRz is checked, while vrD and YT0peP are still unchecked. The Submit button is below the checkboxes. The right side displays 'Time left: 976 / 1000Sec' and 'Episodes done: 0'.
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'id': 'ch2', 'type': 'checkbox'}, 'text': 'vrD'}}
+> STATE #3: Checkboxes C0ZWRz and vrD have been selected.The webpage displays a task to select checkboxes labeled C0ZWRz, vrD, and YT0peP, and then click Submit. The checkboxes for C0ZWRz and vrD are checked, while YT0peP is still unchecked. The Submit button is below the checkboxes. The right side shows 'Time left: 966 / 1000Sec' and 'Episodes done: 0'.
+> STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'ch3', 'type': 'checkbox'}, 'text': 'YT0peP'}}
+> STATE #4: Checkboxes C0ZWRz, vrD, and YT0peP have been selected.The webpage shows the task to select checkboxes labeled C0ZWRz, vrD, and YT0peP, which are all checked. The Submit button is visible below the checkboxes. The right side displays 'Time left: 957 / 1000Sec' and 'Episodes done: 0'.
+> STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}
+SUCCESSFUL TRIAL #3: Task: Select YM2l8 and click Submit. 
+
+> STATE #1: No steps taken, you are at the starting screen.The webpage displays a list of checkboxes with labels: TvKpYW, YM2l8, bGyAZTd, PtHT, UI, and JYJX8W. The task is to select the checkbox labeled 'YM2l8'. There is a 'Submit' button below the checkboxes. On the right, there is information about rewards, time left (999/1000 seconds), and episodes done (0).
+> STEP #1: {'operation': 'click', 'target object': {'attributes': {'id': 'ch1', 'type': 'checkbox'}, 'text': 'YM2l8'}}
+> STATE #2: The checkbox labeled 'YM2l8' has been selected.The webpage shows the checkbox 'YM2l8' is selected. Other checkboxes are not selected. The 'Submit' button is visible below the checkboxes. On the right, there is information about rewards, time left (989/1000 seconds), and episodes done (0).
+> STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'secondary-action', 'id': 'subbtn'}, 'text': 'Submit'}}

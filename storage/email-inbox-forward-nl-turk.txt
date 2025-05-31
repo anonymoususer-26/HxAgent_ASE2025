@@ -1,0 +1,56 @@
+# Here are the history of your trials
+SUCCESS TRIAL #1: Task: Can you forward the email from Mariquilla to Genna please?
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Mariquilla\nRhoncus quisque..\nMalesuada nunc ..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}, 'content': 'Genna'}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+
+SUCCESS TRIAL #2: Task: Open primary email folder, forward Melony's message to Rosa.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '2'}, 'text': 'Melony\nIn.\nVolutpat nunc. ..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}, 'content': 'Rosa'}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+
+SUCCESS TRIAL #3: Task: Open the e-mail from Janey and forward it to Caryl.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Janey\nMauris eu.\nOrci. Euismod. ..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}, 'content': 'Caryl'}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+
+SUCCESS TRIAL #4: Task: pull up Eirena's email and send to to Coleen
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '2'}, 'text': 'Eirena\nMattis gravida...\nPhasellus. At l..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-reply'}, 'text': 'Reply'}}
+STEP #3: {'operation': 'click', 'target object': {'attributes': {'id': 'close-reply'}}}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+STEP #5: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}, 'content': 'Coleen'}
+STEP #6: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+
+SUCCESS TRIAL #5: Task: I want to send the email I got from Denni over to Isadora.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '2'}, 'text': 'Denni\nProin.\nSem. Amet massa..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}, 'content': 'Isadora'}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+
+SUCCESS TRIAL #6: Task: send Hildegarde the email from Hailee
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '2'}, 'text': 'Hailee\nSem turpis.\nUrna nibh. Duis..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}, 'content': 'Hildegarde'}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+
+SUCCESS TRIAL #7: Task: Please forward the email Sibbie sent today to Roby
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '0'}, 'text': 'Sibbie\nAmet tristique...\nNulla nulla mat..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}, 'content': 'Roby'}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+
+SUCCESS TRIAL #8: Task: Make sure the email written by Libbie is forwarded to Jolee.
+STEP #1: {'operation': 'click', 'target object': {'attributes': {'class': 'email-thread', 'data-index': '2'}, 'text': 'Libbie\nNulla.\nLeo, ac, sodale..'}}
+STEP #2: {'operation': 'click', 'target object': {'attributes': {'class': 'email-forward'}, 'text': 'Forward'}}
+STEP #3: {'operation': 'input', 'target object': {'attributes': {'class': 'forward-sender', 'type': 'text'}, 'text': 'to:'}, 'content': 'Jolee'}
+STEP #4: {'operation': 'click', 'target object': {'attributes': {'id': 'send-forward'}}}
+
+
+
+RULE #1: Ensure the recipient's email address is correctly inputted in the 'to' field
+RULE #2: Verify the recipient's email address format before inputting it in the 'to' field
+RULE #3: Check for the existence of the recipient's email address in the system before attempting to forward the email

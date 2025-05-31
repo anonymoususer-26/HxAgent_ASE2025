@@ -1,0 +1,16 @@
+--find-links https://storage.googleapis.com/jax-releases/libtpu_releases.html
+
+importlib-metadata
+absl-py
+blobfile
+grpcio
+grpcio-reflection==1.48.2  # lower protobuf version requirement for paxml
+portpicker
+numpy
+jax[tpu] @ git+https://github.com/google/jax
+paxml @ git+https://github.com/google/paxml
+praxis @ git+https://github.com/google/praxis
+seqio
+orbax-export==0.0.3
+tiktoken
+transformers
